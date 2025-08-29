@@ -1,0 +1,6 @@
+geopandas
+pandas
+numpy
+boto3
+fiona
+orjson

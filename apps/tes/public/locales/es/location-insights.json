@@ -1,0 +1,366 @@
+{
+  "benefits": {
+    "co2": {
+      "name": "carbono capturado",
+      "hint": "Esta es la cantidad anual de dióxido de carbono que los árboles capturan de la atmósfera y almacenan. Fuente de conversión: i-Tree Landscape. ",
+      "torontoHint": "Esta es la cantidad anual de dióxido de carbono que los árboles capturan de la atmósfera y almacenan. Fuente de conversión: estudio de cobertura arbórea de Toronto 2018."
+    },
+    "co2_car_offset": {
+      "name": "El carbono capturado equivale a: ",
+      "unit": "automóviles de combustión interna ",
+      "hint": "Compensación anual de emisiones de gases de efecto invernadero que generan los vehículos de combustión interna (automóviles de dos ejes y cuatro neumáticos), es decir, autos particulares, furgonetas, camionetas o vehículos utilitarios deportivos. Fuente de conversión: Greenhouse Gas Equivalencies Calculator de la Agencia de Protección Ambiental (EPA) de Estados Unidos.",
+      "torontoHint": "Compensación anual de emisiones de gases de efecto invernadero que generan los vehículos de combustión interna (automóviles de dos ejes y cuatro neumáticos), es decir, autos particulares, furgonetas, camionetas o vehículos utilitarios deportivos. Fuente de conversión: calculadora de equivalencias de gases de efecto invernadero de la Natural Resources Canadá."
+    },
+    "co2_home_offset": {
+      "name": "El carbono capturado equivale a:",
+      "unit": "consumo energético equivalente a hogares  ",
+      "hint": "Conversión del consumo total de electricidad, gas natural, petróleo destilado y gas licuado de petróleo a toneladas métricas de dióxido de carbono. Fuente de conversión: la calculadora de las equivalencias de gases de invernadero de la Agencia de Protección Ambiental (EPA) de Estados Unidos. ",
+      "torontoHint": "Conversión del consumo total de electricidad, gas natural, petróleo destilado y gas licuado de petróleo a toneladas métricas de dióxido de carbono. Fuente de conversión: la calculadora de las equivalencias de gases de invernadero de la Natural Resources Canadá."
+    },
+    "runoff_avoided": {
+      "name": "Prevención de la escorrentía",
+      "hint": "Cantidad anual de agua pluvial y contaminantes relacionados que absorben los árboles sin gestión alguna. Fuente de conversión: i-Tree Landscape. ",
+      "torontoHint": "Cantidad anual de agua pluvial (y contaminantes relacionados) que absorben los árboles sin gestión alguna. Fuente de conversión: Estudio de cobertura arbórea de Toronto 2018."
+    },
+    "runoff_pools_avoided": {
+      "name": "La escorrentía equivale a:",
+      "unit": "piscinas de tamaño promedio",
+      "canadianUnit": "rain barrels",
+      "hint": "Captación anual de la escorrentía de aguas pluviales expresada en piscinas de tamaño promedio. Con base en una piscina de tamaño promedio con una capacidad de 20 000 galones ",
+      "torontoHint": "Annual litres of reduced stormwater surface runoff (and associated pollutants) converted into standard rain barrels. Conversion sourced from 2018 Toronto Canopy Study."
+    },
+    "rain_int": {
+      "name": "Captura de precipitación",
+      "hint": "Cantidad anual de precipitación contenida por los árboles y devuelta a la atmósfera mediante la evapotranspiración. Fuente de conversión: i-Tree Landscape. "
+    },
+    "pm25": {
+      "name": "Prevención de la contaminación por PM2.5",
+      "hint": "Peso anual de las partículas finas en suspensión menores a 2.5 micras que los árboles captan (las cantidades inferiores se expresan en libras). Las PM2.5 son una categoría más pequeña de partículas microscópicas atmosféricas que van directo a los pulmones y entran al torrente sanguíneo, lo que ocasiona graves problemas de salud. Fuente de conversión: i-Tree Landscape. ",
+      "torontoHint": "Peso anual de las partículas finas en suspensión menores a 2.5 micras que los árboles captan (las cantidades inferiores se expresan en libras). Las PM2.5 son una categoría más pequeña de partículas microscópicas atmosféricas que van directo a los pulmones y entran al torrente sanguíneo, lo que ocasiona graves problemas de salud. Fuente de conversión:  Estudio de cobertura arbórea de Toronto 2018."
+    },
+    "pm25_car_offset": {
+      "name": "contaminación por PM2.5 equivale a:",
+      "unit": "automóviles de combustión interna",
+      "hint": "Compensación anual de las partículas en suspensión menores a 2.5 micrones en comparación con la energía que producen los automóviles. Fuente de conversión: i-Tree Landscape.",
+      "torontoHint": "Annual offset of particulate matter less than 2.5 microns in size produced by automobiles. Conversion sourced from Canada's Air Pollutant Emissions Inventory 2021"
+    },
+    "no2": {
+      "name": "Dióxido de nitrógeno capturado",
+      "hint": "Toneladas de dióxido de nitrógeno que los árboles absorben anualmente (las cantidades menores se presentan en libras). El dióxido de nitrógeno es un contaminante atmosférico, generado principalmente por la combustión de hidrocarburos.  Respirar aire con alta concentración de este gas provoca irritación en las vías respiratorias. Incluso las exposiciones breves a este contaminante empeoran las enfermedades respiratorias como el asma y causan síntomas (como tos, sibilancia o disnea), hospitalizaciones y visitas a servicios de urgencia. Una exposición prolongada a altas concentraciones de dióxido de nitrógeno aumenta la probabilidad de padecer asma y incrementa la vulnerabilidad ante infecciones respiratorias. En general, los niños, adultos mayores e individuos con asma tienen un mayor riesgo ante los efectos dañinos del dióxido de nitrógeno. Fuente de conversión: i-Tree Landscape. ",
+      "torontoHint": "Annual tonnes/kilograms of nitrogen dioxide absorption by trees. Nitrogen dioxide is an air pollutant, the most prominent source coming from the burning of fossil fuels. Breathing air with a high concentration of NO2 can irritate airways in the human respiratory system. Exposures over short periods can aggravate respiratory diseases, particularly asthma, leading to respiratory symptoms (such as coughing, wheezing or difficulty breathing), hospital admissions and visits to accident & emergency. Longer exposures to elevated concentrations of NO2 may contribute to the development of asthma and potentially increase susceptibility to respiratory infections. People with asthma, as well as children and the elderly are generally at greater risk for the health effects of NO2. Conversion sourced from the 2018 Toronto Canopy Study."
+    },
+    "so2": {
+      "name": "Dióxido de azufre capturado",
+      "hint": "Toneladas de dióxido de azufre que los árboles absorben anualmente (las cantidades menores se presentan en libras). El dióxido de azufre es un gas tóxico que se emite mediante la quema de combustibles como el carbón, petróleo y gasóleo y como un residuo de algunas actividades mineras. Las exposiciones breves dañan el aparato respiratorio y causan disnea. Si la exposición se prolonga, los padecimientos respiratorios se intensifican y disminuye la actividad pulmonar. Por lo general, las altas concentraciones de dióxido de azufre en el aire suelen transformarse en otros óxidos de azufre que, a su vez, reaccionan con distintos compuestos formando partículas diminutas capaces de llegar a lo más profundo de los pulmones. Cuando se acumulan en grandes cantidades, estas partículas pueden causar graves problemas de salud. Las personas que padecen de asma, en especial los niños, son propensos a sufrir los efectos del dióxido de azufre. Fuente de conversión: i-Tree Landscape. ",
+      "torontoHint": "Annual tonnes/kilograms of sulphur dioxide absorption by trees. Sulphur dioxide is a toxic gas released by burning sulphur-containing fuels such as coal, oil, or diesel and as a byproduct of mining. Short-term exposures to SO2 can harm the human respiratory system and make breathing difficult. Continued exposure increases respiratory symptoms and affects lung function. High concentrations of SO2 in the air generally also convert to other sulphur oxides that react with other compounds to form small particles that may penetrate deeply into the lungs and in sufficient quantity can contribute to health problems. People with asthma, particularly children, are sensitive to these effects of SO2. Conversion sourced from the 2018 Toronto Canopy Study."
+    },
+    "pm10": {
+      "name": "Prevención de la contaminación por PM10",
+      "hint": "Toneladas anuales de partículas entre 2.5 y 10 micras que absorben estos árboles (las cantidades bajas se presentan en libras). Las partículas gruesas o PM10 son una categoría de mayor tamaño de partículas microscópicas atmosféricas que, al inhalarse, se depositan en las vías respiratorias superiores y la parte alta de los pulmones, y pueden desencadenar daños importantes a la salud. Fuente de conversión: i-Tree Landscape. "
+    },
+    "ozone": {
+      "name": "Ozono eliminado",
+      "hint": "Toneladas anuales de ozono que capturan los árboles (las cantidades bajas se presentan en libras). El ozono es un gas de efecto invernadero y contaminante atmosférico de bajos niveles, cuyas emisiones se deben a la combustión de hidrocarburos. Este contaminante presenta una amenaza a la salud pública, en especial, en días calurosos y soleados cuando el trioxígeno alcanza niveles insalubres. Incluso en concentraciones relativamente bajas produce riesgos a la salud. Según el nivel de exposición, puede conducir a afecciones como tos, irritación de garganta, dificultad o dolor al respirar profundo, inflamación de las vías respiratorias, vulnerabilidad a infecciones pulmonares, agravamiento de afecciones pulmonares, como el asma, enfisema, bronquitis crónica y una mayor frecuencia de crisis asmáticas. Fuente de conversión: i-Tree Landscape. ",
+      "torontoHint": "Toneladas anuales de ozono que capturan los árboles (las cantidades bajas se presentan en libras). El ozono es un gas de efecto invernadero y contaminante atmosférico de bajos niveles, cuyas emisiones se deben a la combustión de hidrocarburos. Este contaminante presenta una amenaza a la salud pública, en especial, en días calurosos y soleados cuando el trioxígeno alcanza niveles insalubres. Incluso en concentraciones relativamente bajas produce riesgos a la salud. Según el nivel de exposición, puede conducir a afecciones como tos, irritación de garganta, dificultad o dolor al respirar profundo, inflamación de las vías respiratorias, vulnerabilidad a infecciones pulmonares, agravamiento de afecciones pulmonares, como el asma, enfisema, bronquitis crónica y una mayor frecuencia de crisis asmáticas. Fuente de conversión: i-Tree Landscape."
+    },
+    "sources": "Fuentes: i-Tree Landscape, Explorador de Datos Medioambientales de Google, American Forests. Para más información, favor de consultar la metodología del proyecto."
+  },
+  "top-stats": {
+    "title": "Cálculo de beneficios anuales ",
+    "new_canopy": "Dosel nuevo ",
+    "existing_canopy": "Dosel nuevo + existente ",
+    "tree_target": {
+      "hint": "Definir una puntuación meta permite calcular cuánta cobertura arbórea adicional se necesita para que los sectores con puntuaciones bajas alcancen ese objetivo. Para estimar el área de cobertura, se toma como referencia un árbol de tamaño mediano, con una copa de aproximadamente 600 ft2. Los posibles beneficios anuales se calculan a partir del número de árboles necesarios en cada sector. Estos beneficios se estiman mediante multiplicadores que consideran datos específicos sobre la cobertura arbórea. Si personalizamos la cantidad de árboles al establecer el objetivo para un sector, el número de árboles necesarios y los beneficios proyectados reflejarán la información que se personalizó. "
+    },
+    "new_canopy_added": {
+      "hint": "Área de árboles nuevos necesaria para mejorar la puntuación de los sectores con menor equitatividad arbórea. ",
+      "title": "Cobertura adicional de un nuevo dosel "
+    },
+    "ecosystem_value": {
+      "hint": "Beneficio económico (valor monetario) que los árboles generan por año mediante los servicios que ofrecen al ecosistema, como la captura de carbono, purificación del aire y agua. Fuente de conversión: i-Tree Landscape. ",
+      "title": "Valor anual de los servicios ecosistémicos "
+    },
+    "jobs_supported": {
+      "hint": "Cantidad estimada de empleos de jornada completa, parcial y temporales, que se generan, de manera directa o indirecta, por la inversión en la plantación de árboles. Estos empleos no tienen una duración específica. Para calcular el promedio anual, se divide el total de los puestos que se generan entre los años de vigencia de la inversión. Fuente de conversión: investigaciones basadas en el Sistema Regional de Modelado de Entrada y Salida II (RIMS II) de la Oficina de Análisis Económico de EE. UU., con el respaldo de American Forests.",
+      "title": "Generación de empleos "
+    },
+    "composite_score": {
+      "hint": "Todas las localidades (ciudad, pueblo, municipio o distrito) reciben una puntuación general, entre 0 y 100, según lo determina el censo. Esta puntuación ofrece una evaluación sencilla de qué tan equitativa es la distribución de árboles en la zona. Se obtiene al sumar las puntuaciones de los sectores que cumplen con los criterios del censo. La puntuación mejorará de manera constante y rápida cuando aumenten las puntuaciones de los sectores más rezagados.",
+      "title": "Nueva puntuación compuesta de la localidad  "
+    },
+    "trees_per_person": {
+      "hint": "¿Cuántos árboles se atribuyen por persona? Relación calculada de árboles por habitante. Se convierte la cobertura arbórea a un número estimado de árboles de tamaño mediano (cuyas copas miden 600 ft2) y se divide entre la población urbana total. La cobertura total de doseles corresponde a la suma de los ya existentes y el área necesaria para lograr que la puntuación inferior aumente hasta llegar al objetivo. ",
+      "title": "Árboles por persona"
+    },
+    "localities_impacted": {
+      "hint": "Relación de localidades que tienen sectores carentes de árboles, según el objetivo que se ha determinado.",
+      "title": "Número de localidades afectadas"
+    },
+    "total_canopy": {
+      "hint": "Área total de la cobertura de árboles, incluyendo el dosel existente más cualquier nueva cobertura de dosel necesaria para mejorar la puntuación de los sectores con menor equitatividad arbórea. Establezca el botón deslizante a cero para ver la cobertura del dosel existente solamente. Ajusta el botón deslizante para aumentar la cobertura total del dosel.",
+      "title": "La Cobertura Total de Doseles"
+    },
+    "annual_ecosystem_service_value": {
+      "hint": "Beneficio económico (valor monetario) que los árboles generan por año mediante los servicios que ofrecen al ecosistema, como la captura de carbono, purificación del aire y agua. Fuente de conversión: i-Tree Landscape. ",
+      "title": "Valor anual de los servicios ecosistémicos "
+    }
+  },
+  "finder": {
+    "intro": "Los Hallazgos de la Ubicación son una herramienta útil e interactiva que permite llevar la obtención de datos, defensa de causas y planificación al siguiente nivel. Conoce las disparidades en doseles arbóreos y obtén información clave para respaldar tus argumentos. Las herramientas de planificación permiten evaluar la cobertura arbórea actual, calcular las necesidades de cultivo de árboles y deducir los beneficios que se obtendrían al tener mejores puntuaciones de equitatividad arbórea.",
+    "scale_info": "Se ofrece en cuatro escalas administrativas: Localidad (pueblo, ciudad o municipio); condado; distrito congresual y estado.",
+    "location_prompt": "Buscar una ubicación... ",
+    "map_selection": "Seleccionar en el mapa: ",
+    "map_instructions": "Hacer clic en un punto en el mapa para desplegar los informes disponibles de la ubicación correspondiente. ",
+    "looking_elsewhere": "¿En busca de un lugar específico? ",
+    "search_all": "Buscar informes ",
+    "related_geographies": "Geografía relacionada "
+  },
+  "intro": {
+    "button": "Información localizada",
+    "description": "Los Hallazgos de la ubicación son una herramienta útil e interactiva que permite llevar la obtención de datos, defensa de causas y planificación al siguiente nivel. Conoce las disparidades en doseles arbóreos y obtén información clave para respaldar tus argumentos. Las herramientas de planificación permiten evaluar la cobertura arbórea actual, calcular las necesidades de cultivo de árboles y deducir los beneficios que se obtendrían al tener mejores puntuaciones de equitatividad arbórea. ",
+    "scale_info": "Se ofrece en cuatro escalas administrativas: Localidad (pueblo, ciudad o municipio); condado; distrito congresual y estado. "
+  },
+  "search": {
+    "find_locality": "Buscar localidad, condado o estado ",
+    "find_congressional": "Buscar un informe de un distrito congresual ",
+    "enter_location": "Ingresar ubicación ",
+    "select_state": "Seleccionar un estado ",
+    "select_locality": "Seleccionar una localidad ",
+    "district_help": "En caso de desconocer en qué distrito te encuentras: ",
+    "district_instructions": "Regresar al mapa y buscar por domicilio. Hacer clic en el sector censal para buscar el distrito. ",
+    "back_to_map": "Volver al mapa "
+  },
+  "header": {
+    "title": "Hallazgos de la ubicación",
+    "url_copied": "Se ha copiado la dirección URL del informe. ",
+    "change_location": "Cambiar ubicación ",
+    "related_geographies": "Geografía relacionada "
+  },
+  "overview": {
+    "title": "Resumen ",
+    "achieving_equity": "Alcanzar la equitatividad arbórea ",
+    "distribution_scores": "Distribución de puntuaciones ",
+    "summary": "Sinopsis ",
+    "tree_equity_explanation": "Para que los vecindarios urbanos de <5>{{locationName}}</5> alcancen una puntuación de 100, se requeriría una expansión de cobertura arbórea equivalente a <1>{{canopyExpansion}} millas cuadrados</1> , lo que implica plantar aproximadamente  {{neededTrees}} árboles, además de mantener la cobertura actual"
+  },
+  "summary": {
+    "tree_equity_score": {
+      "displayText": "Índice de Equitatividad Arbórea",
+      "explanation": "El Índice de Equitatividad Arbórea permite a las ciudades a evaluar la equitatividad en la distribución de la cobertura arbórea entre su población. La puntuación se calcula a partir de la información sobre cobertura arbórea, factores climáticos y datos demográficos y socioeconómicos. Las puntuaciones oscilan entre 0 y 100. Cuanto más baja es la puntuación, mayor prioridad tiene la plantación de árboles. Una puntuación de 100 indica que el vecindario ya cumple con los objetivos de plantación. En el caso de las localidades, se calcula una puntuación compuesta que permite evaluar de forma sencilla qué tan equitativa es la distribución de árboles entre todos los grupos censales. La puntuación compuesta se determina en una escala de 0 a 100. La puntuación de una localidad depende de (1) el promedio de las puntuaciones del Índice de Equitatividad Arbórea de los sectores censales por debajo de 100; y (2) el índice de prioridad de los sectores que ya cuentan con puntuaciones máximas."
+    },
+    "trees_needed": {
+      "displayText": "Árboles necesarios",
+      "explanation": "Se calcula cuántos árboles serían necesarios para que cada grupo censal alcance una puntuación de 100, considerando árboles medianos estándar con una copa de 600 ft2."
+    },
+    "urban_area_population": {
+      "displayText": "Población de la zona urbana",
+      "explanation": "Corresponde a la suma de la población que vive los sectores que dentro de los límites censales sectoriales (los sectores son la unidad más pequeña que conforma los grupos censales). Una gran parte de los sectores censales que se incluyen en el Índice de Equitatividad Arbórea son completamente urbanos; sin embargo, también se consideran aquellos que están en los límites urbanos y que combinan zonas urbanas y rurales. Al estimar la población total de una localidad, se excluye la población que vive en área rurales. Cabe mencionar que los porcentajes de los indicadores de prioridad se basan en las estimaciones de la Encuesta sobre la Comunidad Estadounidense (ACS) 2017–2021, las cuales consideran la población total del grupo censal, tanto urbana como rural. Fuente: Censo del 2020"
+    },
+    "tree_canopy_cover": {
+      "displayText": "Cobertura arbórea",
+      "explanation": "El Explorador de Datos Medioambientales de Google proporciona información sobre la cobertura arbórea existente. Google emplea aprendizaje automático para analizar las imágenes que se han capturado a lo largo de varios años, con resoluciones entre 7 y 20 centímetros, aproximadamente. Cabe la posibilidad de que existan diferencias mínimas entre otras fuentes de información sobre los doseles arbóreos y las imágenes satelitales de Mapbox, cuyos datos se ofrecen en el Índice.",
+      "blockgroupHint": "Este grupo censal cuenta con un {{value}}% de cobertura de dosel actual y se ubica en el percentil {{percentile}} en {{title}}."
+    },
+    "children": {
+      "displayText": "Menores de edad (0-17)",
+      "explanation": "Porcentaje de personas menores de 17 años.",
+      "blockgroupHint": "Este sector tiene un {{value}}% niños y ancianos y está en el percentil {{percentile}} en {{title}}."
+    },
+    "seniors": {
+      "displayText": "Adultos mayores (65+)",
+      "explanation": "Porcentaje de personas mayores de 65 años."
+    },
+    "health_burden": {
+      "displayText": "Promedio del índice de carga sanitaria",
+      "explanation": "Promedio de prevalencia autoinformada de afecciones de salud mental, física, asma y enfermedades cardíacas en un índice de igual ponderación. Los índices más altos reflejan una mayor cantidad de informes relacionados con salud deficiente. No está disponible para Puerto Rico o las Islas Vírgenes de Estados Unidos. Fuente: CDC PLACES 2022 (Centros para el Control y la Prevención de Enfermedades)",
+      "blockgroupHint": "Este grupo censal cuenta con un Índice de carga sanitaria de {{value}} de 100 y se ubica en el percentil {{percentile}} en {{title}}."
+    },
+    "neighborhoods_below": {
+      "displayText": "Vecindarios con puntuaciones inferiores a 100",
+      "explanation": "Porcentaje de sectores con puntuaciones inferiores a 100. Las puntuaciones inferiores a 100 indican una deficiencia en la cobertura arbórea. Cuanto más baja sea la puntuación, mayor es la necesidad de inversión en actividades relacionadas a la silvicultura urbana y comunitaria. El Índice integra los datos sociales, climáticos y sanitarios nacionales para determinar las prioridades."
+    },
+    "people_of_color": {
+      "displayText": "Personas racializadas",
+      "explanation": "Porcentaje de personas negras o afroamericanas, indígenas estadounidenses o nativas de Alaska, asiáticas, nativas de Hawái o de otras islas del Pacífico; incluye a todas las personas que la Oficina del Censo clasifica como hispanas o latinas.",
+      "blockgroupHint": "Este grupo censal cuenta con un {{value}}% de personas racializadas y se ubica en el percentil {{percentile}}  en {{title}}."
+    },
+    "people_in_poverty": {
+      "displayText": "Personas en situación de pobreza",
+      "explanation": "Porcentaje de personas que viven con ingresos iguales o inferiores al 200 % del umbral de pobreza establecido a nivel federal. Fuente: American Community Survey 2017-2021.",
+      "blockgroupHint": "Este grupo censal cuenta con un {{value}}% personas en situación de pobreza y se ubica en el percentil {{percentile}} en {{title}}."
+    },
+    "unemployment": {
+      "displayText": "Tasa de desempleo",
+      "explanation": "Porcentaje de la población económicamente activa que no tiene empleo, pero está disponible y en búsqueda activa de trabajo. Fuente: American Community Survey 2017-2021.",
+      "blockgroupHint": "Este grupo censal cuenta con un {{value}}% desempleo y se ubica en el percentil {{percentile}} en {{title}}."
+    },
+    "linguistic_isolation": {
+      "displayText": "Aislamiento lingüístico",
+      "explanation": "Porcentaje de hogares en los que ningún integrante mayor de 14 años habla únicamente inglés. O bien, donde ningún integrante mayor de 14 años, que hable otro idioma, domine el inglés con fluidez.",
+      "blockgroupHint": "El sector cuenta con un porcentaje de aislamiento lingüístico de {{value}} % y se encuentra en el percentil {{percentile}} en {{title}}.  "
+    },
+    "heat_disparity": {
+      "displayText": "Disparidad de calor",
+      "explanation": "La temperatura de la superficie es un buen indicador de las zonas urbanas con calor excesivo. Se estima el promedio de las temperaturas de la superficie al aislar los píxeles con valores elevados de las imágenes que Landsat 8 Surface Temperature capturó en el verano de 2022 y de veranos anteriores en ciertas ubicaciones, de ser necesario. Se compilaron los valores máximos de los píxeles que representan los extremos de calor más altos de la superficie en el verano en todas las zonas urbanas de Estados Unidos y, posteriormente, se calcularon los promedios por sector censal para generar un conjunto de datos informativo acerca del calor intenso. La disparidad térmica se mide mediante una comparación entre el calor intenso que sufre un sector y una zona urbana promedio. De esta manera, se determina la variedad e intensidad del calor a lo largo de una zona específica. Fuente: USGS Earth Explorer - Landsat 8 Collection 2 Level 2 Surface Temperature.",
+      "blockgroupHint": "El sector cuenta con una disparidad térmica de {{value}} °F y se encuentra en el percentil {{percentile}} en {{title}}."
+    },
+    "children_and_seniors": {
+      "displayText": "Menores de edad y personas de la tercera edad",
+      "explanation": "Porcentaje de personas de la tercera edad (mayores de 65 años) y menores de edad (de 0 a 17 años). Fuente: American Community Survey 2017-2021.",
+      "blockgroupHint": "Este grupo censal cuenta con un {{value}}% de menores de edad y personas de la tercera edad y se ubica en el percentil {{percentile}} en {{title}}."
+    }
+  },
+  "planning": {
+    "start_planning": "Planificación",
+    "new_canopy": "Dosel nuevo",
+    "existing_canopy": "Dosel existente",
+    "slider_instructions": "Ajustar el botón deslizante para ampliar o limitar la planificación. Determinar un objetivo de puntuación y calcular el impacto que generaría la siembra de árboles.",
+    "existing_benefits": "Mover el botón deslizante a 0 y observar los notables beneficios que brindan los doseles existentes. Ajustar el botón para calcular el incremento total de doseles",
+    "slider_new_subtitle": "{{numberOfBlockgroupsBelowTarget}} de {{totalBlockgroups}} sectores censales {{localities}} tienen un índice de equidad arbórea debajo de {{targetScore}}",
+    "slider_existing_subtitle": "Del total de {{totalBlockgroups}}, son {{numberOfBlockgroupsBelowTarget}} {{localityType}} los que tienen una puntuación inferior a {{targetScore}}",
+    "below_score": "sectores los que tienen una puntuación inferior a",
+    "drag_adjust": "Arrastrar para ajustar la puntuación",
+    "estimated_benefits": "Cálculo de beneficios anuales",
+    "new_canopy_intro": "Para alcanzar una puntuación mínima de {{targetScore}} en todos los sectores, se necesitaría <bold>expandir la cobertura arbórea a {{expansionValue}}</bold>, lo que representa cerca de {{treesNeeded}} árboles. Consulta los importantes beneficios que se generarían.",
+    "existing_canopy_intro": "{{locationName}} tiene <bold>{{existingCanopyAcres}}</bold> del dosel existente, equivalente a aproximadamente {{treesEquivalent}} árboles. Para alcanzar una puntuación mínima de {{targetScore}} en todos los sectores, necesitarás añadir {{expansionValue}}, lo que representa cerca de {{treesNeeded}} árboles. Consulta los importantes beneficios que se generarían."
+  },
+  "benefits_overview": {
+    "new_canopy_added": {
+      "name": "Cobertura adicional de un nuevo dosel",
+      "hint": "Área de árboles nuevos necesaria para mejorar la puntuación de los sectores con menor equitatividad arbórea."
+    },
+    "ecosystem_value": {
+      "name": "Valor anual de los servicios ecosistémicos",
+      "hint": "Beneficio económico (valor monetario) que los árboles generan por año mediante los servicios que ofrecen al ecosistema, como la captura de carbono, purificación del aire y agua. Fuente de conversión: i-Tree Landscape."
+    },
+    "jobs_supported": {
+      "name": "Generación de empleos",
+      "hint": "Cantidad estimada de empleos de jornada completa, parcial y temporales, que se generan, de manera directa o indirecta, por la inversión en la plantación de árboles. Estos empleos no tienen una duración específica. Para calcular el promedio anual, se divide el total de los puestos que se generan entre los años de vigencia de la inversión. Fuente de conversión: investigaciones basadas en el Sistema Regional de Modelado de Entrada y Salida II (RIMS II) de la Oficina de Análisis Económico de EE. UU., con el respaldo de American Forests."
+    },
+    "composite_score": {
+      "name": "Nueva puntuación compuesta de la localidad",
+      "hint": "Todas las localidades (ciudad, pueblo, municipio o distrito) reciben una puntuación general, entre 0 y 100, según lo determina el censo. Esta puntuación ofrece una evaluación sencilla de qué tan equitativa es la distribución de árboles en la zona. Se obtiene al sumar las puntuaciones de los sectores que cumplen con los criterios del censo. La puntuación mejorará de manera constante y rápida cuando aumenten las puntuaciones de los sectores más rezagados."
+    },
+    "trees_per_person": {
+      "name": "Árboles por persona",
+      "hint": "¿Cuántos árboles se atribuyen por persona? Relación calculada de árboles por habitante. Se convierte la cobertura arbórea a un número estimado de árboles de tamaño mediano (cuyas copas miden 600 ft2) y se divide entre la población urbana total. La cobertura total de doseles corresponde a la suma de los ya existentes y el área necesaria para lograr que la puntuación inferior aumente hasta llegar al objetivo."
+    },
+    "localities_impacted": {
+      "name": "Cantidad de localidades afectadas",
+      "hint": "Relación de localidades que tienen sectores carentes de árboles, según el objetivo que se ha determinado."
+    }
+  },
+  "footer": {
+    "copyright": "©El Índice de Equitatividad Arbórea es producto de American Forests",
+    "made_possible": "Esta iniciativa es posible gracias a los datos de cobertura arbórea de",
+    "ecosystem_services": "y las estimaciones de servicios ecosistémicos generadas por"
+  },
+  "charts": {
+    "title": "Informar",
+    "subtitle": "Presenta argumentos con hechos y cifras.",
+    "canopy_trends": "Tendencias de doseles",
+    "where_trees": "¿Dónde están los árboles?",
+    "no_data_available": "Las tendencias de dosel no están disponibles.",
+    "no_data_explanation": "Un informe promedio de tendencias se obtiene del análisis de la gráfica de barras. Sin embargo, en este caso, no se identificaron vecindario dentro de los sectores seleccionados para realizar dicha comparación.",
+    "data_unavailable": "Datos no disponibles para esta localización.",
+    "cooler_neighborhoods": "Los vecindarios con temperaturas más frescas cuya disparidad térmica oscila de -5 a 0°F muestras, en promedio,",
+    "less_neighborhoods": "Los vecindarios con menos  {{indicator}} (percentil 0 al 20)  tienen de media",
+    "compared_to_hotter": "que los vecindarios más cálidos cuya disparidad térmica es entre 5 y 10°F.",
+    "compared_to_more": "que aquellos con más (percentil entre 80 y 100).",
+    "tooltip_heat": "Este valor también se obtiene mediante una división: los vecindarios más frescos (disparidad térmica entre -5 y 0 °F) entre los más cálidos (disparidad térmica entre 5 y 10 °F).",
+    "tooltip_percentile": "El multiplicador se obtiene al dividir el valor de un dosel dentro de los percentiles 0 y 20 entre el valor de un dosel dentro de los percentiles 80 y 100.",
+    "tooltip_difference": "Calculado como la diferencia simple, es decir, restar un valor del otro.",
+    "how_to_read": "¿Cómo se interpretan los datos?",
+    "explanation": "Los vecindarios se ordenan de izquierda a derecha, según la cantidad de {{indicator}}, del más bajo al más alto. El eje vertical representa la cobertura arbórea correspondiente a cada grupo. Puedes pasar el cursor sobre las barras para ver los detalles. Cabe señalar que las tendencias no siempre son evidentes. Para obtener información relevante, puedes explorar distintos indicadores y escalas geográficas.",
+    "choose_canopy": "Elegir una medida de dosel:",
+    "choose_indicator": "Seleccionar indicador de prioridad:",
+    "choose_canopy_hint": "Elige entre dos modalidades para observar la cobertura arbórea:\n_______________________________________________ % DE DOSEL ARBÓREO: La presencia de los árboles que se observa desde un punto aéreo. Se calcula al dividir el área del dosel entre el área total de cada grupo y después multiplicado por 100.\n_______________________________________________ ÁRBOLES POR PERSONA: ¿Cuantos árboles se atribuyen por persona? Estima cuántos árboles se le atribuyen a cada habitante. Convierte el área del dosel en un número estimado de árboles medianos (de aproximadamente 600 ft2) y se divide entre la población urbana total. Los grupos con poblaciones muy bajas (menos de 150 personas) fueron excluidos para evitar distorsiones en los datos.",
+    "default_tooltip": "Los vecindarios que se encuentran en el <bold>{{label}}</bold> en {{tooltipLabel}} con un <bold>{{formattedValue}}{{unitSign}} {{unit}}</bold>, lo que representa {{formattedDiff}}{{translatedValueExplanation}} {{shortTitle}} general.",
+    "temperature_tooltip": "Los vecindarios que presentan temperaturas entre <bold>{{label}}</bold> por debajo del promedio urbano cuentan con <bold>{{formattedValue}}{{unitSign}} {{unit}}</bold>, lo que representa {{formattedDiff}}{{translatedValueExplanation}} {{shortTitle}} general.",
+    "tooltip_blockgroups": "Estos {{binSize}} sectores cuentan con {{sqMilesTreeCanopy}} de dosel arbóreo, lo que equivale, aproximadamente, a {{treesCount}} árboles medianos.",
+    "0_20_percentile_label": "Percentil 0-20",
+    "20_40_percentile_label": "Percentil 20-40",
+    "40_60_percentile_label": "Percentil 40-60",
+    "60_80_percentile_label": "Percentil 60-80",
+    "80_100_percentile_label": "Percentil 80-100",
+    "temperature_less_than_5_label": "< -5°F",
+    "temperature_5_to_0_label": "-5 a 0°F",
+    "temperature_0_to_5_label": "0 a +5°F",
+    "temperature_5_to_10_label": "+5 a +10°F",
+    "temperature_more_than_10_label": "> +10°F",
+    "x_axis_label_tooltip": "{{values}}% {{label}} ",
+    "tooltip_less_percentages": "% menos que",
+    "tooltip_more_percentages": "% más que",
+    "tooltip_less_trees_per_person": "menos árboles por persona que",
+    "tooltip_more_trees_per_person": "árboles adicionales por persona más que",
+    "similar_tree_canopy": "un dosel de arbóreo similar",
+    "as_much_tree_canopy": "{{formattedValue}}X veces dosel del arbóreo",
+    "fewer_additional_trees_per_person": "{{formattedValue}} {{adv}} árboles por persona",
+    "tree_canopy_cover": "Cobertura del dosel arbóreo",
+    "trees_per_person": "Árboles por persona"
+  },
+  "heatmap": {
+    "title": "Desglose de puntuación de equidad arbórea",
+    "subtitle": "Pasa el cursor en distintos puntos explorar las características de los vecindarios con puntuaciones similares.",
+    "explanation_title": "¿Cómo se interpretan los datos?",
+    "tooltip": "Los vecindarios con índice <bold>{{blockgroupsScore}}</bold> tienen, en promedio, <bold>{{diff}}</bold> {{facetName}}.",
+    "tooltip_heatmap": "Los vecindarios con índice <bold>{{blockgroupsScore}}</bold> son, en promedio, <bold>{{diff}}</bold> {{suffix}} que la media del área urbana.",
+    "tooltip_blockgroups": "Existen {{blockgroupsCount}} grupos censales con una puntuación entre {{blockgroupsScore}}.",
+    "explanation": "Los vecindarios se ordenan de izquierda a derecha, desde los que tienen menor puntuación de equidad arbórea hasta los que tienen mayor puntuación. Los colores más oscuros representan puntuaciones más altas. Pasa el cursor sobre distintos puntos para obtener información Desplázate de forma vertical para consultar la información de una sola escala de puntuación. Desplázate de forma horizontal para comparar la información de distintas escalas."
+  },
+  "advanced_planning_tools": {
+    "title": "Herramientas de Planificación Avanzadas",
+    "subtitle": "El mapa ilustra las zonas de mejora. Ver los datos de todos {{planningToolType}}. El botón deslizante permite ampliar o limitar la planificación.",
+    "hide": "Ocultar herramientas de planificación",
+    "expand": "Desplegar herramientas de planificación",
+    "target_blockgroups": "Sectores con margen de mejora",
+    "target_score": "Objetivo de puntuación",
+    "table_hints": {
+      "tree_equity_score": "Puntuación actual del Índice de Equitatividad Arbórea del sector.",
+      "tree_canopy": "Cobertura de dosel actual expresada como un porcentaje del área total del sector.",
+      "delta_score": "Cambio necesario para alcanzar el objetivo del Índice de Equitatividad Arbórea.",
+      "tree_canopy_gain": "Expansión necesaria para alcanzar la puntuación objetivo, expresada como un porcentaje del área total del sector.",
+      "trees_needed": "Estimación de la cantidad de árboles de tamaño promedio (600 ft2) necesarios para alcanzar el objetivo del sector o localidad.",
+      "total_population": "Habitantes dentro de los límites de la zona urbana de la localidad o sector, según lo define el censo.",
+      "poverty_percent": "Personas en situación de pobreza (%)",
+      "poc_percent": "Personas racializadas (%)",
+      "unemployment": "Desempleo (%)",
+      "age": "Adultos mayores y niños (%)",
+      "linguistic_isolation": "Aislamiento lingüístico (%)",
+      "health_burden": "Índice de carga sanitaria",
+      "heat_disparity": "Disparidad de calor en grados Fahrenheit",
+      "locality_tree_composite_score": "Puntuación compuesta de una localidad. Esta puntuación ofrece una evaluación sencilla de qué tan equitativa es la distribución de árboles en la zona y se obtiene al sumar las puntuaciones de los sectores que cumplen con los criterios del censo.",
+      "localty_delta_score": "El cambio en la puntuación compuesta para la localidad que resultaría de alcanzar el objetivo del Índice de Equitatividad Arbórea.",
+      "locality_tree_canopy": "Cobertura de dosel actual expresada como un porcentaje del área total de la localidad.",
+      "locality_tree_canopy_gain": "Expansión necesaria para alcanzar la puntuación objetivo, expresada como un porcentaje del área total de la localidad.",
+      "locality_trees_needed": "Estimación de la cantidad de árboles de tamaño promedio (600 ft2) necesarios para alcanzar el objetivo de la localidad.",
+      "locality_total_population": "Habitantes dentro de los límites de la zona urbana de la localidad, según lo define el censo.",
+      "locality_targeted_blockgroups": "Cantidad de sectores con puntuaciones insuficientes en una localidad.",
+      "locality_blockgroup_count": "Cantidad de sectores en la localidad Y dentro del condado o estado."
+    },
+    "table_headers": {
+      "tree_equity_score": "puntuación actual",
+      "tree_canopy": "dosel actual",
+      "delta_score": "incremento necesario",
+      "tree_canopy_gain": "dosel adicional",
+      "planting_need": "Árboles Necesarios",
+      "total_population": "Pob.",
+      "poverty_percent": "PEP",
+      "poc_percent": "PDC",
+      "unemployment_rate": "Desempl.",
+      "age": "Edad",
+      "linguistic_isolation": "Ling.",
+      "health_burden": "Salud",
+      "temperature": "Calor",
+      "locality_tree_composite_score": "puntuación compuesta",
+      "targeted_blockgroups": "Sectores censales",
+      "block_groups": "Número de Sectores"
+    }
+  },
+  "compare": {
+    "title": "Compara vecindarios",
+    "subtitle": "Selecciona hasta tres vecindarios del mapa ara comparar sus datos.",
+    "add_blockgroups": "Haz clic directamente en el mapa para seleccionar. Consulta cómo se ubica cada dato en relación con los rangos existentes en {{location}}.",
+    "average": "Promedios"
+  }
+}

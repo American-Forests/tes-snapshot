@@ -1,0 +1,38 @@
+{
+  "$schema": "https://turbo.build/schema.json",
+  "globalDependencies": ["**/.env.*local"],
+  "tasks": {
+    "tes#build": {
+      "outputs": ["dist/**", ".next/**", "!.next/cache/**"],
+      "env": [
+        "DATABASE_URL",
+        "NEXT_PUBLIC_TILESERVER_URL",
+        "NEXT_PUBLIC_TILESERVER_ENV",
+        "SENDGRID_API_KEY",
+        "NEXT_PUBLIC_STRAPI_API_KEY",
+        "NEXT_PUBLIC_STRAPI_API_URL",
+        "NEXT_PUBLIC_GOOGLE_ANALYTICS",
+        "NEXT_PUBLIC_MAPBOXGL_ACCESS_TOKEN",
+        "NEXT_PUBLIC_HONEYCOMB_API_KEY",
+        "NEXT_PUBLIC_HONEYCOMB_SERVICE_NAME",
+        "NEXT_PUBLIC_SHADE_FEATURE_FLAG_ACTIVE",
+        "NEXT_PUBLIC_LANGUAGE_FEATURE_FLAG_ACTIVE",
+        "SESSION_SECRET_KEY",
+        "NODE_ENV",
+        "APP_ORIGIN",
+        "BLITZ_DEV_SERVER_ORIGIN"
+      ]
+    },
+    "test": {},
+    "build": {
+      "dependsOn": ["^build"],
+      "outputs": ["dist/**", ".next/**", "!.next/cache/**"]
+    },
+    "lint": {
+      "outputs": []
+    },
+    "dev": {
+      "cache": false
+    }
+  }
+}

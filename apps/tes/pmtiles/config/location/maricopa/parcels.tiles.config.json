@@ -1,0 +1,32 @@
+{
+  "id": "maricopa_parcel",
+  "minZoom": 15,
+  "maxZoom": 15,
+  "columnSubset": [
+    "id",
+    "type",
+    "tree_canopy",
+    "potential_tree_canopy",
+    "blockgroupId",
+    "potential_vegetation",
+    "potential_paved",
+    "unsuitable_surface",
+    "impervious_surface",
+    "address",
+    "area_sqkm",
+    "cooling_center",
+    "qualified_census_tract",
+    "school",
+    "light_rail",
+    "bus_stop",
+    "building_shade12",
+    "total_shade12",
+    "building_shade18",
+    "building_shade15",
+    "trees_shade12",
+    "total_shade15",
+    "trees_shade15",
+    "trees_shade18",
+    "total_shade18"
+  ]
+}

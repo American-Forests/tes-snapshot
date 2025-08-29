@@ -1,0 +1,12 @@
+{
+    "id": "toronto_municipality",
+    "minZoom": 2,
+    "maxZoom": 8,
+    "columnSubset": [
+        "slug",
+        "incorporated_place_name",
+        "incorporated_place_mean_tree_equity_score",
+        "state"
+    ]
+    
+}

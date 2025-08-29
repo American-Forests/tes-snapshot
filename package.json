@@ -1,0 +1,61 @@
+{
+  "name": "tes-monorepo",
+  "version": "0.0.0",
+  "private": true,
+  "workspaces": {
+    "packages": [
+      "apps/*",
+      "packages/*"
+    ],
+    "nohoist": [
+      "**/blitz",
+      "**/@blitzjs/*",
+      "**/next"
+    ]
+  },
+  "installConfig": {
+    "hoistingLimits": "workspaces"
+  },
+  "scripts": {
+    "build": "turbo run build",
+    "dev": "dotenv -- turbo run dev",
+    "lint:tes-uk": "turbo lint --filter=tes-uk",
+    "lint:tes": "turbo lint --filter=tes",
+    "test:support-center": "turbo test --filter=support-center",
+    "test:tes": "turbo test --filter=tes",
+    "test:tes-uk": "turbo test --filter=tes-uk",
+    "test:react-hooks": "turbo test --filter=react-hooks",
+    "test:ui": "turbo test --filter=ui",
+    "test:utils": "turbo test --filter=utils",
+    "test": "turbo test",
+    "format": "prettier --write \"**/*.{ts,tsx,md}\"",
+    "build:tes": "cd apps/tes && turbo run build",
+    "prod-tes": "yarn run build:tes",
+    "prepare": "husky install"
+  },
+  "devDependencies": {
+    "dotenv-cli": "latest",
+    "eslint-config-custom": "*",
+    "husky": "^8.0.3",
+    "lint-staged": "15.2.0",
+    "prettier": "2.8.8",
+    "turbo": "latest"
+  },
+  "resolutions": {
+    "react": "18.3.1",
+    "react-dom": "18.3.1",
+    "@types/react": "18.3.1",
+    "@types/react-dom": "18.3.1"
+  },
+  "lint-staged": {
+    "apps/**/*.{ts,tsx}": [],
+    "packages/**/*.{ts,tsx}": []
+  },
+  "engines": {
+    "node": ">=18.0.0 <19.0.0"
+  },
+  "volta": {
+    "node": "18.20.4"
+  },
+  "packageManager": "yarn@1.22.17"
+}

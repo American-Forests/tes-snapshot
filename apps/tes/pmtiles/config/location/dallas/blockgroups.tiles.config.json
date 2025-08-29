@@ -1,0 +1,29 @@
+{
+    "id": "dallas_blockgroup",
+    "minZoom": 10,
+    "maxZoom": 11,
+    "columnSubset": [
+      "id",
+      "tree_canopy",
+      "potential_tree_canopy",
+      "area_sqkm",
+      "poverty_percent",
+      "poc_percent",
+      "unemployment_rate",
+      "dependent_ratio",
+      "child_percent",
+      "senior_percent",
+      "tree_equity_score",
+      "health_normalized",
+      "tree_canopy_gap",
+      "temperature",
+      "holc_grade",
+      "linguistic_isolation",
+      "equity_index",
+      "ej_disadvantaged",
+      "afternoon_air_average_temperature",
+      "evening_air_average_temperature",
+      "ttf_tree_equity_planting",
+      "ej_screen"
+  ]
+}

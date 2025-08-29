@@ -1,0 +1,8 @@
+geopandas
+pandas
+sqlalchemy
+shapely
+geoalchemy2
+boto3
+psycopg2-binary
+fiona

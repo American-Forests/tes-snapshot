@@ -1,0 +1,178 @@
+// This is your Prisma schema file,
+// learn more about it in the docs: https://pris.ly/d/prisma-schema
+
+datasource db {
+  provider = "postgres"
+  url      = env("DATABASE_URL")
+}
+
+generator client {
+  provider        = "prisma-client-js"
+  previewFeatures = ["fullTextSearch"]
+}
+
+// --------------------------------------
+
+model NeighborhoodLike {
+  gid  Int                                         @default(autoincrement())
+  id   String                                      @id
+  geom Unsupported("geometry(MultiPolygon, 4326)")
+
+  type                              String
+  population                        Int
+  // the urban area of the neighborhood in square kilometers
+  area                              Float
+  // urban_area / land_area (area that doesn't include water)
+  urban_area_proportion             Float   @default(0)
+  tree_canopy_goal                  Float
+  tree_canopy                       Float
+  tree_canopy_gap                   Float
+  priority_indicator                Float
+  income_rank                       Int
+  income_normalized                 Float
+  income_rank_decile                Int
+  employment_rank                   Int
+  employment_normalized             Float
+  employment_rank_decile            Int
+  health_rank                       Int
+  health_normalized                 Float
+  health_rank_decile                Int
+  temperature_difference            Float
+  temperature_difference_normalized Float
+  air_pollution                     Float
+  no2_average                       Float?
+  no2_normalized                    Float?
+  pm25_average                      Float?
+  pm25_normalized                   Float?
+  dependent_ratio                   Float
+  dependent_ratio_normalized        Float
+  dependent_proportion              Float
+  tree_equity_score                 Int
+  tree_canopy_gap_max               Float
+  children_proportion               Float
+  seniors_proportion                Float
+  region                            String?
+  minority_ethnic_group_proportion  Float?
+  // 1 if a neighborhood contains peat, 0 otherwise
+  peat                              Int     @default(0)
+  // rank of a neighborhood according to it's tree equity score, with 1 being the highest rank and therefore least prioritized
+  rank                              Int?
+  // the number of neighborhoods ranked against this neighborhood
+  rank_group_size                   Int?
+
+  locality_id     String
+  constituency_id String
+  country_id      String
+
+  @@index([geom], name: "neighborhood_like_idx", type: Gist)
+}
+
+model LocalityLike {
+  gid               Int                                         @default(autoincrement())
+  id                String                                      @id
+  geom              Unsupported("geometry(MultiPolygon, 4326)")
+  name              String
+  country           String
+  tree_equity_score Int
+
+  @@index([geom], name: "locality_like_idx", type: Gist)
+}
+
+enum ReportAreaType {
+  CONSTITUENCY
+  COUNTRY
+}
+
+model ReportArea {
+  gid  Int                                  @default(autoincrement())
+  id   String                               @id
+  geom Unsupported("geometry(Point, 4326)")
+  name String
+  type ReportAreaType
+
+  @@index([geom], name: "report_area_idx", type: Gist)
+}
+
+model Peat {
+  gid  Int                                         @id @default(autoincrement())
+  geom Unsupported("geometry(MultiPolygon, 4326)")
+
+  @@index([geom], name: "peat_idx", type: Gist)
+}
+
+model UrbanArea {
+  gid  Int                                         @id @default(autoincrement())
+  geom Unsupported("geometry(MultiPolygon, 4326)")
+
+  @@index([geom], name: "urban_areas_idx", type: Gist)
+}
+
+model iTree {
+  // the id of the local authority (aka locality)
+  la_code                       String @id
+  // metric tons per hectare
+  co2                           Float?
+  carbon                        Float?
+  // liters per hectare
+  runoff_avoided                Float
+  // grams per hectare
+  no2                           Float
+  // grams per hectare
+  pm25                          Float
+  // grams tons per hectare
+  so2                           Float
+  // pounds per hectare
+  total_ecosystem_service_value Float
+}
+
+model User {
+  id             Int      @id @default(autoincrement())
+  createdAt      DateTime @default(now())
+  updatedAt      DateTime @updatedAt
+  name           String?
+  email          String   @unique
+  hashedPassword String?
+  role           String   @default("USER")
+
+  tokens   Token[]
+  sessions Session[]
+}
+
+model Session {
+  id                 Int       @id @default(autoincrement())
+  createdAt          DateTime  @default(now())
+  updatedAt          DateTime  @updatedAt
+  expiresAt          DateTime?
+  handle             String    @unique
+  hashedSessionToken String?
+  antiCSRFToken      String?
+  publicData         String?
+  privateData        String?
+
+  user   User? @relation(fields: [userId], references: [id])
+  userId Int?
+}
+
+model Token {
+  id          Int      @id @default(autoincrement())
+  createdAt   DateTime @default(now())
+  updatedAt   DateTime @updatedAt
+  hashedToken String
+  type        String
+  // See note below about TokenType enum
+  // type        TokenType
+  expiresAt   DateTime
+  sentTo      String
+
+  user   User @relation(fields: [userId], references: [id])
+  userId Int
+
+  @@unique([hashedToken, type])
+}
+
+// NOTE: It's highly recommended to use an enum for the token type
+//       but enums only work in Postgres.
+//       See: https://blitzjs.com/docs/database-overview#switch-to-postgre-sql
+// enum TokenType {
+//   RESET_PASSWORD
+// }

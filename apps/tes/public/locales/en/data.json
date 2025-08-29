@@ -1,0 +1,503 @@
+{
+  "data_glossary": {
+    "title": "Data Glossary",
+    "tree_equity_score": {
+      "title": "Tree Equity Score",
+      "description": "Tree Equity Score is a nationwide, block group-level score ranging from 0-100 that highlights inequitable access to trees. The lower the score, the greater priority for tree planting. A score of 100 means the block group has met a minimum standard for tree cover appropriate for the area's natural biome and built environment. _For the definition of a block group, see Places._"
+    },
+    "composite_scores": {
+      "title": "Composite scores (for localities)",
+      "description": "Each Census-designated locality (e.g., a town, city, village or borough) is assigned a composite score from 0-100, which provides a simplified assessment of overall tree distribution fairness. The score for each locality is aggregated from all block group Tree Equity Scores within the Census-defined boundaries of that locality. The composite score will increase faster if block group with lower Tree Equity Scores are raised."
+    },
+    "tree_canopy_measures": {
+      "title": "Tree canopy measures",
+      "description": "",
+      "neighborhood_tree_canopy_goal": {
+        "title": "Neighborhood tree canopy goal",
+        "description": "The minimum percentage of tree canopy required to deliver the requisite benefits of trees to a block group (neighborhood), based on natural biome and population density. Tree canopy goals represent minimum standard of tree cover for all neighborhoods that is considered appropriate to local urban ecologies. They may differ from goals set by cities.\n\n_Data Source: Targets set based on guidance from the USDA Forest Service_"
+      },
+      "tree_canopy_cover": {
+        "title": "Tree canopy cover (%)",
+        "description": "The footprint of existing tree canopy when viewed from above—the bird's eye view of tree crowns (leaves, branches and stems). \n\n_Data Source: Google Environmental Insights Explorer, with the exception of block groups covered by Tree Equity Score Analyzers (TESA) where high resolution land cover is substituted (sources provided in TESA)._"
+      },
+      "tree_canopy_gap": {
+        "title": "Tree canopy gap (%)",
+        "description": "The percent area of a block group that could be planted to reach the neighborhood tree canopy goal. A measure of need, calculated as the difference between the percentage of existing tree canopy cover and the tree canopy goal."
+      },
+      "tree_canopy_cover_tesas": {
+        "title": "Tree canopy cover (%)",
+        "description": "The footprint of existing tree canopy when viewed from above—the bird's eye view of tree crowns (leaves, branches and stems). \n\n_Data Source: Google Environmental Insights Explorer, with the exception of block groups covered by Tree Equity Score Analyzers where high resolution land cover is substituted as follows:_\n\n**Austin, TX** 1ft Resolution Land Cover 2022, University of Vermont Spatial Analysis Lab\n\n**Boston MA** 1m Resolution Land Cover 2019, University of Vermont Spatial Analysis Lab for Analyze Boston\n\n**Columbus & Franklin County, OH** 1ft Resolution Land Cover 2021, University of Vermont Spatial Analysis Lab\n\n**Dallas, TX** 1ft Resolution Tree Canopy Assessment 2019, Texas Tree Foundation\n\n**DC Region** Greater DC (MD/VA) 1m Resolution Land Use/Land Cover 2017/2018, Chesapeake Bay Foundation; Washington DC UTC Class 1m Resolution Land Cover 2020, PlanIt Geo\n\n**Detroit, MI** 1ft Resolution Land Cover 2022, University of Vermont Spatial Analysis Lab\n\n**Indianapolis & Marion County, IN** 1ft Resolution Land Cover 2022, University of Vermont Spatial Analysis Lab\n\n**Lincoln Parish, LA** 1ft Resolution Land Cover 2021\n\n**Maricopa County, AZ** 1ft Resolution Land Cover 2021, University of Vermont Spatial Analysis Lab\n\n**Rhode Island**  7-class 0.5m Landcover 2018, University of Vermont Spatial Analysis Lab\n\n**Richmond, VA** 3ft Resolution Land Cover 2018\n\n**Toronto, ON** 1m Resolution Forest and Land Cover 2018, City of Toronto Parks, Forestry & Recreation\n\n**Washington** Google Environmental Insights Explorer 2025\n"
+      }
+    },
+    "places": {
+      "title": "Places",
+      "census_block_group": {
+        "title": "Census block group",
+        "description": "A Census block group is a small geographic area used in the United States Census. A block group typically contains between 600 and 3,000 people, but the actual population can vary. Block groups, sometimes colloquially referred to as neighborhoods, provide a way of organizing and grouping people who live relatively close to one other and have relatively similar population characteristics for the purpose of collecting and analyzing demographic information."
+      },
+      "locality": {
+        "title": "Locality",
+        "description": "A city, town, village or unincorporated community.\nLocalities are defined by unique U.S. Census incorporated places and other statistically equivalent Census-designated places that fall within Census-defined urban areas. Incorporated places, such as cities, towns or villages, have legally defined boundaries and function as an active governmental unit. Census-designated places represent unincorporated communities that do not have a legally defined boundary or an active, functioning governmental structure.\n\nLocalities in Tree Equity Score are defined by the U.S. Census Bureau, except in CT, MA, ME, MI, NH, NJ, NY, RI, and VT where state municipality boundaries are substituted as follows:\n\n**Connecticut**: Connecticut and Vicinity Town Boundary Set (1998), [CT DEEP GIS Open Data Website](https://ct-deep-gis-open-data-website-ctdeep.hub.arcgis.com/maps/82672ae5f3764021b9a4804f524f928b/about)\n\n**Massachusetts**: Municipalities, [MassGIS Data](https://www.mass.gov/info-details/massgis-data-municipalities)\n\n**Maine**: Municipalities in Adjacent States (2021), [MassGIS Data](https://www.mass.gov/info-details/massgis-data-municipalities-in-adjacent-states)\n\n**Michigan**: Minor Civil Divisions (Cities & Townships), [Michigan GIS Open Data](https://gis-michigan.opendata.arcgis.com/datasets/72bced2da68446e68a8a27abf25d6ff8_6/explore)\n\n**New Hampshire**: Municipalities in Adjacent States (1990), [MassGIS Data](https://www.mass.gov/info-details/massgis-data-municipalities-in-adjacent-states)\n\n**New Jersey**: Municipal Boundaries of NJ (2022), [NJOGIS](https://njogis-newjersey.opendata.arcgis.com/datasets/municipal-boundaries-of-nj/explore)\n\n**New York**: Cities and Towns (1998), [New York State GIS](https://gis.ny.gov/civil-boundaries)\n\n**Rhode Island**: Municipalities (1997), [RIGIS](https://www.rigis.org/datasets/edc::municipalities-1997/about)\n\n**Vermont**: Municipalities in Adjacent States (1998), [MassGIS Data](https://www.mass.gov/info-details/massgis-data-municipalities-in-adjacent-states)\n\n**All other states**: Census 2020, [U.S. Census Bureau](https://www.census.gov/)"
+      },
+      "county": {
+        "title": "County",
+        "description": "In the United States, counties are geographic divisions of a state that function as governmental and administrative units below the state level."
+      },
+      "urban_area": {
+        "title": "Urban areas",
+        "description": "Tree Equity Score covers all urban areas within the United States, including Hawaii and Alaska. Puerto Rico and the U.S. Virgin Islands are scheduled for release in Fall 2023. Urban areas are defined as densely-settled population hubs populated by 5,000 people or more or 2,000 or more housing units, as defined by data from the U.S. Census Bureau. These urban population hubs may comprise Census block groups from one or more localities (e.g., towns, cities, villages, or other unincorporated communities). Each individual locality within a population hub may be populated by fewer than 5,000 people or 2,000 housing units.\n\nIn limited cases, urban areas were not included due to a lack of data."
+      }
+    },
+    "demographic_measures": {
+      "title": "Demographic measures",
+      "children": {
+        "title": "Children",
+        "description": "Percentage of children, ages 0 to 17. \n\n_Data Source: American Community Survey 2017-2021_"
+      },
+      "dependency_ratio": {
+        "title": "Dependency ratio",
+        "description": "The ratio of children under the age of 18 to the number of people aged 65 and older in a block group. \n\n_Data Source: American Community Survey 2017-2021_"
+      },
+      "linguistic_isolation": {
+        "title": "Linguistic isolation",
+        "description": "Percentage of households where no person age 14+ speaks only English, or no person age 14+ who speaks a language other than English speaks English \"very well.\" \n\n_Data Source: American Community Survey 2017-2021_"
+      },
+      "people_of_color": {
+        "title": "People of color",
+        "description": "Percentage of people who are not White. \n\n_Data Source: American Community Survey 2017-2021_"
+      },
+      "people_in_poverty": {
+        "title": "People in poverty",
+        "description": "Percentage of people living on incomes below 200% of the federally-designated poverty line. \n\n_Data Source: American Community Survey 2017-2021_"
+      },
+      "seniors": {
+        "title": "Seniors",
+        "description": "Percentage of people who are 65 years or older. \n\n_Data Source: American Community Survey 2017-2021_"
+      },
+      "unemployment_rate": {
+        "title": "Unemployment rate",
+        "description": "Percentage of people in a block group who are unemployed. \n\n_Data Source: American Community Survey 2017-2021_"
+      }
+    },
+    "climate_public_health": {
+      "title": "Climate & public health",
+      "heat_extremity": {
+        "title": "Heat extremity",
+        "description": "Surface temperature is a good estimate of where excess heat is generated in urban areas. Heat extremity is a measure of urban heat severity, based on the highest extremities of 2022 summer surface temperatures averaged by block group.\n\n_Data Source: USGS Earth Explorer - Landsat 8 Collection 2 Level 2 Surface Temperature_"
+      },
+      "health_burden_index": {
+        "title": "Health burden index",
+        "description": ": Self-reported prevalence of poor mental health, poor physical health, asthma and heart disease in an equally weighted index. A higher index indicates higher reporting of poor health factors. Not available for Puerto Rico or the U.S. Virgin Islands.\n\n_Data Source: Center for Disease Control CDC PLACES 2022_"
+      },
+      "heat_disparity": {
+        "title": "Heat disparity",
+        "description": "Compares average block group heat extremity with the urban area average to measure variance in heat severity across an urban area."
+      }
+    },
+    "tree_canopy_benefits": {
+      "title": "Tree canopy benefits",
+      "ecosystem_services": {
+        "title": "Ecosystem services",
+        "description": "Ecosystem services are beneficial contributions that trees provide to the environment, the economy, and human well-being, health, and safety. Key ecosystem services provided by urban trees include carbon sequestration, air quality improvement, water regulation, temperature regulation, biodiversity support, nutrient cycling, and aesthetic and cultural value. Urban trees are infrastructure - they play a crucial role in making cities more inclusive, safe, resilient and sustainable."
+      },
+      "annual_ecosystem_service_value": {
+        "title": "Annual ecosystem service value",
+        "description": "Total annual economic benefit (monetary value) for all of the ecosystem services, including all carbon sequestration, air pollutant removal, and stormwater absorption provided by trees.\n\n_Data Source: iTree Landscape"
+      },
+      "carbon_sequestration": {
+        "title": "Carbon sequestration",
+        "description": "The atmospheric carbon dioxide captured and stored by trees, measured in annual tons."
+      },
+      "nitrogen_dioxide": {
+        "title": "Nitrogen dioxide",
+        "description": "Annual tons of nitrogen dioxide absorption by trees. Nitrogen dioxide is an air pollutant, the most prominent source coming from the burning of fossil fuels. Breathing air with a high concentration of NO2 can irritate airways in the human respiratory system. Exposures over short periods can aggravate respiratory diseases, particularly asthma, leading to respiratory symptoms (such as coughing, wheezing or difficulty breathing), hospital admissions and visits to emergency rooms. Longer exposures to elevated concentrations of NO2 may contribute to the development of asthma and potentially increase susceptibility to respiratory infections. People with asthma, as well as children and the elderly are generally at greater risk for the health effects of NO2."
+      },
+      "sulfur_dioxide": {
+        "title": "Sulfur dioxide",
+        "description": "Annual tons of sulfur dioxide absorption by trees. Sulfur dioxide is a toxic gas released by burning sulfur-containing fuels such as coal, oil, or diesel and as a byproduct of mining. Short-term exposures to SO2 can harm the human respiratory system and make breathing difficult. Continued exposure increases respiratory symptoms and affects lung function. High concentrations of SO2 in the air generally also convert to other sulfur oxides that react with other compounds to form small particles that may penetrate deeply into the lungs and in sufficient quantity can contribute to health problems. People with asthma, particularly children, are sensitive to these effects of SO2."
+      },
+      "pm25": {
+        "title": "PM2.5",
+        "description": "Annual tons of absorption of particulate matter less than 2.5 microns in size by trees. PM2.5 is a smaller size class of airborne microscopic particles that can be inhaled and deposit deeper in the lungs and even enter the bloodstream, potentially causing serious health problems."
+      },
+      "pm10": {
+        "title": "PM10",
+        "description": "Annual tons of absorption of particulate matter less than 10 microns and greater than 2.5 microns in size by trees. PM10 is a larger size class of airborne microscopic particles that can irritate your eyes, nose, and throat and can also be inhaled and deposit on airway surfaces and the upper lungs, potentially causing serious health problems. Dust from roads, farms, dry riverbeds, construction sites, and mines are types of PM10."
+      },
+      "ozone": {
+        "title": "Ozone",
+        "description": "Annual tons of ozone absorption by trees. Ozone is a greenhouse gas and air pollutant in low levels caused by combustion of fossil fuels. Ozone in the air we breathe can harm our health, especially on hot sunny days when ozone can reach unhealthy levels. Even relatively low levels of ozone can cause health effects. Depending on the level of exposure, ozone can cause coughing and sore or scratchy throat, make it more difficult to breathe deeply and vigorously and cause pain when taking a deep breath, inflame and damage the airways, make the lungs more susceptible to infection, aggravate lung diseases such as asthma, emphysema, and chronic bronchitis, and increase the frequency of asthma attacks."
+      },
+      "stormwater_runoff_prevented": {
+        "title": "Stormwater runoff prevented",
+        "description": "Annual cubic meters of reduced stormwater surface runoff (and associated pollutants) that would be absorbed by trees and no longer require management."
+      },
+      "rain_interception": {
+        "title": "Rain interception",
+        "description": "Annual cubic meters of rainfall intercepted and eventually evaporated by trees."
+      },
+      "jobs_supported": {
+        "title": "Jobs supported",
+        "description": "The estimated number of direct, indirect, and induced full-time, part-time, and seasonal jobs from investing in trees. These jobs do not carry a specific time dimension—to get the average number of jobs supported each year, the number of jobs are divided by the number of years over which the investment occurs. \n\n_Data Source: American Forests supported research based on U.S. Bureau of Economic Analysis’ Regional Input-Output Modeling System II (RIMS)_"
+      }
+    },
+    "other": {
+      "title": "Other",
+      "redlining": {
+        "title": "Redlining",
+        "description": "Neighborhood grades from the federal government's Home Owner's Loan Corporation (HOLC) developed in the 1930s that determined who should receive loans. HOLC grades ranged from “A,” the highest grade treated as low risk for mortgage lenders, to “D” the lowest grade deemed 'hazardous.' Redlining data are provided as available for many cities in the National Explorer tool.\n\n_Data Source: Mapping Inequality_"
+      },
+      "epa": {
+        "title": "EPA IRA Disadvantaged Community",
+        "description": "The EPA IRA Disadvantaged Community designation assists grantees and potential applicants to identify whether a community is disadvantaged for the purposes of implementing programs under the Inflation Reduction Act (IRA). Block groups flagged as disadvantaged (Yes) include: (1) any census tract that is included as disadvantaged in the Climate and Economic Justice Screening Tool (CEJST), (2) any census block group at or above the 90th percentile for any of EJScreen's Supplemental Indexes when compared to the nation or state, and/or (3) a geographic area within the Tribal lands category in EJScreen, specifically Alaska Native Allotments, Alaska Native Villages, American Indian Reservations, American Indian Off-reservation Trust Lands, Oklahoma Tribal Statistical Areas.\n\n_Data Source: EPA Inflation Reduction Act Disadvantaged Communities Map 2023_"
+      },
+      "shade": {
+        "title": "Shade",
+        "description": "Total percentage shade cover for each block group combines modeled building shade and modeled vegetation (tree) and other shade, where overlapping shadows are not duplicated. One-meter resolution shade was modeled at noon (minimum shade), 3 p.m. (hottest time of day), and 6 p.m. (maximum shade) using high-resolution USGS LIDAR point cloud data and Microsoft Building Footprints on June 21, the longest day of the year. Source data dates vary by location (LIDAR: 2008-2022; Buildings: 2014-2024). Available for the 101 largest urban areas.\n\n_Data Source: ULCA Luskin Center for Innovation 2023_"
+      }
+    },
+    "tesa": {
+      "title": "Tree Equity Score Analyzer",
+      "austin": {
+        "title": "TESA Austin, TX",
+        "description": "**Affordable housing**: Indicates the presence of an income-restricted affordable housing unit on a block group or parcel. _Data Source: Comprehensive Affordable Housing Directory (2023), City of Austin_\n\n**Community garden**: Indicates the presence of a community garden on a block group or parcel. _Data Source: City of Austin, Parks and Recreation Department_\n\n**Flood**: Indicates the level of flood risk (moderate to low, high, other) that intersects the parcel or right of way. _Data Source: FEMA National Flood Hazard Layer_\n\n**Low food access**: Indicates if a block group is identified to have low access to food: at least 500 people or 33 percent of the population lives farther than 1 mile (urban) or 10 miles (rural) from the nearest supermarket. _Data Source: USDA Food Access Research Atlas, 2019_\n\n**Road Emissions**: Indicates the projected 2035 combined road emissions of volatile organic compounds, nitrogen oxides, carbon dioxide, and carbon monoxide in pounds per mile for the block group. _Data Source: Capital Area Metropolitan Planning Organization (CAMPO)_\n\n**Shade**: Total percentage shade cover for each block group combines modeled building shade and modeled vegetation (tree) and other shade, where overlapping shadows are not duplicated. One-meter resolution shade was modeled at noon (minimum shade), 3 p.m. (hottest time of day), and 6 p.m. (maximum shade) using high-resolution 2022 USGS LIDAR point cloud data and Microsoft Building Footprints on June 21, the longest day of the year. _Data Source: ULCA Luskin Center for Innovation 2023_\n\n**Social vulnerability index**: Indicates the Social Vulnerability Index for the block group. Higher scores indicate higher social vulnerability. _Data Source: Climate Vulnerability in Austin: A multi-risk assessment, 2020, Austin Area Sustainability Indicators project and the Texas Metropolitan Observatory of Planet Texas 2050_\n\n**Tree planting investment index**: Indicates the index score for tree planting investments from The City of Austin Community Tree Priority Map. Higher scores indicate more investment. _Data Source: Community Tree Priority Map, 2020, City of Austin, Community Tree Preservation Division_"
+      },
+      "boston": {
+        "title": "TESA Boston",
+        "description": "**2020 Mass EJ Populations**: The Massachusetts Executive Office of Energy and Environmental Affairs defines an environmental justice population as a block group that meets one or more of the three criteria. _Data Source: MassGIS Data: 2020 Environmental Justice Populations_\n\n**Afternoon air temperature**: Air temperature derived from an AI model developed by CAPA Strategies using training data collected by volunteers driving or bicycling in the afternoon for one day in the summer of 2021.\n\n**Evening air temperature**: Air temperature derived from an AI model developed by CAPA Strategies using training data collected by volunteers driving or bicycling in the evening for one day in the summer of 2021.\n\n**Flood**: Indicates whether a parcel is public or private. _Data Source: Regrid_\n\n**Neighborhood**: Indicates which neighborhood this parcel or right-of-way mostly falls within. These are unofficial neighborhood boundaries for the City of Boston. _Data Source: MassGIS Data: Boston Neighborhoods_\n\n**Number of Mass EJ Criteria**: Indicates number of environmental justice population criteria met. Criteria defined by Massachusetts Executive Office of Energy and Environmental Affairs. _Data Source: MassGIS Data: 2020 Environmental Justice Populations_\n\n**Open Space**: Indicates parcels that may contain areas of conservation and recreation interest. _Data Source: MassGIS Data: Protected and Recreational OpenSpace_\n\n**Public Ownership**: Indicates whether a parcel is public or private. _Data Source: Regrid_"
+      },
+      "columbus": {
+        "title": "TESA Columbus & Franklin County, OH",
+        "description": "**Canopy Change**: Indicates the percent of canopy gain or loss within the block group or area. _Data Source: UVM Spatial Analysis Lab, Land Cover Change 2011-2021_\n\n**Future land use**: Future land use designation that the parcel is mostly within. Note: not all land use designations have been included. For more information, [click here](https://morpc.org/2023/wp-description/uploads/2023/01/A_LandUse.pdf). _Data Source: 2021 Vintage MORPC Land Use Data. For feedback/questions, [email here](dataandmaps@morpc.org)._\n\n**Land use**: Land use designation that the parcel is mostly within. Note: not all land use designations have been included. For more information, [click here](https://morpc.org/2023/wp-description/uploads/2023/01/A_LandUse.pdf). _Data Source: 2021 Vintage MORPC Land Use Data. For feedback/questions, [email here](dataandmaps@morpc.org)._\n\n**Public ownership type**: Indicates type of public ownership. _Data Source: Regrid 2023_"
+      },
+      "dallas": {
+        "title": "TESA Dallas, TX",
+        "description": "**EPA EJScreen**: Indicates the number of indexes at or above the 80th percentile at the state level for the census tract the blockgroup, parcel, or right-of-way segment is in. _Data Source: EJScreen, United States Environmental Protection Agency, 2023_\n\n**Neighborhood type**: Indicates the cultural typology of the neighborhood the parcel is in. _Data Source: Cultural Neighborhood Typologies, City of Dallas_\n\n**Park**: Indicates the presence of a park on a parcel. _Data Source: Dallas Parks - Polygon, City of Dallas_\n\n**School**: Indicates the presence of a public school on a parcel. _Data Source: Campus Locations (2023), Dallas ISD GIS Data Hub_\n\n**Social vulnerability index**: Indicates the overall summary ranking of the social vulnerability index of the census tract the parcel is in. Higher values indicate higher vulnerability. _Data Source: CDC/ATSDR SVI 2020, ATSDR-Center for Disease Control_\n\n**TTF Planting Priority**: Indicates the priority planting designation of the block group based on the Texas Trees Foundation Priority Planting Map. Note that the source uses 2010 US Census block group boundaries and may not always align with the TESA 2020 Census boundaries. _Data Source: Dallas Tree Equity Planting Map - Texas Trees Foundation, 2021_"
+      },
+      "dc": {
+        "title": "TESA DC region",
+        "description": "**Canopy change**: The percentage change of tree canopy between 2013/2014 and 2017/2018 in the block group, parcel, or right-of-way. _Data source: Chesapeake Bay Program One-meter Resolution Land Use/Land Cover Data_\n\n**Flood**: Indicates the level of flood risk (moderate to low, high, other) for the parcel. _Data source: FEMA National Flood Hazard Layer_\n\n**Park**: Indicates the presence of a park on the parcel. _Data source: DC: Open Data DC & National Park Service Open Data, MD: Montgomery Planning & PG Planning Open Data Portal, VA: Northern Virginia Regional Commission & National Park Service Open Data_\n\n**School**: Indicates the presence of a school on the parcel. _Data source: DC: Open Data DC, MD: MD iMAP Data Catalog, VA: Virginia Geographic Information Network_\n\n**Subwatershed**: Indicates the subwatershed the block group is in. _Data source: DC: Open Data DC, MD: MD iMAP Data Catalog, VA: Virginia Open Data Portal_"
+      },
+      "detroit": {
+        "title": "TESA Detroit",
+        "description": "**Air pollution**: A relative index of RSEI modeled toxicity-weighted concentrations in air of Toxics Release Inventory listed chemicals. _Data Source: Toxic Releases to Air (2021) - EJ Screen, US Environmental Protection Agency_\n\n**Asthma**: Indicates the percent of adults with asthma in the block group. _Data Source: PLACES: Local Data for Better Health, Census Tract Data 2023 release, Centers for Disease Control and Prevention_\n\n**Brownfield**: Indicates the presence of a brownfield on a parcel. _Data Source: Brownfields, Michigan Department of Environment, Great Lakes, and Energy_\n\n**Bus stop**: Indicates the presence of a bus stop within 50 yards of a parcel. _Data Source: DDOT Bus Stops, City of Detroit Open Data Portal_\n\n**Council District**: Indicates which council district the block group mostly falls within. _Data Source: Council Districts, City of Detroit Open Data Portal_\n\n**Land use**: Zoning/land use designation that the parcel is mostly within. _Data Source: Parcels, City of Detroit Open Data Portal_\n\n**Park**: Indicates the presence of a park on a parcel. _Data Source: Parks, 2021, Southeast Michigan Council of Governments_\n\n**Population density**: Indicates the population per square kilometer of the block group. _Data Source: American Community Survey 2017-2021, US Census Bureau_\n\n**School**: Indicates the presence of an active school on a parcel. _Data Source: Education Entity Master (EEM), Center for Educational Performance and Information (CEPI), State of Michigan_\n\n**Shade**: Total percentage shade cover for each block group combines modeled building shade and modeled vegetation (tree) and other shade, where overlapping shadows are not duplicated. One-meter resolution shade was modeled at noon (minimum shade), 3 p.m. (hottest time of day), and 6 p.m. (maximum shade) using high-resolution 2022 USGS LIDAR point cloud data and Microsoft Building Footprints on June 21, the longest day of the year. _Data Source: ULCA Luskin Center for Innovation 2023_"
+      },
+      "indianapolis": {
+        "title": "TESA Indianapolis & Marion County, IN",
+        "description": "**Air pollution**: A relative index of annual mean PM2.5 based on the weighted value of PM2.5 for each tract, tagged to block groups. _Data Source: The Polis Center (2021)_\n\n**Canopy change**: Indicates the percent of canopy gain or loss within the block group, parcel, or right-of-way. _Data Source: UVM Spatial Analysis Lab, Land Cover Change 2013-2022_\n\n**Land use**: Land use designation that the parcel is mostly within. _Data Source: Current Land Use (2022), OpenIndy_\n\n**Neighborhood**: Indicates which neighborhood this block group mostly falls within. _Data Source: Indy Neighborhoods (2022), OpenIndy_\n\n**Parks access**: Indicates the percent of parcels within 1/4 Mi. of Park or Greenway. _Data Source: SAVI Marion County Environment Profile (2019), The Polis Center_\n\n**Watershed**: The HUC12 Watershed the block group is mostly in. _Data Source: Hydrologic Unit Code 12 (2023), IndianaMap_"
+      },
+      "lincoln": {
+        "title": "TESA Lincoln Parish, LA",
+        "description": "**Flood**: Indicates the level of flood risk (moderate to low, high, other) that intersects the parcel or right of way. _Data Source: FEMA National Flood Hazard Layer_\n\n**Ruston Commercial Land Use**: Indicates whether a parcel is likely designated for current commercial land use for Ruston. _Data Source: Lincoln Parish GIS District_\n\n**Ruston Future Commercial Land Use**: Indicates whether a parcel is likely designated for future commercial land use for Ruston. _Data Source: City of Ruston_\n\n**Watershed**: The HU12 Watershed the block group is mostly in. _Data Source: USGS National Hydrography Dataset_"
+      },
+      "maricopa": {
+        "title": "TESA Maricopa County",
+        "description": "**Bus stop**: Indicates whether a bus stop is located within the parcel. _Data Source: BusStops (2023), Valley Metro GeoCenter_\n\n**Cooling center**: Indicates whether an Emergency Cooling Center is located on a parcel and which type. _Data Source: Heat Relief Network (2023), Maricopa Association of Governments_\n\n**Light rail**: Indicates whether a light rail or streetcar station is located within the block group or parcel. _Data Source: Valley Metro Light Rail Stations (2022), Valley Metro GeoCenter_\n\n**Qualified Census Tract**: Indicates whether the block group, parcel, or right-of-way is in a Qualified Census Tract (QCT). _Data Source: Qualified Census Tracts and Difficult Development Areas (2024), U.S. Department of Housing and Urban Development`s Office of Policy Development and Research (PD&R)_\n\n**School**: Indicates the presence of a school on the parcel. _Data Source: Arizona Schools (2023), Arizona Department of Education, Arizona Department of Environmental Quality and Maricopa Association of Governments_\n\n**Shade**: Total percentage shade cover for each block group combines modeled building shade and modeled vegetation (tree) and other shade, where overlapping shadows are not duplicated. One-meter resolution shade was modeled at noon (minimum shade), 3 p.m. (hottest time of day), and 6 p.m. (maximum shade) using high-resolution 2021 USGS LIDAR point cloud data and Microsoft Building Footprints on June 21, the longest day of the year. _Data Source: ULCA Luskin Center for Innovation 2023_"
+      },
+      "rhode_island": {
+        "title": "TESA Rhode Island",
+        "description": "**Afternoon air temperature**: Air temperature derived from an an AI model developed by CAPA Strategies using training data collected by researchers riding their bikes in the afternoon for one day in the summer of 2020.\n\n**Climate Related Health Risk**: High, moderate and low numbers of hospitalizations and emergency room visits for conditions that are exacerbated by a changing climate. The conditions combined in this measure include diabetes, mental health, asthma and other respiratory issues, heart and kidney diseases.\n\n**Evening air temperature**: Air temperature derived from an an AI model developed by CAPA Strategies using training data collected by researchers riding their bikes in the evening for one day in the summer of 2020.\n\n**Flood**: Indicates the level of flood risk (moderate to low, high, other) that intersects the parcel or right of way. _Data Source: Rhode Island Geographic Information System_\n\n**Health Equity Zone**: Geographic areas where existing opportunities emerge and investments are made to address differences in health outcomes. _Data Source: Rhode Island Department of Health_\n\n**Public Ownership**: Indicates whether the parcel is publicly owned. _Data Source: Corelogic_\n\n**School**: Indicates the presence of a school on the parcel. _Data Source: Rhode Island Geographic Information System_\n\n**Watershed**: Indicates the watershed the block group is in. _Data Source: Rhode Island Geographic Information System_"
+      },
+      "richmond": {
+        "title": "TESA Richmond",
+        "description": "**Afternoon air temperature**: Air temperature derived from an AI model developed by CAPA Strategies using training data collected by volunteers driving or bicycling in the afternoon for one day in the summer of 2021.\n\n**Evening air temperature**: Air temperature derived from an AI model developed by CAPA Strategies using training data collected by volunteers driving or bicycling in the evening for one day in the summer of 2021.\n\n**Flood**: Indicates the level of flood risk (moderate to low, high, other) for the parcel. _Data Source: City of Richmond, FEMA Digital Flood Insurance Rate Map_\n\n**Industrial**: Identifies parcels with industrial zoning. _Data Source: Regrid_\n\n**Park**: Indicates the presence of a park on the parcel. _Data Source: City of Richmond, Parks_\n\n**Parking lot**: Indicates the presence of a parking lot on the parcel. _Data Source: City of Richmond, Transportation Surfaces_\n\n**Places of worship**: Indicates whether a parcel contains a religious center. _Data Source: City of Richmond Office of Sustainability, Climate Equity Index, Religious Centers_\n\n**Public ownership**: Indicates whether a parcel is public or private. _Data Source: Regrid_\n\n**Rented**: Identifies parcels that may be rented (proxied by zoning and ownership data). _Data Source: Regrid_\n\n**School**: Indicates whether a parcel has a school located on it. _Data Source: City of Richmond, RPS Schools_\n\n**Sidewalk**: Indicates whether a right of way contains a sidewalk. _Data Source: City of Richmond, Transportation Surfaces_"
+      },
+      "toronto": {
+        "title": "TESA Toronto",
+        "description": "**Library**: Indicates whether the census tract contains a library or whether the right-of-way is adjacent to a library. _Data Source: City of Toronto, 2019_\n\n**Neighbourhood**: Indicates which of Toronto's 158 City-designated social planning neighbourhoods the census tracts is in, by neighbourhood name. _Data Source: City of Toronto, 2022_\n\n**Neighbourhood designation**: Designation of the neighbourhood as a Neighbourhood Improvement Area (NIA), Emerging Neighbourhood, or neither. _Data Source: City of Toronto, 2022_\n\n**Neighborhood ID**: Indicates which of Toronto's 158 City-designated social planning neighbourhoods the census tracts is in, by neighbourhood ID. _Data Source: City of Toronto, 2022_ \n\n**Neighbourhood score**: Each of Toronto's 158 City-designated social planning neighbourhoods consists of several census tracts, and is assigned a composite score from 0-100. This neighbourhood score provides a simplified assessment of overall tree distribution fairness and is aggregated from all census tract Tree Equity Scores within the neighbourhood boundary. The composite score will increase faster if census tracts with lower Tree Equity Scores are raised. _Data Source: American Forests, 2024_\n\n**School**: Indicates whether the census tract contains a school or whether the right-of-way is adjacent to a school. _Data Source: City of Toronto, 2024_\n\n**Ward**: The ward the census tract is in. _Data Source: City of Toronto, 2018_\n\n**Watershed**: The watershed the census tract is in. _Data Source: Ontario Ministry of Natural Resources and Forestry, 2023_"
+      },
+      "washington": {
+        "title": "TESA Washington",
+        "description": "**Landcover** (not including tree canopy): Ecopia Vector Land Cover w/ Canopy Overlap (2021-2022)\n\n**Park ownership type**: Indicates the presence of a park on the parcel and the type of park owner. _Data Source: Trust for Public Land, Complete U.S. ParkServe® Dataset, 2025_\n\n**School**: Indicates the presence of a school on the parcel. _Data Source: Washington State Public Schools 2024, Washington Spatial Data_\n\n**Watershed**: Indicates what watershed the block group is in. _Data Source: National Watershed Boundary Dataset (WBD): Hydrologic Unit Code 8-Digit Basins of Washington State, Washington Spatial Data_"
+      }
+    }
+  },
+  "faqs": {
+    "title": "faqs",
+    "national": {
+      "title": "National Tree Equity Score",
+      "changed_score": {
+        "title": "My score changed with the new release of Tree Equity Score. Why?",
+        "description": "The new release of Tree Equity Score may bring changes to your score, stemming from key updates to tree canopy, Census and heat data as well as methodological refinements based on feedback from users. At American Forests, our top priority is to guarantee that Tree Equity Score stays current and rooted in science, and to ensure it serves as a valuable and trusted resource to support the Tree Equity movement.\n\nData updates: \n- New tree cover from Google \n- New Landsat-derived heat disparity data \n- New 2020 Census boundaries \n- The latest American Community Survey data (including the addition of linguistic isolation to the Priority Index). \n\nWe take stakeholder feedback very seriously and methodological refinements have been implemented to ensure Tree Equity Score best meets users needs.\n\n- Refined tree canopy goals are better tailored to local urban ecologies. A higher goal can potentially lower a Tree Equity Score, and a lower goal can potentially raise a Tree Equity Score. \n- With the first release of Tree Equity Score, scores were designed for comparison within individual cities only. Now, a small methodological change makes scores meaningfully comparable across city lines. Be mindful that a score of 80, however, is by design not the same everywhere. Tree Equity Scores incorporate canopy targets that are calibrated to what's possible in the built environment. This ensures goals are fair, attainable and feasible wherever you live. As a result, comparison of a score of 80 with a high canopy target in a suburban area to a score of 80 with a more feasible canopy target in a dense urban area might require a review of more information than just the Tree Equity Score.\n- Heavily built-up areas with very low or zero population (e.g., industrial areas or commercial strips) have been assigned corrected tree canopy targets based on building density, rather than population density. By design, Tree Equity Score puts more weight on areas with residents."
+      },
+      "changed_blockgroup": {
+        "title": "My block group changed with the new release of Tree Equity Score. Why?",
+        "description": "The recently released Census 2020 introduced updated block group boundaries, which have now been integrated into the Tree Equity Score. These changes have led to instances where block groups were either combined or subdivided. As a result, Tree Equity Scores were recalculated for each of these new block groups."
+      },
+      "tes_importance": {
+        "title": "Why is Tree Equity important?",
+        "description": "Trees provide more than beauty or a comfortable place to relax. Much like schools, streets and sewer lines, trees are essential infrastructure. They are vital to public health, well-being and climate resilience in our communities.\n\n- Trees across the U.S. absorb 17.4 million tons of air pollutants, preventing 670,000 cases of asthma and other acute respiratory symptoms annually.\n- In cities nationwide, trees prevent approximately 1,200 heat-related deaths and countless heat-related illnesses annually by lowering surface and air temperatures. The ability of trees to reduce peak temperatures is significant, given that a 10-fold increase in heat-related deaths is expected in the Eastern U.S. by 2050. \n- On average, trees in the U.S. reduce energy demand for heating and cooling by 7.2%.\n- Trees are a source of income—such as jobs related to tree maintenance and making products out of reclaimed wood. For every $1 million invested in forest restoration, approximately 39 forest-related jobs are created in rural U.S. areas alone.\n   \nThe inequitable distribution of trees exacerbates social inequities. A map of tree cover is too often the inverse of a map of income and race—especially in cities. That’s because trees often are sparse in low-income neighborhoods and some neighborhoods of color, a result of systemic inequities operating through community governance and planning forces that have been underway for decades."
+      },
+      "tes_origins": {
+        "title": "Why was Tree Equity Score developed?",
+        "description": "Systemic racism, institutional barriers, and inadequate policies have led to environmental inequities in urban communities across the U.S., including disparities in access to the benefits of trees. These disparities have the most impact on communities of color, economically disadvantaged neighborhoods, and other people facing barriers, resulting in disproportionate impacts by environmental hazards such as extreme heat waves, air pollution and degraded water supply.\n\nIn an effort to address these disparities, we strive to help create Tree Equity across urban areas in the U.S. Simply put, Tree Equity is about filling gaps in tree cover so that all urban communities have the essential infrastructure to support public health, well-being and climate resilience. Tree Equity Score can be used by urban foresters, community leaders, environmental justice advocates, conservation organizations, community-based organizations and many others to help make the case for more investment in neighborhoods with the greatest need for trees, jobs and protection from the effects of climate change.\n\nWhat makes Tree Equity Score unique is that it establishes an equity-first standard to guide investment in urban tree infrastructure, starting with neighborhoods with the greatest need. Tree Equity Score provides all urban communities with the resources to get trees to those who need them the most."
+      },
+      "tes_values": {
+        "title": "What is a good Tree Equity Score?",
+        "description": "Tree Equity Score measures how well the critical benefits of urban tree canopy are reaching those who need them most. Tree Equity Score establishes an equity-first standard to guide investment in communities living on low incomes, communities of color and all those disproportionately affected by extreme heat, pollution and other environmental hazards. \n\nTree Equity Score scores all U.S. neighborhoods from 0 to 100. A score of 100 means that a neighborhood has adequate tree cover. Any score below 100 has a tree canopy need. The lower the score, the greater the need for investment. Start by prioritizing the neighborhoods with the greatest need (i.e., lower scores) in your locality in order to fit within your local budgeting needs and project objectives.\n\nAs a broad decision aid, you may refer to Tree Equity Score priority levels, which have been defined to help you interpret your Tree Equity Scores: Highest (0-69), High (70-79), Moderate (80-89), Low (90-99), None (100). You may choose to adjust the prioritization in your community based on your unique range of Tree Equity Scores and other relevant local information."
+      },
+      "data_availability": {
+        "title": "There’s no data available for my address/neighborhood/community - why is that?",
+        "description": "Tree Equity Score is a measure of tree canopy need for urban areas. The score covers all Census-defined urban areas in the United States including Hawaii and Alaska. Tree Equity Scores for Puerto Rico and the U.S. Virgin Islands are planned for release in Fall 2023. If your community falls outside of Census-defined urban areas, it is not covered by Tree Equity Score. If you are still interested bringing Tree Equity Score to your community, please contact us."
+      },
+      "data_procedence": {
+        "title": "Where does the tree canopy data come from?",
+        "description": "Tree canopy data is donated by Google and sourced from the Google Environmental Insights Explorer, in the form of high-resolution tree canopy aggregated by Census block group."
+      },
+      "canopy_goal": {
+        "title": "What’s the value of having a tree canopy goal?",
+        "description": "Tree Equity Score relies on a baseline neighborhood tree canopy goal considered appropriate to local urban ecologies. The canopy goal represents a minimum percentage of tree canopy required to deliver the requisite benefits of trees to a block group, adjusted based on natural biome (forest, Mediterranean, grassland and desert) and building density.\nThe goal provides a baseline for comparing neighborhoods to help determine where there is a greater need to invest in planting trees. Current canopy cover can be tracked as a measure of progress towards the canopy goal.\n\nTree canopy goals represent a minimum standard of tree cover for all neighborhoods that is considered appropriate to local urban ecologies and are not based on goals set by cities. It is possible for neighborhoods to exceed the baseline canopy goal—block groups with canopy cover that meets or surpasses their tree canopy goal are assigned a Tree Equity Score of 100."
+      },
+      "data_updates": {
+        "title": "How often is the data updated?",
+        "description": "Tree Equity Scores will be updated as new Census and tree canopy data is released. For data that is not available on a regular schedule, we will update as resources become available."
+      },
+      "plantable_area": {
+        "title": "How is plantable area accounted for?",
+        "description": "In the calculation of Tree Equity Score, plantable area is reflected in the tree canopy gap value, where:\n\n_gap = goal – existing tree cover_\n\nThe tree canopy gap represents the available space for planting trees. Plantable area is incorporated in the tree canopy gap value by proxy in two ways. First, existing tree cover is a percentage of total neighborhood land area (water removed). Second, the neighborhood tree canopy goal is designed to reflect the total area that could potentially be planted in a neighborhood. Tree canopy goals are adjusted to biome based on feasible tree cover targets for a forested, Mediterranean, grassland, or desert system, based on guidance by the USDA Forest Service. They are further adjusted based on building density to reflect increased built area that limits plantable area.\n"
+      },
+      "gentrification": {
+        "title": "If the score in my neighborhood increases, will that lead to gentrification or displacement?",
+        "description": "It is a common misconception that planting trees in neighborhoods causes gentrification (the influx of more affluent residents and businesses to a neighborhood) and displacement (when long-term residents move away when the cost of living—including rent and mortgage—becomes too high). Yes, there are studies noting correlations between tree planting and gentrification; however, no causal link has been established ([here’s](https://www.jmp.com/en_us/statistics-knowledge-portal/what-is-correlation/correlation-vs-causation.html) why correlation doesn’t mean causation). In their 2021 study, [Sharifi et al.](https://www.sciencedirect.com/science/article/abs/pii/S0264837721003008) conclusively found no statistical evidence that urban greening causes gentrification. In fact, it was the other way around—gentrification leads to greening. In other words, greening tends to happen in already gentrifying areas.\n\nThe bottom line? Trees do not cause gentrification—other forces do. Gentrification and displacement result from systemic inequities operating through community governance and planning forces that have been underway for decades—restrictive zoning which prohibits development of multi-family affordable housing, disparities in home lending, exclusionary covenants, and more.\n\nPlanting trees in underserved neighborhoods addresses basic human rights to health, safety, and welfare. The benefits of urban tree planting to mitigate extreme heat, air pollution, public health, and environmental hazards are well studied. In fact, it would be dangerous not to address disparities in tree cover with extreme heat and air pollution on the rise.\n\nTree Equity Scores can be used to make comprehensive and strategic investments in underserved neighborhoods—both by making the case for tree planting need AND by generating support for policies that prevent or mitigate gentrification (e.g., publicly subsidized housing, inclusionary zoning regulations; community land trusts and property tax rebates). For more strategies on how revitalization can benefit the broader community, head to the [National Community Reinvestment Coalition](https://ncrc.org/gentrification/)."
+      },
+      "tress_species": {
+        "title": "I’m looking for specific tree species recommendations for planting purposes.",
+        "description": "Great! Take a look at our [resources](https://www.treeequityscore.org/resources/) page for more information and guidance for planting trees in cities."
+      },
+      "national_local": {
+        "title": "What is the difference between TESA and Tree Equity Score National Explorer?",
+        "description": "Tree Equity Score National Explorer houses the nationwide Tree Equity Scores for all urban neighborhoods in the United States, including Hawaii, Alaska, and Puerto Rico.\n\nTree Equity Score Analyzers (TESA) are local tools for cities or regions. TESAs provide tools to help users plan trees on a property-by-property basis and see how their efforts can shift neighborhood Tree Equity Scores. TESAs provide information for every parcel and right-of-way in a city or region and provide customizable multi-site scenario planning, tree size selection, impact reporting and tracking tools."
+      },
+      "get_tesa": {
+        "title": "How do I get a Tree Equity Score Analyzer (TESA) for my city or region?",
+        "description": "Tree Equity Score Analyzer (TESA) goes a step further than the National Explorer by exploring local conditions and supporting project level-decision making; therefore, it requires more engagement and additional resources. Learn more about [TESA](https://treeequityscore.org/analyzer/).\n\nFor more information about how you can help us bring TESA to your community, please [Contact Us](https://treeequityscore.org/contact/)."
+      }
+    },
+    "local": {
+      "title": "Local Tree Equity Score Analyzers (TESA)",
+      "tesa_usage": {
+        "title": "How can I use Tree Equity Score Analyzer (TESA)?",
+        "description": "Tree Equity Score Analyzers are used by urban foresters, community-based organizations, community advocates, government officials, public health officials, land-use planners, nonprofit groups and many others. The tool provides deep-dive decision support to help make the case for investment in areas with the greatest need and plan targeted plantings, conservation efforts and engagement.\n\nUse the tool to plan and prioritize site-level projects that move the needle on neighborhood scores. Neighborhood and parcel-level information can also support users in targeting door-to-door engagement, scenario planning, writing compelling grant proposals, budgeting and strategic planning."
+      },
+      "tailored_tesa": {
+        "title": "How is the Tree Equity Score Analyzer (TESA) tailored to my city or region?",
+        "description": "Each TESA application is created in collaboration with local stakeholders who participate over a more than four month process help ensure the tool is tailored to their city or region. There are many points during the process where you can get involved, whether joining the Stakeholder Council, attending meetings and training sessions, participating in 1-on-1 interviews or submitting feedback."
+      },
+      "planting_limits": {
+        "title": "How do you know how much area you can plant?",
+        "description": "In TESA, the area you can plant on each parcel or right-of-way segment is called “potential tree canopy” and is defined as areas with low vegetation, bare soil and paved surfaces that are not roads. Buildings, roads and water are excluded. Potential tree canopy assumes one continuous plantable area total for a parcel as an estimation of the maximum area that could be fully planted. This method errs on the side of optimistic (often high) potential tree canopy estimations and site assessment is necessary for refining planting plans."
+      },
+      "layers": {
+        "title": "How do you choose the data in the layers and filters?",
+        "description": "All TESAs contain the same set of primary data, including demographic, socioeconomic and environmental measures. TESAs also contain supplemental data selected in consultation with a TESA Stakeholder Council and community members."
+      },
+      "data_updates": {
+        "title": "How often are TESAs updated with new data?",
+        "description": "American Forests makes annual updates to our Tree Equity Score applications; however, some data sources have longer update cycles and are updated when new data becomes available."
+      }
+    }
+  },
+  "data_download": {
+    "data": {
+      "title": "Data Download",
+      "description": "Download the latest raw geospatial data that powers Tree Equity Score in geospatial or spreadsheet formats. Click on a state from the list below to access download options.",
+      "note": "* All downloads were updated on December 6, 2024. Downloads now include tree canopy values for all states. You can cite these data as \"Tree Equity Score. 2023. American Forests. Last accessed [date].\""
+    },
+    "change_log": {
+      "title": "Change log",
+      "description": "- **06/02/2025:** National block group dataset updated with percent shade cover for 360+ cities, now available in data downloads. Includes noon, 3 p.m. and 6 p.m. shade cover for building shade, trees and other shade, and total shade.\n- **12/06/2024:** Data downloads for all states and national updated with tree canopy values.\n- **12/06/2024:** Data downloads updated for Arizona, Indiana, Massachusetts, Michigan, Ohio, and Texas. This update makes available for download the refined Tree Equity Scores calculated from locally available high-resolution land cover in our Tree Equity Score Analyzers for Maricopa County (AZ), Marion County (IN), Boston (MA), Detroit (MI), Franklin County (OH), Austin (TX), Dallas (TX), and Houston (TX), as well as the 12/05/2024 Tree Equity Score and Composite Locality Score update referenced below for Massachusetts and Arizona.\n- **12/05/2024:** All Tree Equity Score Analyzers migrated to new platform.\n- **12/05/2024:** Tree Equity Score Analyzer Houston releaser. National Explorer updated with refined tree canopy and Tree Equity Scores for Houston, TX based on locally available high-resolution land cover.\n- **12/05/2024:** Tree Equity Score Analyzers for Boston, DC Region, Lincoln Parish, Rhode Island and Richmond have been updated with the Tree Equity Score 08/01/2023 dataset.\n- **12/05/2024:** National Explorer updated in Massachusetts to correct an error where Tree Equity Scores were rounded instead of floored (affects 100 scores outside Boston in Massachusetts) and to update an additional 87 Tree Equity Scores in Boston after more accurate removal of water polygons resulted in refined land cover calculations. Last, Composite Locality Scores were updated for Maricopa County, Arizona only.\n- **05/22/2024:** Tree Equity Score Analyzer Dallas released. National Explorer updated with refined tree canopy and Tree Equity Scores for Dallas, TX based on locally available high-resolution land cover.\n- **05/16/2024:** Tree Equity Score Analyzer Marion County & Indianapolis updated. National Explorer updated with further refined tree canopy and Tree Equity Scores for Marion County & Indianapolis, IN based on locally available high-resolution land cover.\n- **04/11/2024:** Tree Equity Score Analyzer Austin released. National Explorer updated with refined tree canopy and Tree Equity Scores for Austin, TX based on locally available high-resolution land cover.\n- **02/28/2024:** EPA IRA Disadvantaged Communities column added to the data and filter added to the National Explorer application. Now available in data downloads as the ej_disadva column.\n- **02/28/2024:** Michigan locality data updated to use state locality data instead of U.S. Census designated places data.\n- **01/18/2024:** Tree Equity Score Analyzer Franklin County & Columbus released. National Explorer updated with refined tree canopy and Tree Equity Scores for Franklin County & Columbus, OH based on locally available high-resolution land cover.\n- **12/05/2023:** Tree Equity Score Analyzer Detroit released. National Explorer updated with refined tree canopy and Tree Equity Scores for Detroit, MI based on locally available high-resolution land cover.\n- **10/26/2023:** Tree Equity Score Analyzer Maricopa County released. National Explorer updated with refined tree canopy and Tree Equity Scores for Maricopa County, AZ based on locally available high-resolution land cover.\n- **10/18/2024:** Tree Equity Score Analyzer Marion County & Indianapolis released. National Explorer updated with refined tree canopy and Tree Equity Scores for Marion County & Indianapolis, IN based on locally available high-resolution land cover.\n- **08/01/2023:** Tree Equity Score 2023 dataset released with major updates including: new tree cover from Google (except where hi-resolution data was available from Tree Equity Score Analyzers in Boston MA, DC Region (DC, MD, VA), Richmond VA, Rhode Island, and Ruston LA), new Landsat-derived heat disparity data, new 2020 Census boundaries, 2017-2021 American Community Survey data (including the addition of linguistic isolation to the Priority Index), refined canopy goals and normalization methods."
+    }
+  },
+  "methods": {
+    "tree_equity_score": {
+      "title": "Tree Equity Score",
+      "description": "Tree Equity Score measures how well the benefits of trees are reaching communities living on low-incomes, communities of color and others disproportionately impacted by extreme heat and other environmental hazards.",
+      "points": "- Tree Equity Score is a nationwide score that highlights inequitable access to trees.\n - The score is calculated at the neighborhood (Census block group) level.\n - The score ranges from 0-100. The lower the score, the greater priority for tree planting. A score of 100 means the neighborhood has enough trees. \n - Tree Equity Score covers every urban Census block group in the United States, including Hawaii and Alaska. Data for Puerto Rico and the U.S. Virgin Islands are due for release in 2024."
+    },
+    "priority_index": {
+      "title": "Priority index",
+      "description": "The priority index helps prioritize the need for planting to achieve Tree Equity based on seven equally-weighted climate, health and socioeconomic variables that are then integrated into Tree Equity Score. A higher priority index indicates greater potential for residents to be disproportionality affected by extreme heat, pollution and other environmental hazards which could be reduced with the benefits of trees.",
+      "variables": {
+        "age": {
+          "title": "AGE",
+          "subtitle": "Dependency ratio",
+          "description": "Seniors (age 65+) and children (0-17) as a proportion of working age adults (18-64).\n\n_Data Source: American Community Survey 2017-2021_"
+        },
+        "employment": {
+          "title": "EMPLOYMENT",
+          "subtitle": "Unemployment rate",
+          "description": "Percentage of the labor force that do not have a job, are available, and looking for one.\n\n_Data Source: American Community Survey 2017-2021_"
+        },
+        "health": {
+          "title": "HEALTH",
+          "subtitle": "Health burden index",
+          "description": "Self-reported prevalence of poor mental health, poor physical health, asthma and heart disease in an equally weighted index. A higher index indicates higher reporting of poor health factors. Not available for Puerto Rico or the U.S. Virgin Islands.\n\n_Data Source: Center for Disease Control CDC PLACES 2022_"
+        },
+        "heat_severity": {
+          "title": "HEAT SEVERITY",
+          "subtitle": "Heat disparity",
+          "description": "Surface temperature is a good estimate of where excess heat is generated in urban areas. Average surface temperatures for the hottest days were estimated by extracting maximum pixel values from all Landsat 8 Surface Temperature scenes for the summer of 2022 (may include summers from earlier years for certain locations). Maximum pixel values representing the highest extremities of summer surface heat were compiled for all urban areas in the United States, then averaged by block group to create a heat extremity dataset. Heat disparity is measured by comparing average block group heat extremity with the urban area average to measure variance in heat severity across an urban area.\n\n_Data Source: USGS Earth Explorer - Landsat 8 Collection 2 Level 2 Surface Temperature_"
+        },
+        "income": {
+          "title": "INCOME",
+          "subtitle": "People in poverty",
+          "description": "Percentage of people living below 200% of the federally-designated poverty line.\n\n_Data Source: American Community Survey 2017-2021_"
+        },
+        "language": {
+          "title": "LANGUAGE",
+          "subtitle": "Linguistic isolation",
+          "description": "Percentage of households where no person age 14+ speaks only English, or no person age 14+ who speaks a language other than English speaks English \"very well.\"\n\n_Data Source: American Community Survey 2017-2021_"
+        },
+        "race": {
+          "title": "RACE",
+          "subtitle": "People of color",
+          "description": "Percentage of people that are Black or African American, American Indian or Alaska Native, Asian, Native Hawaiian or Other Pacific Islander, and includes all people classified as Hispanic by the Census Bureau.\n\n_Data Source: American Community Survey 2017-2021_"
+        }
+      }
+    },
+    "tree_canopy_benefits": {
+      "title": "Tree canopy benefits",
+      "description": "Achieving Tree Equity in cities provides numerous benefits to public health, water, air quality, climate and community wellbeing. The tree canopy benefits measures utilize the power of i-Tree Landscape and research funded by American Forests on job creation.",
+      "steps": {
+        "step1": {
+          "description": "Calculating tree benefits requires an estimation of the number of trees derived from tree canopy cover. To estimate a general number of trees associated with an increase in tree canopy, these measures utilize a basic multiplier of 600 sq-ft (55.74 sq-m) of canopy area per urban tree assuming a medium-size urban tree crown width of 25-30 ft."
+        },
+        "step2": {
+          "description": "For each of the carbon, water and air measures, a county-specific multiplier provided by i-Tree is multiplied by the proposed additional canopy cover area in each block group. For more information the methods used to determine these multipliers, see [Summary of i-Tree Programs and methods](https://www.fs.usda.gov/research/treesearch/63636)."
+        },
+        "step3": {
+          "description": "Carbon sequestration conversions are sourced from the U.S. EPA The Greenhouse Gas Equivalencies calculator. PM2.5 pollution conversions are sourced from i-Tree Landscape."
+        }
+      }
+    },
+    "jobs_supported": {
+      "title": "Jobs supported",
+      "description": "Tree Equity is a job producer and sustainer. American Forests supported research that used the U.S. Bureau of Economic Analysis' Regional Input-Output Modeling System II (RIMS) to estimate the direct, indirect and induced jobs from investing in urban forestry. These calculations rely on the following estimates and calculations:",
+      "points": "- For every $1 million invested in the urban forest, 25.7 jobs will be supported\n - It costs, on average, $283 to plant an urban tree\n - Jobs estimated include full-time, part-time and seasonal jobs—they are NOT full-time equivalent jobs\n - These jobs do not carry a specific time dimension—to get the average number of jobs supported each year, the number of jobs are divided by the number of years over which the investment occurs."
+    },
+    "detailed_methods": {
+      "title": "Detailed methods",
+      "steps": {
+        "step1": {
+          "title": "Calculate neighborhood tree canopy goals",
+          "description": "Neighborhood (block group) tree canopy goals estimate the percent tree canopy required to deliver a minimum standard of tree cover to a block group. Goals are canopy targets based on natural biome baselines then adjusted based on building density, as buildings limit plantable space.",
+          "substeps": {
+            "1a": {
+              "title": "Natural biome baseline canopy targets were selected with guidance from the USDA Forest Service and feedback from stakeholders:",
+              "points": "- Forest: 40%\n - Grassland: 20%\n - Mediterranean: 20%\n - Desert: 15%"
+            },
+            "1b": {
+              "title": "Building density (%) was calculated from Microsoft Building footprints. OpenStreetMap Buildings footprints were used to fill in gaps for just ~150 block groups that were missing data."
+            },
+            "1c": {
+              "title": "Baseline canopy targets were adjusted according to the slope of the trend line between building density and tree canopy in each biome. Adjustment factors are in increments of 0.25 and were applied as follows:",
+              "points": "- The forest and Mediterranean biomes had the steepest trend lines and thus three adjustment points.\n - The grassland biome had a more moderate slope and two adjustment points. Building densities below 20% were assigned a single adjustment factor.\n - The desert biome, which has a nearly flat slope and no clear relationship between the two variables, was not adjusted by building density."
+            },
+            "1d": {
+              "title": "The formula for each neighborhood goal, GOAL, is as follows:",
+              "formula": "GOAL = Baseline target * Building density adjustment factor"
+            },
+            "1e": {
+              "title": "The adjusted goals, GOAL, are shown in tree canopy (%) below:",
+              "note": "*Goals are in percent tree canopy. Adjustment factor in brackets"
+            }
+          }
+        },
+        "step2": {
+          "title": "Calculate existing tree canopy cover",
+          "substeps": {
+            "2a": {
+              "title": "Tree canopy cover, AREA<sub>trees</sub>, is derived from pre-aggregated Google high-resolution tree canopy sourced from Google Environmental Insights Explorer. This is substituted by local high-resolution tree canopy in cities that have Tree Equity Score Analyzers. Tree canopy cover percent is calculated as follows, where:",
+              "points": "AREA<sub>land</sub> is the land area of the block group, not including water area.",
+              "formula": "TREE CANOPY COVER % = AREA<sub>trees</sub> / AREA<sub>land</sub> * 100"
+            }
+          }
+        },
+        "step3": {
+          "title": "Calculate tree canopy cover gap",
+          "description": "Compute the percent area of a block group that could be planted to reach the neighborhood tree canopy goal.",
+          "substeps": {
+            "3a": {
+              "title": "The neighborhood tree canopy gap, GAP, is calculated by subtracting the percent existing neighborhood canopy, EC, from the density adjusted Tree Canopy Goal, GOAL (%):",
+              "formula": "GAP = GOAL - EC"
+            }
+          }
+        },
+        "step4": {
+          "title": "Calculate heat extremity and heat disparity",
+          "description": "Surface temperature is a good estimate of where excess heat is generated in urban areas.",
+          "substeps": {
+            "4a": {
+              "title": "All Landsat 8 Collection 2 Level 2 Surface Temperature scenes from the summer of 2022 that intersect urban areas were compiled (may include summers from earlier years for locations with less data)."
+            },
+            "4b": {
+              "title": "All scenes that fell within the same path and row in the [Worldwide Reference System](https://www.usgs.gov/faqs/what-worldwide-reference-system-wrs) were merged and the maximum temperature value for each pixel selected. Maximum pixel values were extracted to represent the highest extremities of surface heat for all urban areas in the United States."
+            },
+            "4c": {
+              "title": "Block group and urban area averages were calculated from the heat extremity dataset, excluding water area. If not enough data were available for a block group, the block group was set to the urban area average."
+            },
+            "4d": {
+              "title": "For each block group, the difference from the urban area average measures how much each block group fell above and below the urban area mean. This produces a measure of heat disparity, TEMP<sub>diff</sub>, where:",
+              "point1": "TEMP<sub>bg,ave</sub> is the block group average of all maximum pixel values for summer surface temperature",
+              "point2": "TEMP<sub>ua,ave</sub> is the urban area average of all maximum pixel values for summer surface temperature",
+              "formula": "TEMP<sub>diff</sub> = TEMP<sub>bg,ave</sub> - TEMP<sub>ua,ave</sub>",
+              "note": "Positive values indicate hotter than average block groups, and negative values indicate cooler than average block groups. Block groups set to the urban area average due to lack of data result in a heat disparity value of zero."
+            }
+          }
+        },
+        "step5": {
+          "title": "Calculate the priority index",
+          "description": "The Priority Index helps prioritize the need for planting to achieve Tree Equity based on climate, health and socio-economic variables.",
+          "substeps": {
+            "5a": {
+              "title": "The index comprises seven equally-weighted indicators:",
+              "points": "- Age: Dependency ratio of seniors (65+) and children (0 - 17) to working-age adults.\n - Employment: Unemployment rate.\n - Health burden: Prevalence of poor mental, physical, respiratory and cardiac health.\n - Income: Percentage of population below 200% of the poverty line.\n - Linguistic isolation: Percentage of households where no person age 14+ speaks only English, or no person age 14+ who speaks a language other than English speaks English \"very well.\"\n - Race: Percentage of people that are Black or African American, American Indian or Alaska Native, Asian, Native Hawaiian or Other Pacific Islander, and includes all people classified as Hispanic by the Census Bureau.\n - Heat extremity: A measure of urban heat severity, based on the highest extremities of 2022 summer surface temperatures averaged by block group."
+            },
+            "5b": {
+              "title": "The indices, N, are normalized as follows, where, for each indicator, N<sub>i</sub>:",
+              "point1": "x<sub>i</sub> is the value for that neighborhood for that indicator, i;",
+              "point2": "x<sub>i,max</sub> is the maximum value for that indicator across each urban area*, i; and",
+              "point3": "x<sub>i,min</sub> is the minimum value for that indicator across each urban area*, i.",
+              "formula": "N<sub>i</sub> = (x<sub>i</sub> - x<sub>i,min</sub> ) / (x<sub>i,max</sub> - x<sub>i,min</sub>)",
+              "note": "*All urban areas <10,000 were grouped within each state and treated as a single urban area. Any urban areas crossing state lines were split and treated as separate urban areas in each state."
+            },
+            "5c": {
+              "title": "The indices are then combined to create a simple priority index from 0.1 to 1, where 1 indicates greater priority. The Priority Index, E, is calculated as follows, where N<sub>i</sub> refers to each indicator value:",
+              "formula": "E = 0.1 + (1 - 0.1) * (N<sub>1</sub> + N<sub>2</sub> + N<sub>3</sub> + N<sub>4</sub> + N<sub>5</sub> + N<sub>6</sub> + N<sub>7</sub>) / 7"
+            }
+          }
+        },
+        "step6": {
+          "title": "Calculate Tree Equity Scores",
+          "description": "Tree Equity Scores range from 0 to 100. A lower Tree Equity Score indicates a greater priority for tree planting and protection. A score of 100 means the block group meets or surpasses the canopy goal for that block group.",
+          "substeps": {
+            "6a": {
+              "title": "The canopy gap is normalized to a score from 0-100 for each urban area as follows, where:",
+              "point1": "GAP<sub>max</sub> is the maximum GAP value for that indicator across each urban area*",
+              "point2": "If the GAP is negative (i.e., existing canopy is greater than the neighborhood goal), it is adjusted to 0 before normalizing to calculate GAP<sub>score</sub>.",
+              "point3": "If GAP<sub>max</sub> = 0, then GAP<sub>score</sub> is set to 0 as well.",
+              "formula": "GAP<sub>score</sub> = GAP / GAP<sub>max</sub>",
+              "note": "*All urban areas <10,000 were grouped within each state and treated as a single urban area. Any urban areas crossing state lines were split and treated as separate urban areas in each state."
+            },
+            "6b": {
+              "title": "Tree Equity Score, TES, is calculated by multiplying the Gap_score by the Priority Index, E:",
+              "formula": "TES = 100 (1 - GAP<sub>score</sub> * E)"
+            }
+          }
+        },
+        "step7": {
+          "title": "Calculate composite scores (for localities)",
+          "description": "Composite scores provide an overall assessment of Tree Equity in a locality (city, town, village or other). A city's score depends on (1) the average of Tree Equity Scores in neighborhoods scoring below 100, and (2) the priority index of neighborhoods that already score 100. For neighborhoods scoring 100, the higher the priority of the neighborhood, the higher the composite score—an indicator that Tree Equity has been achieved in areas with greater need. Localities can raise their composite score faster by working first in areas with low scores and greater need.",
+          "substeps": {
+            "7a": {
+              "title": "Compute composite scores, where:",
+              "point1": "TES<sub>&lt;100</sub> is a Tree Equity Score below 100",
+              "point2": "E<sub>100</sub> is a priority index for a Tree Equity Score of 100.",
+              "formula": "Composite Score = (Sum(TES<sub>&lt;100</sub>) + (Sum(E<sub>100</sub>) * 100)) / (# of TES<sub>&lt;100</sub> + Sum(E<sub>100</sub>))"
+            }
+          }
+        }
+      }
+    }
+  }
+}

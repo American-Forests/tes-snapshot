@@ -1,0 +1,135 @@
+[webserver]
+port = ":9090"
+
+  [webserver.headers]
+  Access-Control-Allow-Origin = "*"
+
+[[providers]]
+name = "postgis"
+type = "postgis"
+host = "localhost"
+port = 5432
+database = "${PGDATABASE}"
+user = "${PGUSER}"
+password = "${PGPASSWORD}"
+srid = 4326
+
+  [[providers.layers]]
+  name = "neighborhood_like"
+  tablename = "\"NeighborhoodLike\""
+  id_fieldname = 'gid'
+  sql = """
+  SELECT
+    gid,
+    id,
+    tree_equity_score,
+    tree_canopy,
+    tree_canopy_gap,
+    priority_indicator,
+    peat,
+    income_rank,
+    income_rank_decile,
+    employment_rank,
+    employment_rank_decile,
+    health_rank,
+    health_rank_decile,
+    temperature_difference,
+    pm25_normalized,
+    pm25_average,
+    no2_normalized,
+    no2_average,
+    dependent_proportion,
+    minority_ethnic_group_proportion,
+    country_id,
+    type,
+    ST_AsBinary(geom) AS geom
+  FROM "NeighborhoodLike"
+  WHERE geom && !BBOX!
+  """
+  srid = 4326
+
+  [[providers.layers]]
+  name = "locality_like"
+  tablename = "\"LocalityLike\""
+  id_fieldname = 'gid'
+  sql = """
+  SELECT
+    gid,
+    id,
+    name,
+    tree_equity_score,
+    country,
+    ST_AsBinary(geom) AS geom
+    FROM "LocalityLike"
+    WHERE geom && !BBOX!
+  """
+  srid = 4326
+
+  [[providers.layers]]
+  name = "aggregated_locality_like"
+  tablename = "\"LocalityLike\""
+  id_fieldname = 'gid'
+  sql = """
+  SELECT
+    gid,
+    id,
+    name,
+    country,
+    ST_AsBinary(geom) AS geom
+    FROM "LocalityLike"
+    WHERE geom && !BBOX!
+  """
+  srid = 4326
+
+  [[providers.layers]]
+  name = "peat"
+  tablename = "\"Peat\""
+  id_fieldname = 'gid'
+  srid = 4326
+
+  [[providers.layers]]
+  name = "urban_area"
+  tablename = "\"UrbanArea\""
+  id_fieldname = 'gid'
+  srid = 4326
+
+[[maps]]
+name = "neighborhood_like"
+  [[maps.layers]]
+  name = "data"
+  provider_layer = "postgis.neighborhood_like"
+  min_zoom = 10
+  max_zoom = 20
+
+[[maps]]
+name = "locality_like"
+  [[maps.layers]]
+  name = "data"
+  provider_layer = "postgis.locality_like"
+  min_zoom = 8
+  max_zoom = 20
+
+[[maps]]
+name = "aggregated_locality_like"
+  [[maps.layers]]
+  name = "data"
+  provider_layer = "postgis.aggregated_locality_like"
+  min_zoom = 0
+  max_zoom = 8
+
+[[maps]]
+name = "peat"
+  [[maps.layers]]
+  name = "data"
+  provider_layer = "postgis.peat"
+  min_zoom = 10
+  max_zoom = 30
+
+[[maps]]
+name = "urban_area"
+  [[maps.layers]]
+  name = "data"
+  provider_layer = "postgis.urban_area"
+  min_zoom = 10
+  max_zoom = 30
+

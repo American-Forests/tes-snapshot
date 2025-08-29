@@ -1,0 +1,17 @@
+{
+    "minZoom": 15,
+    "maxZoom": 16,
+    "columnSubset": [
+        "id",
+        "type",
+        "tree_canopy",
+        "potential_tree_canopy",
+        "blockgroupId",
+        "potential_vegetation",
+        "potential_paved",
+        "unsuitable_surface",
+        "impervious_surface",
+        "address",
+        "area"
+    ]
+}

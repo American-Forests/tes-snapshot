@@ -1,0 +1,366 @@
+{
+  "benefits": {
+    "co2": {
+      "name": "carbon sequestered",
+      "hint": "The atmospheric carbon dioxide captured and stored by these trees, measured in annual tons. Conversion sourced from i-Tree Landscape.",
+      "torontoHint": "The atmospheric carbon dioxide captured and stored by trees, measured in annual tonnes. Conversion sourced from 2018 Toronto Canopy Study."
+    },
+    "co2_car_offset": {
+      "name": "Carbon sequestered equal to:",
+      "unit": "gas-powered cars offset",
+      "hint": "Annual offset of greenhouse gas emissions by gasoline-powered passenger vehicles (2-axle, 4-tire vehicles), such as passenger cars, vans, pickup trucks and sport/utility vehicles. Conversion defined by the U.S. EPA Greenhouse Gas Equivalencies calculator.",
+      "torontoHint": "Annual offset of carbon dioxide emissions by gasoline-powered passenger vehicles (2-axle, 4-tire vehicles), such as passenger cars, vans, pickup trucks, and sport/utility vehicles. Conversion sourced from Natural Resources Canada Greenhouse Gas Equivalencies Calculator."
+    },
+    "co2_home_offset": {
+      "name": "Carbon sequestered equal to:",
+      "unit": "homes' energy use offset",
+      "hint": "Total home electricity, natural gas, distillate fuel oil, and liquefied petroleum gas consumption figures converted to metric tons of carbon dioxide. Conversion defined by the U.S. EPA The Greenhouse Gas Equivalencies calculator.",
+      "torontoHint": "Annual offset of carbon dioxide emissions by the average energy use of a home in Canada. Conversion sourced from Natural Resources Canada Greenhouse Gas Equivalencies Calculator."
+    },
+    "runoff_avoided": {
+      "name": "Stormwater Runoff Prevented",
+      "hint": "Annual amount stormwater surface runoff (and associated pollutants) that are absorbed by these trees and do not require management. Conversion sourced from i-Tree Landscape.",
+      "torontoHint": "Annual litres of reduced stormwater surface runoff (and associated pollutants) that would be absorbed by trees and no longer require management. Conversion sourced from 2018 Toronto Canopy Study."
+    },
+    "runoff_pools_avoided": {
+      "name": "Stormwater Runoff equal to:",
+      "unit": "standard swimming pools",
+      "canadianUnit": "rain barrels",
+      "hint": "Annual prevented stormwater runoff converted into standard swimming pools. Based on a 20,000-gallon standard swimming pool.",
+      "torontoHint": "Annual litres of reduced stormwater surface runoff (and associated pollutants) converted into standard rain barrels. Conversion sourced from 2018 Toronto Canopy Study."
+    },
+    "rain_int": {
+      "name": "Rainfall Intercepted",
+      "hint": "Annual amount of rainfall intercepted and eventually evaporated by these trees. Conversion sourced from i-Tree Landscape."
+    },
+    "pm25": {
+      "name": "PM2.5 Pollution Removed",
+      "hint": "Annual weight in tons of absorption of particulate matter less than 2.5 microns in size by these trees (smaller quantities displayed in lbs). PM2.5 is a smaller size class of airborne microscopic particles that can be inhaled and deposit deeper in the lungs and even enter the bloodstream, potentially causing serious health problems. Conversion sourced from i-Tree Landscape.",
+      "torontoHint": "Annual tonnes/kilograms of absorption of particulate matter less than 2.5 microns in size by trees. PM2.5 is a smaller size class of airborne microscopic particles that can be inhaled and deposit deeper in the lungs and even enter the bloodstream, potentially causing serious health problems. Conversion sourced from the 2018 Toronto Canopy Study."
+    },
+    "pm25_car_offset": {
+      "name": "PM2.5 Pollution equal to:",
+      "unit": "gas-powered cars offset",
+      "hint": "Annual offset of particulate matter less than 2.5 microns in size produced by automobiles. Conversion sourced from i-Tree Landscape.",
+      "torontoHint": "Annual offset of particulate matter less than 2.5 microns in size produced by automobiles. Conversion sourced from Canada's Air Pollutant Emissions Inventory 2021"
+    },
+    "no2": {
+      "name": "Nitrogen Dioxide Removed",
+      "hint": "Annual tons of nitrogen dioxide absorption by these trees (smaller quantities displayed in lbs). Nitrogen dioxide is an air pollutant, the most prominent source coming from the burning of fossil fuels. Breathing air with a high concentration of nitrogen dioxide can irritate airways in the human respiratory system. Exposures over short periods can aggravate respiratory diseases, particularly asthma, leading to respiratory symptoms (such as coughing, wheezing or difficulty breathing), hospital admissions and visits to emergency rooms. Longer exposures to elevated concentrations of nitrogen dioxide may contribute to the development of asthma and potentially increase susceptibility to respiratory infections. People with asthma, as well as children and the elderly are generally at greater risk for the health effects of nitrogen dioxide. Conversion sourced from i-Tree Landscape.",
+      "torontoHint": "Annual tonnes/kilograms of nitrogen dioxide absorption by trees. Nitrogen dioxide is an air pollutant, the most prominent source coming from the burning of fossil fuels. Breathing air with a high concentration of NO2 can irritate airways in the human respiratory system. Exposures over short periods can aggravate respiratory diseases, particularly asthma, leading to respiratory symptoms (such as coughing, wheezing or difficulty breathing), hospital admissions and visits to accident & emergency. Longer exposures to elevated concentrations of NO2 may contribute to the development of asthma and potentially increase susceptibility to respiratory infections. People with asthma, as well as children and the elderly are generally at greater risk for the health effects of NO2. Conversion sourced from the 2018 Toronto Canopy Study."
+    },
+    "so2": {
+      "name": "Sulfur Dioxide Removed",
+      "hint": "Annual tons of sulfur dioxide absorption by these trees (smaller quantities displayed in lbs). Sulfur dioxide is a toxic gas released by burning sulfur-containing fuels such as coal, oil, or diesel and as a byproduct of mining. Short-term exposures to sulfur dioxide can harm the human respiratory system and make breathing difficult. Continued exposure increases respiratory symptoms and affects lung function. High concentrations of sulfur dioxide in the air generally also convert to other sulfur oxides that react with other compounds to form small particles that may penetrate deeply into the lungs and in sufficient quantity can contribute to health problems. People with asthma, particularly children, are sensitive to these effects of sulfur dioxide. Conversion sourced from i-Tree Landscape.",
+      "torontoHint": "Annual tonnes/kilograms of sulphur dioxide absorption by trees. Sulphur dioxide is a toxic gas released by burning sulphur-containing fuels such as coal, oil, or diesel and as a byproduct of mining. Short-term exposures to SO2 can harm the human respiratory system and make breathing difficult. Continued exposure increases respiratory symptoms and affects lung function. High concentrations of SO2 in the air generally also convert to other sulphur oxides that react with other compounds to form small particles that may penetrate deeply into the lungs and in sufficient quantity can contribute to health problems. People with asthma, particularly children, are sensitive to these effects of SO2. Conversion sourced from the 2018 Toronto Canopy Study."
+    },
+    "pm10": {
+      "name": "PM10* Pollution Removed",
+      "hint": "Annual tons of absorption of particulate matter less than 10 microns and greater than 2.5 microns in size by these these trees (smaller quantities displayed in lbs). PM10 is a larger size class of airborne microscopic particles that can be inhaled and deposit on airway surfaces and the upper lungs, potentially causing serious health problems. Conversion sourced from i-Tree Landscape."
+    },
+    "ozone": {
+      "name": "Ozone Removed",
+      "hint": "Annual tons of ozone absorption by these trees (smaller quantities displayed in lbs). Ozone is a greenhouse gas and air pollutant in low levels caused by combustion of fossil fuels. Ozone in the air we breathe can harm our health, especially on hot sunny days when ozone can reach unhealthy levels. Even relatively low levels of ozone can cause health effects. Depending on the level of exposure, ozone can cause coughing and sore or scratchy throat, make it more difficult to breathe deeply and vigorously and cause pain when taking a deep breath, inflame and damage the airways, make the lungs more susceptible to infection, aggravate lung diseases such as asthma, emphysema, and chronic bronchitis, and increase the frequency of asthma attacks. Conversion sourced from i-Tree Landscape.",
+      "torontoHint": "Annual tonnes/kilograms of ozone absorption by trees. Ozone is a greenhouse gas and air pollutant in low levels caused by combustion of fossil fuels. Ozone in the air we breathe can harm our health, especially on hot sunny days when ozone can reach unhealthy levels. Even relatively low levels of ozone can cause health effects. Depending on the level of exposure, ozone can cause coughing and sore or scratchy throat, make it more difficult to breathe deeply and vigorously and cause pain when taking a deep breath, inflame and damage the airways, make the lungs more susceptible to infection, aggravate lung diseases such as asthma, emphysema, and chronic bronchitis, and increase the frequency of asthma attacks. Conversion sourced from the 2018 Toronto Tree Canopy Study."
+    },
+    "sources": "Sources: i-Tree Landscape, Google Environmental Insights Explorer Tree Canopy, American Forests. For more details, see our methodology."
+  },
+  "top-stats": {
+    "title": "Estimated total annual benefits",
+    "new_canopy": "New Canopy",
+    "existing_canopy": "Existing + New Canopy",
+    "tree_target": {
+      "hint": "Setting a Tree Equity Score target approximates the canopy expansion needed to bring any block groups below your target score up to that target score. Canopy area is roughly translated to number of trees based on a 600sq-ft tree (a standard medium-sized tree). Estimated total annual benefits are tabulated based on the total targeted trees for all block groups, using multipliers applied to canopy values. If you customized the number of trees when setting a target for any block group, the targeted trees total and benefits estimation will reflect your custom inputs."
+    },
+    "new_canopy_added": {
+      "hint": "The footprint of new canopy cover needed to bring any block groups below the target score up to the target score.",
+      "title": "New Canopy Cover Added"
+    },
+    "ecosystem_value": {
+      "hint": "Total annual economic benefit (monetary value) for all of the ecosystem services, including all carbon, air and water benefits provided by trees. Conversion sourced from i-Tree Landscape.",
+      "title": "Annual Ecosystem Service Value"
+    },
+    "jobs_supported": {
+      "hint": "The estimated number of direct, indirect, and induced full-time, part-time, and seasonal jobs from investing in these trees. These jobs do not carry a specific time dimension—to get the average number of jobs supported each year, the number of jobs are divided by the number of years over which the investment occurs. Conversion from American Forests supported research that used the U.S. Bureau of Economic Analysis' Regional Input-Output Modeling System II (RIMS).",
+      "title": "Jobs Supported"
+    },
+    "composite_score": {
+      "hint": "Each Census-designated locality (e.g., a town, city, village or borough) is assigned a composite score from 0-100, which provides a simplified assessment of overall tree distribution fairness. The score for each locality is aggregated from all block group Tree Equity Scores within the Census-defined boundaries of that locality. The composite score will increase faster if block group with lower Tree Equity Scores are raised.",
+      "title": "New Composite Locality Score"
+    },
+    "trees_per_person": {
+      "hint": "How many trees does each person have? An estimate of the number trees relative to the number of people. Translates the canopy cover to an estimated number of medium-sized (600sq-ft) trees, divided by the total urban population. Total canopy cover is the sum of all existing canopy plus any new canopy expansion needed to bring any block groups below the target score up to the target score.",
+      "title": "Trees per Person"
+    },
+    "localities_impacted": {
+      "hint": "The number of localities containing block groups that need trees based on the slider target.",
+      "title": "Number of Localities Impacted"
+    },
+    "total_canopy": {
+      "hint": "The total footprint of tree cover, including existing canopy plus any new canopy cover needed to bring any block groups below the target score up to the target score. Set the slider to zero to see the existing canopy cover alone. Adjust the slider to increase the total canopy cover.",
+      "title": "Total Canopy Cover"
+    },
+    "annual_ecosystem_service_value": {
+      "hint": "Total annual economic benefit (monetary value) for all of the ecosystem services, including all carbon, air and water benefits provided by trees. Conversion sourced from i-Tree Landscape.",
+      "title": "Annual Ecosystem Service Value"
+    }
+  },
+  "finder": {
+    "intro": "Location Insights are a powerful, fully interactive toolkit to help you take your fact-finding, advocacy and planning to the next level. Uncover tree canopy disparities and access key data points to make your case. Use planning tools to evaluate current tree cover, estimate tree planting needs and compute the benefits that can be gained by raising Tree Equity Scores.",
+    "scale_info": "Location Insights are available at four administrative scales: Locality (e.g., a town, city or village), County, Congressional District and State.",
+    "location_prompt": "Find a location...",
+    "map_selection": "From map selection:",
+    "map_instructions": "Click on the map to see the reports available for the selected location.",
+    "looking_elsewhere": "Looking for somewhere else?",
+    "search_all": "Search all reports",
+    "related_geographies": "Related geographies"
+  },
+  "intro": {
+    "button": "Location Insights",
+    "description": "Location Insights are a powerful, fully interactive toolkit to help you take your fact-finding, advocacy and planning to the next level. Uncover tree canopy disparities and access key data points to make your case. Use planning tools to evaluate current tree cover, estimate tree planting needs and compute the benefits that can be gained by raising Tree Equity Scores.",
+    "scale_info": "Location Insights are available at four administrative scales: Locality (e.g., a town, city or village), County, Congressional District and State."
+  },
+  "search": {
+    "find_locality": "Find a locality, county or state",
+    "find_congressional": "Find a congressional district report",
+    "enter_location": "Enter a location",
+    "select_state": "Select a state",
+    "select_locality": "Select a locality",
+    "district_help": "Not sure which district you're in?",
+    "district_instructions": "Return to the map to search your address. Then click on your block group to find your district.",
+    "back_to_map": "Back to map"
+  },
+  "header": {
+    "title": "Tree Equity Score Location Insights",
+    "url_copied": "Report URL copied!",
+    "change_location": "Change location",
+    "related_geographies": "Related geographies"
+  },
+  "overview": {
+    "title": "Overview",
+    "achieving_equity": "Achieving Tree Equity",
+    "distribution_scores": "Distribution of Scores",
+    "summary": "Summary",
+    "tree_equity_explanation": "Expanding the urban canopy by <1>{{canopyExpansion}} square miles</1> (roughly {{neededTrees}} trees) and maintaining the existing canopy would bring every urban neighborhood in <5>{{locationName}}</5> to a Tree Equity Score of 100."
+  },
+  "summary": {
+    "tree_equity_score": {
+      "displayText": "Tree Equity Score",
+      "explanation": "Tree Equity Score helps cities assess how well they are delivering equitable tree canopy cover to all residents. The score is derived from tree canopy cover, climate, demographic and socioeconomic data. Scores range from 0-100. The lower the score, the greater priority for tree planting. A score of 100 means the neighborhood has met tree planting goals. For localities, a composite score is calculated to provide a simplified assessment of overall tree distribution fairness across all block groups. The composite score ranges from 0-100. A locality's score depends on (1) the average of Tree Equity Scores in block groups scoring below 100, and (2) the Priority Index of block groups that already score 100."
+    },
+    "trees_needed": {
+      "displayText": "Trees needed",
+      "explanation": "The approximate minimum new canopy expansion needed to bring each block group to a Tree Equity Score of 100, displayed in equivalent number of trees needed based on a 600sq-ft tree (a standard medium-sized tree)."
+    },
+    "urban_area_population": {
+      "displayText": "Urban area population",
+      "explanation": "The total sum of the population of all urban Census blocks within all Census block groups (blocks are smaller units that make up block groups). Many block groups included in Tree Equity Score are fully urban; however, Tree Equity Score also includes many block groups that fall along the edge of the urban boundary have a mix of urban and non-urban blocks. When estimating the total population for a location, the population of non-urban blocks is excluded. It is important to note that the priority indicator percentages are based on the American Community Survey 2017-2021 estimates for the entire block group population - both urban and non-urban. Data Source: Census 2020."
+    },
+    "tree_canopy_cover": {
+      "displayText": "Tree canopy cover",
+      "explanation": "Existing canopy cover is sourced from Google's Environmental Insights Explorer. Google uses machine learning to analyze imagery captured in various years with ~7-20cm resolution. There may be slight differences from other available tree canopy data sources and the Mapbox satellite imagery visible in Tree Equity Score.",
+      "blockgroupHint": "This block group has {{value}}% tree canopy cover and is in the {{percentile}} percentile in {{title}}."
+    },
+    "children": {
+      "displayText": "Children (0-17)",
+      "explanation": "Percentage of people who are ages 0-17.",
+      "blockgroupHint": "This block group has {{value}}% children and seniors and is in the {{percentile}} percentile in {{title}}."
+    },
+    "seniors": {
+      "displayText": "Seniors (65+)",
+      "explanation": "Percentage of people who are aged 65 years or older."
+    },
+    "health_burden": {
+      "displayText": "Average health burden index",
+      "explanation": "Self-reported prevalence of poor mental health, poor physical health, asthma and heart disease in an equally weighted index. A higher index indicates higher reporting of poor health factors. Data Source: Center for Disease Control CDC PLACES 2022.",
+      "blockgroupHint": "This block group has a health burden index of {{value}} out of 100 and is in the {{percentile}} percentile in {{title}}."
+    },
+    "neighborhoods_below": {
+      "displayText": "Neighborhoods below 100",
+      "explanation": "The percentage of all block groups that have a Tree Equity Score below 100. Any Tree Equity Score below 100 indicates a deficit in tree canopy cover. The lower the score, the greater the priority for investment in activities related to urban and community forestry. Tree Equity Score leverages nationwide social, health and climate data to measure priority."
+    },
+    "people_of_color": {
+      "displayText": "People of color",
+      "explanation": "Percentage of people who are Black or African American, Native or Indigenous American, Asian, Native Hawaiian, Other Pacific Islander, or Two or More Races and includes all people classified as Hispanic or Latino by the Census Bureau. Data Source: American Community Survey 2017-2021.",
+      "blockgroupHint": "This block group has {{value}}% people of color and is in the {{percentile}} percentile in {{title}}."
+    },
+    "people_in_poverty": {
+      "displayText": "People in poverty",
+      "explanation": "Percentage of people living below 200% of the federally-designated poverty line. Data Source: American Community Survey 2017-2021.",
+      "blockgroupHint": "This block group has {{value}}% people in poverty and is in the {{percentile}} percentile in {{title}}."
+    },
+    "unemployment": {
+      "displayText": "Unemployment",
+      "explanation": "Percentage of the labor force that do not have a job, are available, and looking for one. Data Source: American Community Survey 2017-2021.",
+      "blockgroupHint": "This block group has {{value}}% unemployment and is in the {{percentile}} percentile in {{title}}."
+    },
+    "linguistic_isolation": {
+      "displayText": "Linguistic isolation",
+      "explanation": "Percentage of households where no person age 14+ speaks only English, or no person age 14+ who speaks a language other than English speaks English 'very well.' Data Source: American Community Survey 2017-2021.",
+      "blockgroupHint": "This block group has a linguistic isolation of {{value}}% and is in the {{percentile}} percentile in {{title}}."
+    },
+    "heat_disparity": {
+      "displayText": "Heat disparity",
+      "explanation": "Maximum pixel values representing the highest extremities of 2022 summer surface heat were compiled for all urban areas in the United States, then averaged by block group to create a heat extremity dataset. Heat disparity is measured by comparing average block group heat extremity with the urban area average to measure variance in heat severity across an urban area. Data Source: USGS Earth Explorer - Landsat 8 Collection 2 Level 2 Surface Temperature.",
+      "blockgroupHint": "This block group has a heat disparity of {{value}}°F and is in the {{percentile}} percentile in {{title}}."
+    },
+    "children_and_seniors": {
+      "displayText": "Children and seniors",
+      "explanation": "Percentage of people who are ages 0-17 (children) and ages 65+ (seniors). Data Source: American Community Survey 2017-2021.",
+      "blockgroupHint": "This block group has {{value}}% children and seniors and is in the {{percentile}} percentile in {{title}}."
+    }
+  },
+  "planning": {
+    "start_planning": "Start planning",
+    "new_canopy": "New canopy",
+    "existing_canopy": "Existing canopy",
+    "slider_instructions": "Adjust the slider to expand or narrow your planning. Choose a Tree Equity Score target and estimate the impacts of new trees added.",
+    "existing_benefits": "With the slider set at zero, see the significant benefits of existing canopy. Adjust the slider to make projections for total canopy increases.",
+    "slider_new_subtitle": "{{numberOfBlockgroupsBelowTarget}} of {{totalBlockgroups}} block groups {{localities}} have a Tree Equity Score below {{targetScore}}",
+    "slider_existing_subtitle": "{{numberOfBlockgroupsBelowTarget}} of {{totalBlockgroups}} {{localityType}} have a Tree Equity Score below {{targetScore}}",
+    "below_score": "block groups have a Tree Equity Score below",
+    "drag_adjust": "Drag to adjust score",
+    "estimated_benefits": "Estimated total annual benefits",
+    "new_canopy_intro": "<bold>{{expansionValue}} of canopy expansion</bold> will be needed to get all block groups to at least a score of {{targetScore}} (this is equivalent to roughly {{treesNeeded}} trees). See the significant benefits this will create.",
+    "existing_canopy_intro": "{{locationName}} has <bold>{{existingCanopyAcres}}</bold> of existing canopy, equivalent to roughly {{treesEquivalent}} trees. To get all block groups to at least a score of {{targetScore}}, you will need to add {{expansionValue}} (roughly {{treesNeeded}} trees). See the significant benefits from these trees."
+  },
+  "benefits_overview": {
+    "new_canopy_added": {
+      "name": "New canopy cover added",
+      "hint": "The footprint of new canopy cover needed to bring any block groups below the target score up to the target score."
+    },
+    "ecosystem_value": {
+      "name": "Annual Ecosystem Service Value",
+      "hint": "Total annual economic benefit (monetary value) for all of the ecosystem services, including all carbon, air and water benefits provided by trees. Conversion sourced from i-Tree Landscape."
+    },
+    "jobs_supported": {
+      "name": "Jobs supported",
+      "hint": "The estimated number of direct, indirect, and induced full-time, part-time, and seasonal jobs from investing in these trees. These jobs do not carry a specific time dimension—to get the average number of jobs supported each year, the number of jobs are divided by the number of years over which the investment occurs. Conversion from American Forests supported research that used the U.S. Bureau of Economic Analysis' Regional Input-Output Modeling System II (RIMS)."
+    },
+    "composite_score": {
+      "name": "New Composite Locality Score",
+      "hint": "Each Census-designated locality (e.g., a town, city, village or borough) is assigned a composite score from 0-100, which provides a simplified assessment of overall tree distribution fairness. The score for each locality is aggregated from all block group Tree Equity Scores within the Census-defined boundaries of that locality. The composite score will increase faster if block group with lower Tree Equity Scores are raised."
+    },
+    "trees_per_person": {
+      "name": "Trees per person",
+      "hint": "How many trees does each person have? An estimate of the number trees relative to the number of people. Translates the canopy cover to an estimated number of medium-sized (600sq-ft) trees, divided by the total urban population. Total canopy cover is the sum of all existing canopy plus any new canopy expansion needed to bring any block groups below the target score up to the target score."
+    },
+    "localities_impacted": {
+      "name": "Number of Localities Impacted",
+      "hint": "The number of localities containing block groups that need trees based on the slider target."
+    }
+  },
+  "footer": {
+    "copyright": "©Tree Equity Score is a product of",
+    "made_possible": "Made possible with tree canopy provided by",
+    "ecosystem_services": "and ecosystem services estimation from"
+  },
+  "charts": {
+    "title": "Report out",
+    "subtitle": "Build a compelling case with facts and figures.",
+    "canopy_trends": "Canopy Trends",
+    "where_trees": "Where are the Trees?",
+    "no_data_available": "No canopy trend statement available.",
+    "no_data_explanation": "Our standard canopy trend statement is based on data from the bar chart. However, there are no neighborhoods in the groups being compared, so the statement cannot be generated due to insufficient data.",
+    "data_unavailable": "Data unavailable for this location.",
+    "cooler_neighborhoods": "Cooler neighborhoods (heat disparity of 0 to -5°F) have on average",
+    "less_neighborhoods": "Neighborhoods with less {{indicator}} (0-20th percentile) have on average",
+    "compared_to_hotter": "compared to hotter neighborhoods (heat disparity of +5 to +10°F).",
+    "compared_to_more": "compared to neighborhoods with more (80-100th percentile).",
+    "tooltip_heat": "This multiplier is calculated by dividing the cooler neighborhoods (heat disparity of 0 to -5°F) canopy value by the hotter neighborhoods (heat disparity of +5 to +10°F) canopy value.",
+    "tooltip_percentile": "This multiplier is calculated by dividing the 0-20th percentile canopy value by the 80-100th percentile canopy value.",
+    "tooltip_difference": "Calculated as the simple difference, i.e. subtracting one value from the other.",
+    "how_to_read": "How to read it",
+    "explanation": "Neighborhoods are grouped from lowest to highest {{indicator}} (left to right). The bar heights represent the tree cover for each group. Hover over the bars for details. Trends may not be clear in all cases. For more insights, explore different indicators and geographic scales.",
+    "choose_canopy": "Choose a canopy measure:",
+    "choose_indicator": "Choose a priority indicator:",
+    "choose_canopy_hint": "Choose from two ways to view tree cover: _______________________________________________ TREE CANOPY %: The footprint of trees when viewed from above, calculated as the total canopy area divided by the total land area for each group, multiplied by 100. _______________________________________________ TREES PER PERSON: How many trees does each person have? An estimate of the number trees relative to the number of people. Translates the canopy area to an estimated number of medium-sized (600sq-ft) trees, divided by the total urban population. Low population block groups (below 150) are dropped from this chart to exclude outliers.",
+    "default_tooltip": "Neighborhoods in the <bold>{{label}}</bold> for {{tooltipLabel}} have <bold>{{formattedValue}}{{unitSign}} {{unit}}</bold> — {{formattedDiff}}{{translatedValueExplanation}} {{shortTitle}} overall.",
+    "temperature_tooltip": "Neighborhoods that are <bold>{{label}}</bold> relative to the urban area average have <bold>{{formattedValue}}{{unitSign}} {{unit}}</bold> — {{formattedDiff}}{{translatedValueExplanation}} {{shortTitle}} overall.",
+    "tooltip_blockgroups": "These {{binSize}} block groups have {{sqMilesTreeCanopy}} sq-mi of tree canopy — roughly equivalent to {{treesCount}} trees.",
+    "0_20_percentile_label": "0-20th percentile",
+    "20_40_percentile_label": "20-40th percentile",
+    "40_60_percentile_label": "40-60th percentile",
+    "60_80_percentile_label": "60-80th percentile",
+    "80_100_percentile_label": "80-100th percentile",
+    "temperature_less_than_5_label": "< -5°F",
+    "temperature_5_to_0_label": "-5 to 0°F",
+    "temperature_0_to_5_label": "0 to +5°F",
+    "temperature_5_to_10_label": "+5 to +10°F",
+    "temperature_more_than_10_label": "> +10°F",
+    "x_axis_label_tooltip": "{{values}}% {{label}} ",
+    "tooltip_less_percentages": "% less than",
+    "tooltip_more_percentages": "% more than",
+    "tooltip_less_trees_per_person": "fewer trees per person less than",
+    "tooltip_more_trees_per_person": "additional trees per person more than",
+    "similar_tree_canopy": "similar tree canopy",
+    "as_much_tree_canopy": "{{formattedValue}}X as much tree canopy",
+    "fewer_additional_trees_per_person": "{{formattedValue}} {{adv}} trees per person",
+    "tree_canopy_cover": "Tree canopy cover",
+    "trees_per_person": "Trees per person"
+  },
+  "heatmap": {
+    "title": "Tree Equity Score Breakdown",
+    "subtitle": "Hover to explore the characteristics of neighborhoods with similar Tree Equity Scores.",
+    "explanation_title": "How to read it",
+    "tooltip": "Neighborhoods that score <bold>{{blockgroupsScore}}</bold> have, on average, <bold>{{diff}}</bold> {{facetName}}.",
+    "tooltip_heatmap": "Neighborhoods that score <bold>{{blockgroupsScore}}</bold> are, on average, <bold>{{diff}}</bold> {{suffix}} than the urban area average.",
+    "tooltip_blockgroups": "There are {{blockgroupsCount}} block groups with a score of {{blockgroupsScore}}.",
+    "explanation": "Neighborhoods are grouped from lowest to highest Tree Equity Scores, left to right. Darker colors represent higher values. Hover to gather data. Move vertically to get data for a single score range. Move horizontally to compare data across scores."
+  },
+  "advanced_planning_tools": {
+    "title": "Advanced Planning Tools",
+    "subtitle": "See your target areas on a map. View data for each target {{planningToolType}}. Use the slider to expand or narrow your planning.",
+    "hide": "Hide planning tools",
+    "expand": "Expand planning tools",
+    "target_blockgroups": "Target block groups",
+    "target_score": "Target score",
+    "table_hints": {
+      "tree_equity_score": "The current Tree Equity Score for the block group.",
+      "tree_canopy": "The current tree canopy cover as a percentage of the land area of the block group.",
+      "delta_score": "The change in Tree Equity Score required to reach the Tree Equity Score target.",
+      "tree_canopy_gain": "The tree canopy expansion needed to meet the target score, as a percentage of the land area of the block group.",
+      "trees_needed": "The estimated number of standard, medium-sized trees (600 sq-ft) needed meet the target score for the block group.",
+      "total_population": "Population residing within the Census-defined urban boundaries of the block group.",
+      "poverty_percent": "People in poverty (%)",
+      "poc_percent": "People of color (%)",
+      "unemployment": "Unemployment (%)",
+      "age": "Children and seniors (%)",
+      "linguistic_isolation": "Linguistic isolation (%)",
+      "health_burden": "Health burden index",
+      "heat_disparity": "Heat disparity in degrees Fahrenheit",
+      "locality_tree_composite_score": "The composite score of the locality. Provides a simplified assessment of overall tree distribution fairness and is aggregated from all block group Tree Equity Scores in the locality.",
+      "localty_delta_score": "The change in composite score for the locality that would result from reaching the Tree Equity Score target.",
+      "locality_tree_canopy": "The current tree canopy cover as a percentage of the land area of the locality.",
+      "locality_tree_canopy_gain": "The tree canopy expansion needed to meet the target score, as a percentage of the land area of the locality.",
+      "locality_trees_needed": "The estimated number of standard, medium-sized trees (600 sq-ft) needed meet the target score for the locality.",
+      "locality_total_population": "Population residing within the Census-defined urban boundaries of the locality.",
+      "locality_targeted_blockgroups": "The number of block groups targeted in the locality.",
+      "locality_blockgroup_count": "The total number of block groups in the locality AND within the county or state."
+    },
+    "table_headers": {
+      "tree_equity_score": "current score",
+      "tree_canopy": "current canopy",
+      "delta_score": "score gain",
+      "tree_canopy_gain": "canopy Gain",
+      "planting_need": "Trees Needed",
+      "total_population": "pop",
+      "poverty_percent": "pov",
+      "poc_percent": "poc",
+      "unemployment_rate": "unempl",
+      "age": "Age",
+      "linguistic_isolation": "lang",
+      "health_burden": "Health",
+      "temperature": "Heat",
+      "locality_tree_composite_score": "composite score",
+      "targeted_blockgroups": "Block groups",
+      "block_groups": "block group Count"
+    }
+  },
+  "compare": {
+    "title": "Compare Neighborhoods",
+    "subtitle": "Select up to three neighborhoods from the map to compare data.",
+    "add_blockgroups": "Make your selections by clicking on the map. See how each data point ranks relative to ranges in {{location}}.",
+    "average": "Averages"
+  }
+}

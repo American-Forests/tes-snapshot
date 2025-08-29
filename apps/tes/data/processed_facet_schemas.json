@@ -1,0 +1,4551 @@
+[
+  {
+    "attr": "tree_equity_score",
+    "layer": "blockgroup",
+    "facet_type": "layer",
+    "data": {
+      "type": "range",
+      "range": [0, 100],
+      "gradient": [70, 70, 100, 100]
+    },
+    "location": "national"
+  },
+  {
+    "attr": "tree_canopy",
+    "layer": "blockgroup",
+    "facet_type": "layer",
+    "data": {
+      "type": "range",
+      "range": [0, 1],
+      "gradient": [0, 0, 0.35, 0.5]
+    },
+    "location": "national"
+  },
+  {
+    "attr": "tree_canopy_gap",
+    "layer": "blockgroup",
+    "facet_type": "layer",
+    "data": {
+      "type": "range",
+      "range": [0, 1],
+      "gradient": [0, 0, 0.3, 0.5]
+    },
+    "location": "national"
+  },
+  {
+    "attr": "equity_index",
+    "layer": "blockgroup",
+    "facet_type": "layer",
+    "data": {
+      "type": "range",
+      "range": [0, 1],
+      "gradient": [0, 0, 0.5, 1]
+    },
+    "location": "national"
+  },
+  {
+    "attr": "total_shade12",
+    "layer": "blockgroup",
+    "facet_type": "layer",
+    "data": {
+      "type": "range",
+      "range": [0, 1],
+      "gradient": [0, 0.1, 0.25, 0.5, 0.75]
+    },
+    "location": "national"
+  },
+  {
+    "attr": "total_shade15",
+    "layer": "blockgroup",
+    "facet_type": "layer",
+    "data": {
+      "type": "range",
+      "range": [0, 1],
+      "gradient": [0, 0.1, 0.25, 0.5, 0.75]
+    },
+    "location": "national"
+  },
+  {
+    "attr": "total_shade18",
+    "layer": "blockgroup",
+    "facet_type": "layer",
+    "data": {
+      "type": "range",
+      "range": [0, 1],
+      "gradient": [0, 0.1, 0.25, 0.5, 0.75]
+    },
+    "location": "national"
+  },
+  {
+    "attr": "poverty_percent",
+    "layer": "blockgroup",
+    "facet_type": "layer",
+    "data": {
+      "type": "range",
+      "range": [0, 1],
+      "gradient": [0, 0, 0.6, 1]
+    },
+    "location": "national"
+  },
+  {
+    "attr": "poc_percent",
+    "layer": "blockgroup",
+    "facet_type": "layer",
+    "data": {
+      "type": "range",
+      "range": [0, 1],
+      "gradient": [0, 0, 0.9, 1]
+    },
+    "location": "national"
+  },
+  {
+    "attr": "dependent_ratio",
+    "layer": "blockgroup",
+    "facet_type": "layer",
+    "data": {
+      "type": "range",
+      "range": [0, 1],
+      "gradient": [0, 0.2, 0.6, 0.75]
+    },
+    "location": "national"
+  },
+  {
+    "attr": "unemployment_rate",
+    "layer": "blockgroup",
+    "facet_type": "layer",
+    "data": {
+      "type": "range",
+      "range": [0, 1],
+      "gradient": [0, 0, 0.2, 0.5]
+    },
+    "location": "national"
+  },
+  {
+    "attr": "linguistic_isolation",
+    "layer": "blockgroup",
+    "facet_type": "layer",
+    "data": {
+      "type": "range",
+      "range": [0, 1],
+      "gradient": [0, 0, 0.3, 0.5]
+    },
+    "location": "national"
+  },
+  {
+    "attr": "health_normalized",
+    "layer": "blockgroup",
+    "facet_type": "layer",
+    "data": {
+      "type": "range",
+      "range": [0, 1],
+      "gradient": [0, 0, 0.8, 1]
+    },
+    "location": "national"
+  },
+  {
+    "attr": "temperature",
+    "layer": "blockgroup",
+    "facet_type": "layer",
+    "data": {
+      "type": "range",
+      "range": [-30, 30],
+      "gradient": [-5, -5, 0, 10, 15, 25, 25]
+    },
+    "location": "national"
+  },
+  {
+    "attr": "holc_grade",
+    "layer": "blockgroup",
+    "facet_type": "layer",
+    "data": {
+      "type": "enum",
+      "values": ["A", "B", "C", "D", "E"]
+    },
+    "location": "national"
+  },
+  {
+    "attr": "ej_disadvantaged",
+    "layer": "blockgroup",
+    "facet_type": "filter",
+    "data": {
+      "type": "enum",
+      "values": ["Yes"]
+    },
+    "location": "national"
+  },
+  {
+    "attr": "tree_equity_score",
+    "layer": "blockgroup",
+    "facet_type": "layer",
+    "data": {
+      "type": "range",
+      "range": [0, 100],
+      "gradient": [70, 70, 100, 100]
+    },
+    "location": "indianapolis"
+  },
+  {
+    "attr": "tree_canopy",
+    "layer": "blockgroup",
+    "facet_type": "layer",
+    "data": {
+      "type": "range",
+      "range": [0, 1],
+      "gradient": [0, 0, 0.35, 0.5]
+    },
+    "location": "indianapolis"
+  },
+  {
+    "attr": "tree_canopy_gap",
+    "layer": "blockgroup",
+    "facet_type": "layer",
+    "data": {
+      "type": "range",
+      "range": [0, 1],
+      "gradient": [0, 0, 0.3, 0.5]
+    },
+    "location": "indianapolis"
+  },
+  {
+    "attr": "equity_index",
+    "layer": "blockgroup",
+    "facet_type": "layer",
+    "data": {
+      "type": "range",
+      "range": [0, 1],
+      "gradient": [0, 0.15, 0.5, 1]
+    },
+    "location": "indianapolis"
+  },
+  {
+    "attr": "poverty_percent",
+    "layer": "blockgroup",
+    "facet_type": "layer",
+    "data": {
+      "type": "range",
+      "range": [0, 1],
+      "gradient": [0, 0, 0.6, 1]
+    },
+    "location": "indianapolis"
+  },
+  {
+    "attr": "poc_percent",
+    "layer": "blockgroup",
+    "facet_type": "layer",
+    "data": {
+      "type": "range",
+      "range": [0, 1],
+      "gradient": [0, 0, 0.9, 1]
+    },
+    "location": "indianapolis"
+  },
+  {
+    "attr": "dependent_ratio",
+    "layer": "blockgroup",
+    "facet_type": "layer",
+    "data": {
+      "type": "range",
+      "range": [0, 1],
+      "gradient": [0, 0.2, 0.6, 0.75]
+    },
+    "location": "indianapolis"
+  },
+  {
+    "attr": "unemployment_rate",
+    "layer": "blockgroup",
+    "facet_type": "layer",
+    "data": {
+      "type": "range",
+      "range": [0, 1],
+      "gradient": [0, 0, 0.2, 0.5]
+    },
+    "location": "indianapolis"
+  },
+  {
+    "attr": "linguistic_isolation",
+    "layer": "blockgroup",
+    "facet_type": "layer",
+    "data": {
+      "type": "range",
+      "range": [0, 1],
+      "gradient": [0, 0, 0.3, 0.5]
+    },
+    "location": "indianapolis"
+  },
+  {
+    "attr": "health_normalized",
+    "layer": "blockgroup",
+    "facet_type": "layer",
+    "data": {
+      "type": "range",
+      "range": [0, 1],
+      "gradient": [0, 0, 0.8, 1]
+    },
+    "location": "indianapolis"
+  },
+  {
+    "attr": "temperature",
+    "layer": "blockgroup",
+    "facet_type": "layer",
+    "data": {
+      "type": "range",
+      "range": [-30, 30],
+      "gradient": [-5, -5, 0, 10, 15, 25, 25]
+    },
+    "location": "indianapolis"
+  },
+  {
+    "attr": "holc_grade",
+    "layer": "blockgroup",
+    "facet_type": "layer",
+    "data": {
+      "type": "enum",
+      "values": ["A", "B", "C", "D", "E"]
+    },
+    "location": "indianapolis"
+  },
+  {
+    "attr": "ej_disadvantaged",
+    "layer": "blockgroup",
+    "facet_type": "filter",
+    "data": {
+      "type": "enum",
+      "values": ["Yes"]
+    },
+    "location": "indianapolis"
+  },
+  {
+    "attr": "parks_access",
+    "layer": "blockgroup",
+    "facet_type": "filter",
+    "data": {
+      "type": "range",
+      "range": [0, 100]
+    },
+    "location": "indianapolis"
+  },
+  {
+    "attr": "tree_canopy",
+    "layer": "area",
+    "facet_type": "layer",
+    "data": {
+      "type": "range",
+      "range": [0, 1],
+      "gradient": [0, 0, 0.5, 0.5]
+    },
+    "location": "indianapolis"
+  },
+  {
+    "attr": "potential_tree_canopy",
+    "layer": "area",
+    "facet_type": "layer",
+    "data": {
+      "type": "range",
+      "range": [0, 1],
+      "gradient": [0, 0.2, 0.9, 1]
+    },
+    "location": "indianapolis"
+  },
+  {
+    "attr": "neighborhood",
+    "layer": "blockgroup",
+    "facet_type": "filter",
+    "data": {
+      "type": "enum",
+      "values": [
+        "Near Eastside",
+        "Far Eastside",
+        "Chapel Hill / Ben Davis",
+        "Near Westside",
+        "Lawrence",
+        "East Warren",
+        "Snacks / Guion Creek",
+        "Eagledale",
+        "Speedway",
+        "Martindale - Brightwood",
+        "Downtown",
+        "Lawrence-Fort Ben-Oaklandon",
+        "South Perry",
+        "Near Southeast",
+        "I-69/Fall Creek",
+        "Meridian Kessler",
+        "Eagle Creek",
+        "Augusta / New Augusta",
+        "Northwest High School",
+        "Garden City",
+        "Near Northside",
+        "South Franklin",
+        "Devington",
+        "Castleton",
+        "Beech Grove",
+        "Irvington",
+        "Crooked Creek",
+        "Near NW - Riverside",
+        "University Heights",
+        "Christian Park",
+        "St Vincent / Greenbriar",
+        "Butler-Tarkington/Rocky Ripple",
+        "Fountain Square",
+        "Near Southside",
+        "Eastside",
+        "Mars Hill",
+        "Mapleton / Fall Creek",
+        "Arlington Woods",
+        "Meadows",
+        "Valley Mills",
+        "I-65 / South Emerson",
+        "Allisonville",
+        "Nora / Far Northside",
+        "North Perry",
+        "Edgewood",
+        "West Indianapolis",
+        "Galludet",
+        "Crown Hill",
+        "Key Meadows",
+        "Southeast",
+        "Garfield Park",
+        "East Gate",
+        "Millersville",
+        "Geist",
+        "Southeast Warren",
+        "Forest Manor",
+        "Fairgrounds",
+        "Glenns Valley",
+        "Wynnedale / Spring Hill",
+        "Delaware Trails",
+        "Broad Ripple",
+        "Homecroft",
+        "Linden Wood",
+        "Hill Valley",
+        "Raymond Park",
+        "Stout Field",
+        "Airport",
+        "Traders Point",
+        "Brendonwood",
+        "Canterbury-Chatard",
+        "Meridian Hills/Williams Creek",
+        "Glendale",
+        "Devonshire",
+        "North Central",
+        "Keystone at the Crossing",
+        "Clearwater",
+        "Southdale",
+        "Park 100",
+        "Southern Dunes",
+        "Ameriplex",
+        "Camby",
+        "Marian - Cold Springs",
+        "Poplar Grove",
+        "Southport",
+        "Clermont",
+        "Devon",
+        "Sunshine Gardens",
+        "Ravenswood",
+        "College Park",
+        "Crows Nest",
+        "Park Fletcher",
+        "Five Points",
+        "Wanamaker",
+        "New Bethel",
+        "International Marketplace",
+        "Acton"
+      ]
+    },
+    "location": "indianapolis"
+  },
+  {
+    "attr": "watershed",
+    "layer": "blockgroup",
+    "facet_type": "filter",
+    "data": {
+      "type": "enum",
+      "values": [
+        "Devon Creek-Fall Creek",
+        "Pogues Run-White River",
+        "Bean Creek-Pleasant Run",
+        "Howland Ditch-White River",
+        "Little Eagle Creek",
+        "Dollar Hide Creek-White River",
+        "Ristow Branch-Eagle Creek",
+        "Lick Creek",
+        "Delaware Creek-Crooked Creek",
+        "Indian Lake-Indian Creek",
+        "Little Buck Creek",
+        "Grassy Creek",
+        "Pleasant Run Creek",
+        "Headwaters East Fork White Lick Creek",
+        "Carmel Creek-White River",
+        "Williams Creek",
+        "Thorpe Creek-Geist Reservoir",
+        "East Fork White Lick Creek",
+        "Doe Creek-Buck Creek",
+        "Sand Creek-Mud Creek",
+        "Little Sugar Creek",
+        "Headwaters Buck Creek",
+        "Irishman Run-Eagle Creek",
+        "Eagle Creek Reservoir-Eagle Creek",
+        "Fishback Creek",
+        "Goose Creek-White River"
+      ]
+    },
+    "location": "indianapolis"
+  },
+  {
+    "attr": "air_pollution",
+    "layer": "blockgroup",
+    "facet_type": "layer",
+    "data": {
+      "type": "enum",
+      "values": ["Very Low", "Low", "Medium", "High", "Very High"]
+    },
+    "location": "indianapolis"
+  },
+  {
+    "attr": "canopy_change_percent",
+    "layer": "blockgroup",
+    "facet_type": "layer",
+    "data": {
+      "type": "range",
+      "range": [-0.18978097000868, 0.149928206126522],
+      "gradient": [-0.18, -0.18, -0.1, 0, 0.06, 0.14, 0.14]
+    },
+    "location": "indianapolis"
+  },
+  {
+    "attr": "impervious_surface",
+    "layer": "area",
+    "facet_type": "layer",
+    "data": {
+      "type": "range",
+      "range": [0, 1],
+      "gradient": [0, 0, 0.1, 1, 1]
+    },
+    "location": "indianapolis"
+  },
+  {
+    "attr": "canopy_change_percent",
+    "layer": "area",
+    "facet_type": "layer",
+    "data": {
+      "type": "range",
+      "range": [-1, 1],
+      "gradient": [-1, -1, -0.45, 0, 0.45, 1, 1]
+    },
+    "location": "indianapolis"
+  },
+  {
+    "attr": "land_use",
+    "layer": "area",
+    "facet_type": "filter",
+    "data": {
+      "type": "enum",
+      "values": [
+        "Agriculture",
+        "Airport Related",
+        "Cemetery",
+        "Commercial",
+        "Floodway",
+        "Hospital",
+        "Industrial",
+        "Linear Park",
+        "Major Bodies of Water",
+        "Mixed-Use",
+        "Mixed-Use Downtown",
+        "Office",
+        "Other Special Use",
+        "Parking",
+        "Parking Garage",
+        "Place of Worship",
+        "Railroad Right-of-Way",
+        "Residential",
+        "School",
+        "Under Development",
+        "Unknown",
+        "Utilities",
+        "Vacant Land"
+      ]
+    },
+    "location": "indianapolis"
+  },
+  {
+    "attr": "tree_equity_score",
+    "layer": "blockgroup",
+    "facet_type": "layer",
+    "data": {
+      "type": "range",
+      "range": [0, 100],
+      "gradient": [70, 70, 100, 100]
+    },
+    "location": "detroit"
+  },
+  {
+    "attr": "tree_canopy",
+    "layer": "blockgroup",
+    "facet_type": "layer",
+    "data": {
+      "type": "range",
+      "range": [0, 1],
+      "gradient": [0, 0, 0.35, 0.5]
+    },
+    "source": "UVM Spatial Analysis Lab, Land Cover 2022",
+    "location": "detroit"
+  },
+  {
+    "attr": "tree_canopy_gap",
+    "layer": "blockgroup",
+    "facet_type": "layer",
+    "data": {
+      "type": "range",
+      "range": [0, 1],
+      "gradient": [0, 0, 0.3, 0.5]
+    },
+    "location": "detroit"
+  },
+  {
+    "attr": "equity_index",
+    "layer": "blockgroup",
+    "facet_type": "layer",
+    "data": {
+      "type": "range",
+      "range": [0, 1],
+      "gradient": [0, 0.15, 0.5, 1]
+    },
+    "location": "detroit"
+  },
+  {
+    "attr": "poverty_percent",
+    "layer": "blockgroup",
+    "facet_type": "layer",
+    "data": {
+      "type": "range",
+      "range": [0, 1],
+      "gradient": [0, 0, 0.6, 1]
+    },
+    "location": "detroit"
+  },
+  {
+    "attr": "poc_percent",
+    "layer": "blockgroup",
+    "facet_type": "layer",
+    "data": {
+      "type": "range",
+      "range": [0, 1],
+      "gradient": [0, 0, 0.9, 1]
+    },
+    "location": "detroit"
+  },
+  {
+    "attr": "dependent_ratio",
+    "layer": "blockgroup",
+    "facet_type": "layer",
+    "data": {
+      "type": "range",
+      "range": [0, 1],
+      "gradient": [0, 0.2, 0.6, 0.75]
+    },
+    "location": "detroit"
+  },
+  {
+    "attr": "unemployment_rate",
+    "layer": "blockgroup",
+    "facet_type": "layer",
+    "data": {
+      "type": "range",
+      "range": [0, 1],
+      "gradient": [0, 0, 0.2, 0.5]
+    },
+    "location": "detroit"
+  },
+  {
+    "attr": "linguistic_isolation",
+    "layer": "blockgroup",
+    "facet_type": "layer",
+    "data": {
+      "type": "range",
+      "range": [0, 1],
+      "gradient": [0, 0, 0.3, 0.5]
+    },
+    "location": "detroit"
+  },
+  {
+    "attr": "health_normalized",
+    "layer": "blockgroup",
+    "facet_type": "layer",
+    "data": {
+      "type": "range",
+      "range": [0, 1],
+      "gradient": [0, 0, 0.8, 1]
+    },
+    "location": "detroit"
+  },
+  {
+    "attr": "temperature",
+    "layer": "blockgroup",
+    "facet_type": "layer",
+    "data": {
+      "type": "range",
+      "range": [-30, 30],
+      "gradient": [-5, -5, 0, 10, 15, 25, 25]
+    },
+    "location": "detroit"
+  },
+  {
+    "attr": "holc_grade",
+    "layer": "blockgroup",
+    "facet_type": "layer",
+    "data": {
+      "type": "enum",
+      "values": ["A", "B", "C", "D", "E"]
+    },
+    "location": "detroit"
+  },
+  {
+    "attr": "ej_disadvantaged",
+    "layer": "blockgroup",
+    "facet_type": "filter",
+    "data": {
+      "type": "enum",
+      "values": ["Yes"]
+    },
+    "location": "detroit"
+  },
+  {
+    "attr": "council_district",
+    "layer": "blockgroup",
+    "facet_type": "filter",
+    "data": {
+      "type": "enum",
+      "values": ["1", "2", "3", "4", "5", "6", "7"]
+    },
+    "location": "detroit"
+  },
+  {
+    "attr": "air_pollution",
+    "layer": "blockgroup",
+    "facet_type": "filter",
+    "data": {
+      "type": "enum",
+      "values": ["very low", "low", "medium", "high", "very high"]
+    },
+    "location": "detroit"
+  },
+  {
+    "attr": "population_density",
+    "layer": "blockgroup",
+    "facet_type": "filter",
+    "data": {
+      "type": "range",
+      "range": [1, 11015]
+    },
+    "location": "detroit"
+  },
+  {
+    "attr": "asthma_percent",
+    "layer": "blockgroup",
+    "facet_type": "filter",
+    "data": {
+      "type": "range",
+      "range": [10.3, 18.6]
+    },
+    "location": "detroit"
+  },
+  {
+    "attr": "total_shade12",
+    "layer": "blockgroup",
+    "facet_type": "layer",
+    "data": {
+      "type": "range",
+      "range": [0, 1],
+      "gradient": [0, 0.1, 0.25, 0.5, 0.75]
+    },
+    "location": "detroit"
+  },
+  {
+    "attr": "total_shade15",
+    "layer": "blockgroup",
+    "facet_type": "layer",
+    "data": {
+      "type": "range",
+      "range": [0, 1],
+      "gradient": [0, 0.1, 0.25, 0.5, 0.75]
+    },
+    "location": "detroit"
+  },
+  {
+    "attr": "total_shade18",
+    "layer": "blockgroup",
+    "facet_type": "layer",
+    "data": {
+      "type": "range",
+      "range": [0, 1],
+      "gradient": [0, 0.1, 0.25, 0.5, 0.75]
+    },
+    "location": "detroit"
+  },
+  {
+    "attr": "tree_canopy",
+    "layer": "area",
+    "facet_type": "layer",
+    "data": {
+      "type": "range",
+      "range": [0, 1],
+      "gradient": [0, 0, 0.5, 0.5]
+    },
+    "location": "detroit"
+  },
+  {
+    "attr": "potential_tree_canopy",
+    "layer": "area",
+    "facet_type": "layer",
+    "data": {
+      "type": "range",
+      "range": [0, 1],
+      "gradient": [0, 0.2, 0.9, 1]
+    },
+    "location": "detroit"
+  },
+  {
+    "attr": "impervious_surface",
+    "layer": "area",
+    "facet_type": "layer",
+    "data": {
+      "type": "range",
+      "range": [0, 1],
+      "gradient": [0, 0, 0.1, 1, 1]
+    },
+    "location": "detroit"
+  },
+  {
+    "attr": "total_shade12",
+    "layer": "area",
+    "facet_type": "layer",
+    "data": {
+      "type": "range",
+      "range": [0, 1],
+      "gradient": [0, 0.1, 0.25, 0.5, 0.75]
+    },
+    "location": "detroit"
+  },
+  {
+    "attr": "total_shade15",
+    "layer": "area",
+    "facet_type": "layer",
+    "data": {
+      "type": "range",
+      "range": [0, 1],
+      "gradient": [0, 0.1, 0.25, 0.5, 0.75]
+    },
+    "location": "detroit"
+  },
+  {
+    "attr": "total_shade18",
+    "layer": "area",
+    "facet_type": "layer",
+    "data": {
+      "type": "range",
+      "range": [0, 1],
+      "gradient": [0, 0.1, 0.25, 0.5, 0.75]
+    },
+    "location": "detroit"
+  },
+  {
+    "attr": "school",
+    "layer": "area",
+    "facet_type": "filter",
+    "data": {
+      "type": "boolean"
+    },
+    "location": "detroit"
+  },
+  {
+    "attr": "bus_stop",
+    "layer": "area",
+    "facet_type": "filter",
+    "data": {
+      "type": "boolean"
+    },
+    "location": "detroit"
+  },
+  {
+    "attr": "park",
+    "layer": "area",
+    "facet_type": "filter",
+    "data": {
+      "type": "boolean"
+    },
+    "location": "detroit"
+  },
+  {
+    "attr": "land_use",
+    "layer": "area",
+    "facet_type": "filter",
+    "data": {
+      "type": "enum",
+      "values": [
+        "Residential",
+        "Business",
+        "Industrial",
+        "Planned Development",
+        "Special Development",
+        "Parking",
+        "Public Center",
+        "Parks and Recreation",
+        "Transitional Industrial"
+      ]
+    },
+    "location": "detroit"
+  },
+  {
+    "attr": "brownfield",
+    "layer": "area",
+    "facet_type": "filter",
+    "data": {
+      "type": "boolean"
+    },
+    "location": "detroit"
+  },
+  {
+    "attr": "tree_equity_score",
+    "layer": "blockgroup",
+    "facet_type": "layer",
+    "data": {
+      "type": "range",
+      "range": [0, 100],
+      "gradient": [70, 70, 100, 100]
+    },
+    "location": "maricopa"
+  },
+  {
+    "attr": "tree_canopy",
+    "layer": "blockgroup",
+    "facet_type": "layer",
+    "data": {
+      "type": "range",
+      "range": [0, 1],
+      "gradient": [0, 0, 0.35, 0.5]
+    },
+    "source": "UVM Spatial Analysis Lab, Land Cover 2021",
+    "location": "maricopa"
+  },
+  {
+    "attr": "tree_canopy_gap",
+    "layer": "blockgroup",
+    "facet_type": "layer",
+    "data": {
+      "type": "range",
+      "range": [0, 1],
+      "gradient": [0, 0, 0.3, 0.5]
+    },
+    "location": "maricopa"
+  },
+  {
+    "attr": "equity_index",
+    "layer": "blockgroup",
+    "facet_type": "layer",
+    "data": {
+      "type": "range",
+      "range": [0, 1],
+      "gradient": [0, 0.15, 0.5, 1]
+    },
+    "location": "maricopa"
+  },
+  {
+    "attr": "poverty_percent",
+    "layer": "blockgroup",
+    "facet_type": "layer",
+    "data": {
+      "type": "range",
+      "range": [0, 1],
+      "gradient": [0, 0, 0.6, 1]
+    },
+    "location": "maricopa"
+  },
+  {
+    "attr": "poc_percent",
+    "layer": "blockgroup",
+    "facet_type": "layer",
+    "data": {
+      "type": "range",
+      "range": [0, 1],
+      "gradient": [0, 0, 0.9, 1]
+    },
+    "location": "maricopa"
+  },
+  {
+    "attr": "dependent_ratio",
+    "layer": "blockgroup",
+    "facet_type": "layer",
+    "data": {
+      "type": "range",
+      "range": [0, 1],
+      "gradient": [0, 0.2, 0.6, 0.75]
+    },
+    "location": "maricopa"
+  },
+  {
+    "attr": "unemployment_rate",
+    "layer": "blockgroup",
+    "facet_type": "layer",
+    "data": {
+      "type": "range",
+      "range": [0, 1],
+      "gradient": [0, 0, 0.2, 0.5]
+    },
+    "location": "maricopa"
+  },
+  {
+    "attr": "linguistic_isolation",
+    "layer": "blockgroup",
+    "facet_type": "layer",
+    "data": {
+      "type": "range",
+      "range": [0, 1],
+      "gradient": [0, 0, 0.3, 0.5]
+    },
+    "location": "maricopa"
+  },
+  {
+    "attr": "health_normalized",
+    "layer": "blockgroup",
+    "facet_type": "layer",
+    "data": {
+      "type": "range",
+      "range": [0, 1],
+      "gradient": [0, 0, 0.8, 1]
+    },
+    "location": "maricopa"
+  },
+  {
+    "attr": "temperature",
+    "layer": "blockgroup",
+    "facet_type": "layer",
+    "data": {
+      "type": "range",
+      "range": [-30, 30],
+      "gradient": [-5, -5, 0, 10, 15, 25, 25]
+    },
+    "location": "maricopa"
+  },
+  {
+    "attr": "holc_grade",
+    "layer": "blockgroup",
+    "facet_type": "layer",
+    "data": {
+      "type": "enum",
+      "values": ["A", "B", "C", "D", "E"]
+    },
+    "location": "maricopa"
+  },
+  {
+    "attr": "ej_disadvantaged",
+    "layer": "blockgroup",
+    "facet_type": "filter",
+    "data": {
+      "type": "enum",
+      "values": ["Yes"]
+    },
+    "location": "maricopa"
+  },
+  {
+    "attr": "qualified_census_tract",
+    "layer": "blockgroup",
+    "facet_type": "filter",
+    "data": {
+      "type": "boolean"
+    },
+    "location": "maricopa"
+  },
+  {
+    "attr": "light_rail",
+    "layer": "blockgroup",
+    "facet_type": "filter",
+    "data": {
+      "type": "boolean"
+    },
+    "location": "maricopa"
+  },
+  {
+    "attr": "total_shade12",
+    "layer": "blockgroup",
+    "facet_type": "layer",
+    "data": {
+      "type": "range",
+      "range": [0, 1],
+      "gradient": [0, 0.1, 0.25, 0.5, 0.75]
+    },
+    "location": "maricopa"
+  },
+  {
+    "attr": "total_shade15",
+    "layer": "blockgroup",
+    "facet_type": "layer",
+    "data": {
+      "type": "range",
+      "range": [0, 1],
+      "gradient": [0, 0.1, 0.25, 0.5, 0.75]
+    },
+    "location": "maricopa"
+  },
+  {
+    "attr": "total_shade18",
+    "layer": "blockgroup",
+    "facet_type": "layer",
+    "data": {
+      "type": "range",
+      "range": [0, 1],
+      "gradient": [0, 0.1, 0.25, 0.5, 0.75]
+    },
+    "location": "maricopa"
+  },
+  {
+    "attr": "tree_canopy",
+    "layer": "area",
+    "facet_type": "layer",
+    "data": {
+      "type": "range",
+      "range": [0, 1],
+      "gradient": [0, 0, 0.5, 0.5]
+    },
+    "location": "maricopa"
+  },
+  {
+    "attr": "potential_tree_canopy",
+    "layer": "area",
+    "facet_type": "layer",
+    "data": {
+      "type": "range",
+      "range": [0, 1],
+      "gradient": [0, 0.2, 0.9, 1]
+    },
+    "location": "maricopa"
+  },
+  {
+    "attr": "impervious_surface",
+    "layer": "area",
+    "facet_type": "layer",
+    "data": {
+      "type": "range",
+      "range": [0, 1],
+      "gradient": [0, 0, 0.1, 1, 1]
+    },
+    "location": "maricopa"
+  },
+  {
+    "attr": "cooling_center",
+    "layer": "area",
+    "facet_type": "filter",
+    "data": {
+      "type": "enum",
+      "values": ["none", "Hydration Station", "Cooling Center", "Respite Center"]
+    },
+    "location": "maricopa"
+  },
+  {
+    "attr": "school",
+    "layer": "area",
+    "facet_type": "filter",
+    "data": {
+      "type": "boolean"
+    },
+    "location": "maricopa"
+  },
+  {
+    "attr": "light_rail",
+    "layer": "area",
+    "facet_type": "filter",
+    "data": {
+      "type": "boolean"
+    },
+    "location": "maricopa"
+  },
+  {
+    "attr": "bus_stop",
+    "layer": "area",
+    "facet_type": "filter",
+    "data": {
+      "type": "boolean"
+    },
+    "location": "maricopa"
+  },
+  {
+    "attr": "total_shade12",
+    "layer": "area",
+    "facet_type": "layer",
+    "data": {
+      "type": "range",
+      "range": [0, 1],
+      "gradient": [0, 0.1, 0.25, 0.5, 0.75]
+    },
+    "location": "maricopa"
+  },
+  {
+    "attr": "total_shade15",
+    "layer": "area",
+    "facet_type": "layer",
+    "data": {
+      "type": "range",
+      "range": [0, 1],
+      "gradient": [0, 0.1, 0.25, 0.5, 0.75]
+    },
+    "location": "maricopa"
+  },
+  {
+    "attr": "total_shade18",
+    "layer": "area",
+    "facet_type": "layer",
+    "data": {
+      "type": "range",
+      "range": [0, 1],
+      "gradient": [0, 0.1, 0.25, 0.5, 0.75]
+    },
+    "location": "maricopa"
+  },
+  {
+    "attr": "tree_equity_score",
+    "layer": "blockgroup",
+    "facet_type": "layer",
+    "data": {
+      "type": "range",
+      "range": [0, 100],
+      "gradient": [70, 70, 100, 100]
+    },
+    "location": "austin"
+  },
+  {
+    "attr": "tree_canopy",
+    "layer": "blockgroup",
+    "facet_type": "layer",
+    "data": {
+      "type": "range",
+      "range": [0, 1],
+      "gradient": [0, 0, 0.35, 0.5]
+    },
+    "source": "UVM Spatial Analysis Lab, Land Cover 2022",
+    "location": "austin"
+  },
+  {
+    "attr": "tree_canopy_gap",
+    "layer": "blockgroup",
+    "facet_type": "layer",
+    "data": {
+      "type": "range",
+      "range": [0, 1],
+      "gradient": [0, 0, 0.3, 0.5]
+    },
+    "location": "austin"
+  },
+  {
+    "attr": "equity_index",
+    "layer": "blockgroup",
+    "facet_type": "layer",
+    "data": {
+      "type": "range",
+      "range": [0, 1],
+      "gradient": [0, 0.15, 0.5, 1]
+    },
+    "location": "austin"
+  },
+  {
+    "attr": "poverty_percent",
+    "layer": "blockgroup",
+    "facet_type": "layer",
+    "data": {
+      "type": "range",
+      "range": [0, 1],
+      "gradient": [0, 0, 0.6, 1]
+    },
+    "location": "austin"
+  },
+  {
+    "attr": "poc_percent",
+    "layer": "blockgroup",
+    "facet_type": "layer",
+    "data": {
+      "type": "range",
+      "range": [0, 1],
+      "gradient": [0, 0, 0.9, 1]
+    },
+    "location": "austin"
+  },
+  {
+    "attr": "dependent_ratio",
+    "layer": "blockgroup",
+    "facet_type": "layer",
+    "data": {
+      "type": "range",
+      "range": [0, 1],
+      "gradient": [0, 0.2, 0.6, 0.75]
+    },
+    "location": "austin"
+  },
+  {
+    "attr": "unemployment_rate",
+    "layer": "blockgroup",
+    "facet_type": "layer",
+    "data": {
+      "type": "range",
+      "range": [0, 1],
+      "gradient": [0, 0, 0.2, 0.5]
+    },
+    "location": "austin"
+  },
+  {
+    "attr": "linguistic_isolation",
+    "layer": "blockgroup",
+    "facet_type": "layer",
+    "data": {
+      "type": "range",
+      "range": [0, 1],
+      "gradient": [0, 0, 0.3, 0.5]
+    },
+    "location": "austin"
+  },
+  {
+    "attr": "health_normalized",
+    "layer": "blockgroup",
+    "facet_type": "layer",
+    "data": {
+      "type": "range",
+      "range": [0, 1],
+      "gradient": [0, 0, 0.8, 1]
+    },
+    "location": "austin"
+  },
+  {
+    "attr": "temperature",
+    "layer": "blockgroup",
+    "facet_type": "layer",
+    "data": {
+      "type": "range",
+      "range": [-30, 30],
+      "gradient": [-5, -5, 0, 10, 15, 25, 25]
+    },
+    "location": "austin"
+  },
+  {
+    "attr": "holc_grade",
+    "layer": "blockgroup",
+    "facet_type": "layer",
+    "data": {
+      "type": "enum",
+      "values": ["A", "B", "C", "D", "E"]
+    },
+    "location": "austin"
+  },
+  {
+    "attr": "tree_planting_investment_index",
+    "layer": "blockgroup",
+    "facet_type": "filter",
+    "data": {
+      "type": "range",
+      "range": [0, 55]
+    },
+    "location": "austin"
+  },
+  {
+    "attr": "social_vulnerability_index",
+    "layer": "blockgroup",
+    "facet_type": "filter",
+    "data": {
+      "type": "range",
+      "range": [0, 0.98]
+    },
+    "location": "austin"
+  },
+  {
+    "attr": "road_emissions",
+    "layer": "blockgroup",
+    "facet_type": "filter",
+    "data": {
+      "type": "range",
+      "range": [0, 43603]
+    },
+    "location": "austin"
+  },
+  {
+    "attr": "ej_disadvantaged",
+    "layer": "blockgroup",
+    "facet_type": "filter",
+    "data": {
+      "type": "enum",
+      "values": ["Yes"]
+    },
+    "location": "austin"
+  },
+  {
+    "attr": "municipality_name",
+    "layer": "blockgroup",
+    "facet_type": "filter",
+    "data": {
+      "type": "enum",
+      "values": [
+        "Austin",
+        "Round Rock",
+        "Georgetown",
+        "Cedar Park",
+        "Pflugerville",
+        "Leander",
+        "Kyle",
+        "Hutto",
+        "Brushy Creek",
+        "Unincorporated Williamson County",
+        "Lakeway",
+        "Buda",
+        "Wells Branch",
+        "Bee Cave",
+        "Unincorporated Travis County",
+        "Steiner Ranch",
+        "Liberty Hill",
+        "Unincorporated Hays County",
+        "West Lake Hills",
+        "Hudson Bend",
+        "Shady Hollow",
+        "Manor",
+        "Serenada",
+        "Manchaca",
+        "Barton Creek",
+        "Jonestown",
+        "San Marcos",
+        "Rollingwood",
+        "Sunset Valley",
+        "Mountain City",
+        "The Hills",
+        "Hays",
+        "Santa Rita Ranch",
+        "Lost Creek"
+      ]
+    },
+    "location": "austin"
+  },
+  {
+    "attr": "low_food_access",
+    "layer": "blockgroup",
+    "facet_type": "filter",
+    "data": {
+      "type": "boolean"
+    },
+    "location": "austin"
+  },
+  {
+    "attr": "affordable_housing",
+    "layer": "blockgroup",
+    "facet_type": "filter",
+    "data": {
+      "type": "boolean"
+    },
+    "location": "austin"
+  },
+  {
+    "attr": "community_garden",
+    "layer": "blockgroup",
+    "facet_type": "filter",
+    "data": {
+      "type": "boolean"
+    },
+    "location": "austin"
+  },
+  {
+    "attr": "total_shade12",
+    "layer": "blockgroup",
+    "facet_type": "layer",
+    "data": {
+      "type": "range",
+      "range": [0, 1],
+      "gradient": [0, 0.1, 0.25, 0.5, 0.75]
+    },
+    "location": "austin"
+  },
+  {
+    "attr": "total_shade15",
+    "layer": "blockgroup",
+    "facet_type": "layer",
+    "data": {
+      "type": "range",
+      "range": [0, 1],
+      "gradient": [0, 0.1, 0.25, 0.5, 0.75]
+    },
+    "location": "austin"
+  },
+  {
+    "attr": "total_shade18",
+    "layer": "blockgroup",
+    "facet_type": "layer",
+    "data": {
+      "type": "range",
+      "range": [0, 1],
+      "gradient": [0, 0.1, 0.25, 0.5, 0.75]
+    },
+    "location": "austin"
+  },
+  {
+    "attr": "tree_canopy",
+    "layer": "area",
+    "facet_type": "layer",
+    "data": {
+      "type": "range",
+      "range": [0, 1],
+      "gradient": [0, 0, 0.5, 0.5]
+    },
+    "location": "austin"
+  },
+  {
+    "attr": "potential_tree_canopy",
+    "layer": "area",
+    "facet_type": "layer",
+    "data": {
+      "type": "range",
+      "range": [0, 1],
+      "gradient": [0, 0.2, 0.9, 1]
+    },
+    "location": "austin"
+  },
+  {
+    "attr": "impervious_surface",
+    "layer": "area",
+    "facet_type": "layer",
+    "data": {
+      "type": "range",
+      "range": [0, 1],
+      "gradient": [0, 0, 0.1, 1, 1]
+    },
+    "location": "austin"
+  },
+  {
+    "attr": "affordable_housing",
+    "layer": "area",
+    "facet_type": "filter",
+    "data": {
+      "type": "boolean"
+    },
+    "location": "austin"
+  },
+  {
+    "attr": "community_garden",
+    "layer": "area",
+    "facet_type": "filter",
+    "data": {
+      "type": "boolean"
+    },
+    "location": "austin"
+  },
+  {
+    "attr": "flood",
+    "layer": "area",
+    "facet_type": "filter",
+    "data": {
+      "type": "enum",
+      "values": ["moderate to low", "high", "other"]
+    },
+    "location": "austin"
+  },
+  {
+    "attr": "total_shade12",
+    "layer": "area",
+    "facet_type": "layer",
+    "data": {
+      "type": "range",
+      "range": [0, 1],
+      "gradient": [0, 0.1, 0.25, 0.5, 0.75]
+    },
+    "location": "austin"
+  },
+  {
+    "attr": "total_shade15",
+    "layer": "area",
+    "facet_type": "layer",
+    "data": {
+      "type": "range",
+      "range": [0, 1],
+      "gradient": [0, 0.1, 0.25, 0.5, 0.75]
+    },
+    "location": "austin"
+  },
+  {
+    "attr": "total_shade18",
+    "layer": "area",
+    "facet_type": "layer",
+    "data": {
+      "type": "range",
+      "range": [0, 1],
+      "gradient": [0, 0.1, 0.25, 0.5, 0.75]
+    },
+    "location": "austin"
+  },
+  {
+    "attr": "tree_equity_score",
+    "layer": "blockgroup",
+    "facet_type": "layer",
+    "data": {
+      "type": "range",
+      "range": [0, 100],
+      "gradient": [70, 70, 100, 100]
+    },
+    "location": "franklin"
+  },
+  {
+    "attr": "tree_canopy",
+    "layer": "blockgroup",
+    "facet_type": "layer",
+    "data": {
+      "type": "range",
+      "range": [0, 1],
+      "gradient": [0, 0, 0.35, 0.5]
+    },
+    "source": "UVM Spatial Analysis Lab, Land Cover 2021",
+    "location": "franklin"
+  },
+  {
+    "attr": "tree_canopy_gap",
+    "layer": "blockgroup",
+    "facet_type": "layer",
+    "data": {
+      "type": "range",
+      "range": [0, 1],
+      "gradient": [0, 0, 0.3, 0.5]
+    },
+    "location": "franklin"
+  },
+  {
+    "attr": "equity_index",
+    "layer": "blockgroup",
+    "facet_type": "layer",
+    "data": {
+      "type": "range",
+      "range": [0, 1],
+      "gradient": [0, 0.15, 0.5, 1]
+    },
+    "location": "franklin"
+  },
+  {
+    "attr": "poverty_percent",
+    "layer": "blockgroup",
+    "facet_type": "layer",
+    "data": {
+      "type": "range",
+      "range": [0, 1],
+      "gradient": [0, 0, 0.6, 1]
+    },
+    "location": "franklin"
+  },
+  {
+    "attr": "poc_percent",
+    "layer": "blockgroup",
+    "facet_type": "layer",
+    "data": {
+      "type": "range",
+      "range": [0, 1],
+      "gradient": [0, 0, 0.9, 1]
+    },
+    "location": "franklin"
+  },
+  {
+    "attr": "dependent_ratio",
+    "layer": "blockgroup",
+    "facet_type": "layer",
+    "data": {
+      "type": "range",
+      "range": [0, 1],
+      "gradient": [0, 0.2, 0.6, 0.75]
+    },
+    "location": "franklin"
+  },
+  {
+    "attr": "unemployment_rate",
+    "layer": "blockgroup",
+    "facet_type": "layer",
+    "data": {
+      "type": "range",
+      "range": [0, 1],
+      "gradient": [0, 0, 0.2, 0.5]
+    },
+    "location": "franklin"
+  },
+  {
+    "attr": "linguistic_isolation",
+    "layer": "blockgroup",
+    "facet_type": "layer",
+    "data": {
+      "type": "range",
+      "range": [0, 1],
+      "gradient": [0, 0, 0.3, 0.5]
+    },
+    "location": "franklin"
+  },
+  {
+    "attr": "health_normalized",
+    "layer": "blockgroup",
+    "facet_type": "layer",
+    "data": {
+      "type": "range",
+      "range": [0, 1],
+      "gradient": [0, 0, 0.8, 1]
+    },
+    "location": "franklin"
+  },
+  {
+    "attr": "temperature",
+    "layer": "blockgroup",
+    "facet_type": "layer",
+    "data": {
+      "type": "range",
+      "range": [-30, 30],
+      "gradient": [-5, -5, 0, 10, 15, 25, 25]
+    },
+    "location": "franklin"
+  },
+  {
+    "attr": "holc_grade",
+    "layer": "blockgroup",
+    "facet_type": "layer",
+    "data": {
+      "type": "enum",
+      "values": ["A", "B", "C", "D", "E"]
+    },
+    "location": "franklin"
+  },
+  {
+    "attr": "ej_disadvantaged",
+    "layer": "blockgroup",
+    "facet_type": "filter",
+    "data": {
+      "type": "enum",
+      "values": ["Yes"]
+    },
+    "location": "franklin"
+  },
+  {
+    "attr": "canopy_change_percent",
+    "layer": "blockgroup",
+    "facet_type": "layer",
+    "data": {
+      "type": "range",
+      "range": [-0.12, 0.13],
+      "gradient": [-0.12, -0.12, -0.06, 0, 0.06, 0.13, 0.13]
+    },
+    "location": "franklin"
+  },
+  {
+    "attr": "tree_canopy",
+    "layer": "area",
+    "facet_type": "layer",
+    "data": {
+      "type": "range",
+      "range": [0, 1],
+      "gradient": [0, 0, 0.5, 0.5]
+    },
+    "location": "franklin"
+  },
+  {
+    "attr": "potential_tree_canopy",
+    "layer": "area",
+    "facet_type": "layer",
+    "data": {
+      "type": "range",
+      "range": [0, 1],
+      "gradient": [0, 0.2, 0.9, 1]
+    },
+    "location": "franklin"
+  },
+  {
+    "attr": "impervious_surface",
+    "layer": "area",
+    "facet_type": "layer",
+    "data": {
+      "type": "range",
+      "range": [0, 1],
+      "gradient": [0, 0, 0.1, 1, 1]
+    },
+    "location": "franklin"
+  },
+  {
+    "attr": "canopy_change_percent",
+    "layer": "area",
+    "facet_type": "layer",
+    "data": {
+      "type": "range",
+      "range": [-1, 1],
+      "gradient": [-1, -1, -0.45, 0, 0.45, 1, 1]
+    },
+    "location": "franklin"
+  },
+  {
+    "attr": "land_use",
+    "layer": "area",
+    "facet_type": "filter",
+    "data": {
+      "type": "enum",
+      "values": [
+        "Residential",
+        "Vacant",
+        "Commercial",
+        "Office",
+        "Warehouse",
+        "Religious Facility",
+        "Open Space",
+        "Right of Way",
+        "Park",
+        "Parking",
+        "Education",
+        "Agriculture",
+        "Mixed-Use",
+        "Industrial"
+      ]
+    },
+    "location": "franklin"
+  },
+  {
+    "attr": "future_land_use",
+    "layer": "area",
+    "facet_type": "filter",
+    "data": {
+      "type": "enum",
+      "values": [
+        "Residential",
+        "Mixed-Use",
+        "Commercial",
+        "Office",
+        "Warehouse",
+        "Open Space",
+        "Religious Facility",
+        "Park",
+        "Right of Way",
+        "Industrial",
+        "Education",
+        "Parking",
+        "Agriculture",
+        "Vacant"
+      ]
+    },
+    "location": "franklin"
+  },
+  {
+    "attr": "public_ownership_type",
+    "layer": "area",
+    "facet_type": "filter",
+    "data": {
+      "type": "enum",
+      "values": [
+        "City, Village, Township, etc.",
+        "Public restrictions",
+        "State government",
+        "County, Parish, Province, etc.",
+        "Federal government"
+      ]
+    },
+    "location": "franklin"
+  },
+  {
+    "attr": "tree_equity_score",
+    "layer": "blockgroup",
+    "facet_type": "layer",
+    "data": {
+      "type": "range",
+      "range": [0, 100],
+      "gradient": [70, 70, 100, 100]
+    },
+    "location": "dallas"
+  },
+  {
+    "attr": "tree_canopy",
+    "layer": "blockgroup",
+    "facet_type": "layer",
+    "data": {
+      "type": "range",
+      "range": [0, 1],
+      "gradient": [0, 0, 0.35, 0.5]
+    },
+    "source": "Dallas County, TX Tree Canopy Assessment, Texas Trees Foundation, 2019",
+    "location": "dallas"
+  },
+  {
+    "attr": "tree_canopy_gap",
+    "layer": "blockgroup",
+    "facet_type": "layer",
+    "data": {
+      "type": "range",
+      "range": [0, 1],
+      "gradient": [0, 0, 0.3, 0.5]
+    },
+    "location": "dallas"
+  },
+  {
+    "attr": "equity_index",
+    "layer": "blockgroup",
+    "facet_type": "layer",
+    "data": {
+      "type": "range",
+      "range": [0, 1],
+      "gradient": [0, 0.15, 0.5, 1]
+    },
+    "location": "dallas"
+  },
+  {
+    "attr": "poverty_percent",
+    "layer": "blockgroup",
+    "facet_type": "layer",
+    "data": {
+      "type": "range",
+      "range": [0, 1],
+      "gradient": [0, 0, 0.6, 1]
+    },
+    "location": "dallas"
+  },
+  {
+    "attr": "poc_percent",
+    "layer": "blockgroup",
+    "facet_type": "layer",
+    "data": {
+      "type": "range",
+      "range": [0, 1],
+      "gradient": [0, 0, 0.9, 1]
+    },
+    "location": "dallas"
+  },
+  {
+    "attr": "dependent_ratio",
+    "layer": "blockgroup",
+    "facet_type": "layer",
+    "data": {
+      "type": "range",
+      "range": [0, 1],
+      "gradient": [0, 0.2, 0.6, 0.75]
+    },
+    "location": "dallas"
+  },
+  {
+    "attr": "unemployment_rate",
+    "layer": "blockgroup",
+    "facet_type": "layer",
+    "data": {
+      "type": "range",
+      "range": [0, 1],
+      "gradient": [0, 0, 0.2, 0.5]
+    },
+    "location": "dallas"
+  },
+  {
+    "attr": "linguistic_isolation",
+    "layer": "blockgroup",
+    "facet_type": "layer",
+    "data": {
+      "type": "range",
+      "range": [0, 1],
+      "gradient": [0, 0, 0.3, 0.5]
+    },
+    "location": "dallas"
+  },
+  {
+    "attr": "health_normalized",
+    "layer": "blockgroup",
+    "facet_type": "layer",
+    "data": {
+      "type": "range",
+      "range": [0, 1],
+      "gradient": [0, 0, 0.8, 1]
+    },
+    "location": "dallas"
+  },
+  {
+    "attr": "temperature",
+    "layer": "blockgroup",
+    "facet_type": "layer",
+    "data": {
+      "type": "range",
+      "range": [-30, 30],
+      "gradient": [-5, -5, 0, 10, 15, 25, 25]
+    },
+    "location": "dallas"
+  },
+  {
+    "attr": "holc_grade",
+    "layer": "blockgroup",
+    "facet_type": "layer",
+    "data": {
+      "type": "enum",
+      "values": ["A", "B", "C", "D", "E"]
+    },
+    "location": "dallas"
+  },
+  {
+    "attr": "ej_disadvantaged",
+    "layer": "blockgroup",
+    "facet_type": "filter",
+    "data": {
+      "type": "enum",
+      "values": ["Yes"]
+    },
+    "location": "dallas"
+  },
+  {
+    "attr": "ttf_tree_equity_planting",
+    "layer": "blockgroup",
+    "facet_type": "layer",
+    "data": {
+      "type": "enum",
+      "values": ["High", "High-moderate", "Moderate", "Low-moderate", "Low"]
+    },
+    "location": "dallas"
+  },
+  {
+    "attr": "ej_screen",
+    "layer": "blockgroup",
+    "facet_type": "filter",
+    "data": {
+      "type": "range",
+      "range": [0, 13]
+    },
+    "location": "dallas"
+  },
+  {
+    "attr": "tree_canopy",
+    "layer": "area",
+    "facet_type": "layer",
+    "data": {
+      "type": "range",
+      "range": [0, 1],
+      "gradient": [0, 0, 0.5, 0.5]
+    },
+    "location": "dallas"
+  },
+  {
+    "attr": "potential_tree_canopy",
+    "layer": "area",
+    "facet_type": "layer",
+    "data": {
+      "type": "range",
+      "range": [0, 1],
+      "gradient": [0, 0.2, 0.9, 1]
+    },
+    "location": "dallas"
+  },
+  {
+    "attr": "impervious_surface",
+    "layer": "area",
+    "facet_type": "layer",
+    "data": {
+      "type": "range",
+      "range": [0, 1],
+      "gradient": [0, 0, 0.1, 1, 1]
+    },
+    "location": "dallas"
+  },
+  {
+    "attr": "school",
+    "layer": "area",
+    "facet_type": "filter",
+    "data": {
+      "type": "boolean"
+    },
+    "location": "dallas"
+  },
+  {
+    "attr": "park",
+    "layer": "area",
+    "facet_type": "filter",
+    "data": {
+      "type": "boolean"
+    },
+    "location": "dallas"
+  },
+  {
+    "attr": "social_vulnerability_index",
+    "layer": "area",
+    "facet_type": "filter",
+    "data": {
+      "type": "range",
+      "range": [0, 1]
+    },
+    "location": "dallas"
+  },
+  {
+    "attr": "neighborhood_type",
+    "layer": "area",
+    "facet_type": "filter",
+    "data": {
+      "type": "enum",
+      "values": ["Residential Arts", "Mixed Urbanism", "Non Traditional", "Urban Core"]
+    },
+    "location": "dallas"
+  },
+  {
+    "attr": "ej_screen",
+    "layer": "area",
+    "facet_type": "filter",
+    "data": {
+      "type": "range",
+      "range": [0, 13]
+    },
+    "location": "dallas"
+  },
+  {
+    "attr": "tree_equity_score",
+    "layer": "blockgroup",
+    "facet_type": "layer",
+    "data": {
+      "type": "range",
+      "range": [0, 100],
+      "gradient": [70, 70, 100, 100]
+    },
+    "location": "toronto"
+  },
+  {
+    "attr": "tree_canopy",
+    "layer": "blockgroup",
+    "facet_type": "layer",
+    "data": {
+      "type": "range",
+      "range": [0, 1],
+      "gradient": [0, 0, 0.35, 0.5]
+    },
+    "source": "2018 Forest and Land Cover, City of Toronto Parks, Forestry & Recreation",
+    "location": "toronto"
+  },
+  {
+    "attr": "tree_canopy_gap",
+    "layer": "blockgroup",
+    "facet_type": "layer",
+    "data": {
+      "type": "range",
+      "range": [0, 1],
+      "gradient": [0, 0, 0.3, 0.5]
+    },
+    "location": "toronto"
+  },
+  {
+    "attr": "equity_index",
+    "layer": "blockgroup",
+    "facet_type": "layer",
+    "data": {
+      "type": "range",
+      "range": [0, 1],
+      "gradient": [0, 0.15, 0.5, 1]
+    },
+    "source": "Canada Census of Population, 2021; Ontario Community Health Profiles Partnership (2018-2019); Toronto and Region Conservation Authority",
+    "explanation": "The priority index is made up of equally-weighted climate, health and socioeconomic characteristics that are integrated into Tree Equity Score. A higher priority index indicates greater potential for residents to be disproportionality affected by extreme heat, pollution and other environmental hazards which could be reduced with the benefits of trees. Range: 0 to 1, where 1 is the highest priority.",
+    "location": "toronto"
+  },
+  {
+    "attr": "poverty_percent",
+    "layer": "blockgroup",
+    "facet_type": "layer",
+    "data": {
+      "type": "range",
+      "range": [0, 1],
+      "gradient": [0, 0, 0.6, 1]
+    },
+    "source": "Canada Census of Population, 2021",
+    "explanation": "Prevalence of low income based on the low-income measure, after tax (LIM-AT).",
+    "location": "toronto"
+  },
+  {
+    "attr": "poc_percent",
+    "layer": "blockgroup",
+    "facet_type": "layer",
+    "data": {
+      "type": "range",
+      "range": [0, 1],
+      "gradient": [0, 0, 0.9, 1]
+    },
+    "source": "Canada Census of Population, 2021",
+    "explanation": "The percentage of persons in a census tract who identify as non-white or indigenous.",
+    "location": "toronto"
+  },
+  {
+    "attr": "dependent_ratio",
+    "layer": "blockgroup",
+    "facet_type": "layer",
+    "data": {
+      "type": "range",
+      "range": [0, 1],
+      "gradient": [0, 0.2, 0.6, 0.75]
+    },
+    "source": "Canada Census of Population, 2021",
+    "explanation": "Percent seniors (age 65+) and children (0-14).",
+    "location": "toronto"
+  },
+  {
+    "attr": "unemployment_rate",
+    "layer": "blockgroup",
+    "facet_type": "layer",
+    "data": {
+      "type": "range",
+      "range": [0, 1],
+      "gradient": [0, 0, 0.2, 0.5]
+    },
+    "source": "Canada Census of Population, 2021",
+    "explanation": "Percentage of the labour force that do not have a job, are available, and looking for one.",
+    "location": "toronto"
+  },
+  {
+    "attr": "linguistic_isolation",
+    "layer": "blockgroup",
+    "facet_type": "layer",
+    "data": {
+      "type": "range",
+      "range": [0, 1],
+      "gradient": [0, 0, 0.3, 0.5]
+    },
+    "source": "Canada Census of Population, 2021",
+    "explanation": "Percentage of households in each census tract in which adults speak neither English nor French.",
+    "location": "toronto"
+  },
+  {
+    "attr": "health_normalized",
+    "layer": "blockgroup",
+    "facet_type": "layer",
+    "data": {
+      "type": "range",
+      "range": [0, 1],
+      "gradient": [0, 0, 0.8, 1]
+    },
+    "source": "Ontario Community Health Profiles Partnership (2018-2019)",
+    "explanation": "The prevalence of diabetes, asthma, high blood pressure and poor mental health in each neighbourhood in an equally weighted index. The index ranges from 0 to 1. A higher index indicates poorer health factors.",
+    "location": "toronto"
+  },
+  {
+    "attr": "temperature",
+    "layer": "blockgroup",
+    "facet_type": "layer",
+    "data": {
+      "type": "range",
+      "range": [-5, 5],
+      "gradient": [-5, -3, 0, 2, 3, 5]
+    },
+    "source": "Contains information made available under the Toronto and Region Conservation Authority (TRCA)'s Open Data Licence v 1.0",
+    "explanation": "Compares average census tract surface temperature with the citywide average to measure variance in heat across census tracts. Surface temperature is a good estimate of where excess heat is generated in urban areas.",
+    "location": "toronto"
+  },
+  {
+    "attr": "neighborhood",
+    "layer": "blockgroup",
+    "facet_type": "filter",
+    "data": {
+      "type": "enum",
+      "values": [
+        "Agincourt North",
+        "Agincourt South-Malvern West",
+        "Alderwood",
+        "Annex",
+        "Avondale",
+        "Banbury-Don Mills",
+        "Bathurst Manor",
+        "Bay-Cloverhill",
+        "Bayview Village",
+        "Bayview Woods-Steeles",
+        "Bedford Park-Nortown",
+        "Beechborough-Greenbrook",
+        "Bendale South",
+        "Bendale-Glen Andrew",
+        "Birchcliffe-Cliffside",
+        "Black Creek",
+        "Blake-Jones",
+        "Briar Hill-Belgravia",
+        "Bridle Path-Sunnybrook-York Mills",
+        "Broadview North",
+        "Brookhaven-Amesbury",
+        "Cabbagetown-South St.James Town",
+        "Caledonia-Fairbank",
+        "Casa Loma",
+        "Centennial Scarborough",
+        "Church-Wellesley",
+        "Clairlea-Birchmount",
+        "Clanton Park",
+        "Cliffcrest",
+        "Corso Italia-Davenport",
+        "Danforth",
+        "Danforth East York",
+        "Don Valley Village",
+        "Dorset Park",
+        "Dovercourt Village",
+        "Downsview",
+        "Downtown Yonge East",
+        "Dufferin Grove",
+        "East End-Danforth",
+        "East L'Amoreaux",
+        "East Willowdale",
+        "Edenbridge-Humber Valley",
+        "Eglinton East",
+        "Elms-Old Rexdale",
+        "Englemount-Lawrence",
+        "Eringate-Centennial-West Deane",
+        "Etobicoke City Centre",
+        "Etobicoke West Mall",
+        "Fenside-Parkwoods",
+        "Flemingdon Park",
+        "Forest Hill North",
+        "Forest Hill South",
+        "Fort York-Liberty Village",
+        "Glenfield-Jane Heights",
+        "Golfdale-Cedarbrae-Woburn",
+        "Greenwood-Coxwell",
+        "Guildwood",
+        "Harbourfront-CityPlace",
+        "Henry Farm",
+        "High Park North",
+        "High Park-Swansea",
+        "Highland Creek",
+        "Hillcrest Village",
+        "Humber Bay Shores",
+        "Humber Heights-Westmount",
+        "Humber Summit",
+        "Humbermede",
+        "Humewood-Cedarvale",
+        "Ionview",
+        "Islington",
+        "Junction Area",
+        "Junction-Wallace Emerson",
+        "Keelesdale-Eglinton West",
+        "Kennedy Park",
+        "Kensington-Chinatown",
+        "Kingsview Village-The Westway",
+        "Kingsway South",
+        "L'Amoreaux West",
+        "Lambton Baby Point",
+        "Lansing-Westgate",
+        "Lawrence Park North",
+        "Lawrence Park South",
+        "Leaside-Bennington",
+        "Little Portugal",
+        "Long Branch",
+        "Malvern East",
+        "Malvern West",
+        "Maple Leaf",
+        "Markland Wood",
+        "Milliken",
+        "Mimico-Queensway",
+        "Morningside",
+        "Morningside Heights",
+        "Moss Park",
+        "Mount Dennis",
+        "Mount Olive-Silverstone-Jamestown",
+        "Mount Pleasant East",
+        "New Toronto",
+        "Newtonbrook East",
+        "Newtonbrook West",
+        "North Riverdale",
+        "North St.James Town",
+        "North Toronto",
+        "O'Connor-Parkview",
+        "Oakdale-Beverley Heights",
+        "Oakridge",
+        "Oakwood Village",
+        "Old East York",
+        "Palmerston-Little Italy",
+        "Parkwoods-O'Connor Hills",
+        "Pelmo Park-Humberlea",
+        "Playter Estates-Danforth",
+        "Pleasant View",
+        "Princess-Rosethorn",
+        "Regent Park",
+        "Rexdale-Kipling",
+        "Rockcliffe-Smythe",
+        "Roncesvalles",
+        "Rosedale-Moore Park",
+        "Runnymede-Bloor West Village",
+        "Rustic",
+        "Scarborough Village",
+        "South Eglinton-Davisville",
+        "South Parkdale",
+        "South Riverdale",
+        "St Lawrence-East Bayfront-The Islands",
+        "St.Andrew-Windfields",
+        "Steeles",
+        "Stonegate-Queensway",
+        "Tam O'Shanter-Sullivan",
+        "Taylor-Massey",
+        "The Beaches",
+        "Thistletown-Beaumond Heights",
+        "Thorncliffe Park",
+        "Trinity-Bellwoods",
+        "University",
+        "Victoria Village",
+        "Wellington Place",
+        "West Hill",
+        "West Humber-Clairville",
+        "West Queen West",
+        "West Rouge",
+        "Westminster-Branson",
+        "Weston",
+        "Weston-Pelham Park",
+        "Wexford/Maryvale",
+        "Willowdale West",
+        "Willowridge-Martingrove-Richview",
+        "Woburn North",
+        "Woodbine Corridor",
+        "Woodbine-Lumsden",
+        "Wychwood",
+        "Yonge-Bay Corridor",
+        "Yonge-Doris",
+        "Yonge-Eglinton",
+        "Yonge-St.Clair",
+        "York University Heights",
+        "Yorkdale-Glen Park"
+      ]
+    },
+    "source": "City of Toronto, 2022",
+    "explanation": "Indicates which of Toronto's 158 City-designated social planning neighbourhoods the census tracts is in, by neighbourhood name.",
+    "location": "toronto"
+  },
+  {
+    "attr": "neighborhood_id",
+    "layer": "blockgroup",
+    "facet_type": "filter",
+    "data": {
+      "type": "enum",
+      "values": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9",
+        "10",
+        "11",
+        "12",
+        "13",
+        "15",
+        "16",
+        "18",
+        "19",
+        "20",
+        "21",
+        "22",
+        "23",
+        "24",
+        "25",
+        "27",
+        "28",
+        "29",
+        "30",
+        "31",
+        "32",
+        "33",
+        "34",
+        "35",
+        "36",
+        "37",
+        "38",
+        "39",
+        "40",
+        "41",
+        "42",
+        "43",
+        "44",
+        "46",
+        "47",
+        "48",
+        "49",
+        "50",
+        "52",
+        "53",
+        "54",
+        "55",
+        "56",
+        "57",
+        "58",
+        "59",
+        "60",
+        "61",
+        "62",
+        "63",
+        "64",
+        "65",
+        "66",
+        "67",
+        "68",
+        "69",
+        "70",
+        "71",
+        "72",
+        "73",
+        "74",
+        "78",
+        "79",
+        "80",
+        "81",
+        "83",
+        "84",
+        "85",
+        "86",
+        "87",
+        "88",
+        "89",
+        "90",
+        "91",
+        "92",
+        "94",
+        "95",
+        "96",
+        "97",
+        "98",
+        "99",
+        "100",
+        "101",
+        "102",
+        "103",
+        "105",
+        "106",
+        "107",
+        "108",
+        "109",
+        "110",
+        "111",
+        "112",
+        "113",
+        "114",
+        "115",
+        "116",
+        "118",
+        "119",
+        "120",
+        "121",
+        "122",
+        "123",
+        "124",
+        "125",
+        "126",
+        "128",
+        "129",
+        "130",
+        "133",
+        "134",
+        "135",
+        "136",
+        "138",
+        "139",
+        "140",
+        "141",
+        "142",
+        "143",
+        "144",
+        "145",
+        "146",
+        "147",
+        "148",
+        "149",
+        "150",
+        "151",
+        "152",
+        "153",
+        "154",
+        "155",
+        "156",
+        "157",
+        "158",
+        "159",
+        "160",
+        "161",
+        "162",
+        "163",
+        "164",
+        "165",
+        "166",
+        "167",
+        "168",
+        "169",
+        "170",
+        "171",
+        "172",
+        "173",
+        "174"
+      ]
+    },
+    "source": "City of Toronto, 2022",
+    "explanation": "Indicates which of Toronto's 158 City-designated social planning neighbourhoods the census tracts is in, by neighbourhood ID.",
+    "location": "toronto"
+  },
+  {
+    "attr": "neighborhood_score",
+    "layer": "blockgroup",
+    "facet_type": "filter",
+    "data": {
+      "type": "range",
+      "range": [64, 100]
+    },
+    "source": "American Forests, 2024",
+    "explanation": "Each of Toronto's 158 City-designated social planning neighbourhoods consists of several census tracts, and is assigned a composite score from 0-100. This neighbourhood score provides a simplified assessment of overall tree distribution fairness and is aggregated from all census tract Tree Equity Scores within the neighbourhood boundary. The composite score will increase faster if census tracts with lower Tree Equity Scores are raised.",
+    "location": "toronto"
+  },
+  {
+    "attr": "neighborhood_score_category",
+    "layer": "blockgroup",
+    "facet_type": "layer_not_filterable",
+    "data": {
+      "type": "enum",
+      "values": ["0 - 69", "70 - 79", "80 - 89", "90 - 99", "99 - 100"]
+    },
+    "source": "American Forests, 2024",
+    "explanation": "Each of Toronto's 158 City-designated social planning neighbourhoods consists of several census tracts, and is assigned a composite score from 0-100. This neighbourhood score provides a simplified assessment of overall tree distribution fairness and is aggregated from all census tract Tree Equity Scores within the neighbourhood boundary. The composite score will increase faster if census tracts with lower Tree Equity Scores are raised.",
+    "location": "toronto"
+  },
+  {
+    "attr": "neighborhood_designation",
+    "layer": "blockgroup",
+    "facet_type": "filter",
+    "data": {
+      "type": "enum",
+      "values": [
+        "Emerging Neighbourhood",
+        "Neighbourhood Improvement Area",
+        "Not an NIA or Emerging Neighbourhood"
+      ]
+    },
+    "source": "City of Toronto, 2022",
+    "explanation": "Designation of the neighbourhood as a Neighbourhood Improvement Area (NIA), Emerging Neighbourhood, or neither.",
+    "location": "toronto"
+  },
+  {
+    "attr": "ward",
+    "layer": "blockgroup",
+    "facet_type": "filter",
+    "data": {
+      "type": "enum",
+      "values": [
+        "Beaches-East York",
+        "Davenport",
+        "Don Valley East",
+        "Don Valley North",
+        "Don Valley West",
+        "Eglinton-Lawrence",
+        "Etobicoke Centre",
+        "Etobicoke North",
+        "Etobicoke-Lakeshore",
+        "Humber River-Black Creek",
+        "Parkdale-High Park",
+        "Scarborough Centre",
+        "Scarborough North",
+        "Scarborough Southwest",
+        "Scarborough-Agincourt",
+        "Scarborough-Guildwood",
+        "Scarborough-Rouge Park",
+        "Spadina-Fort York",
+        "Toronto Centre",
+        "Toronto-Danforth",
+        "Toronto-St. Paul's",
+        "University-Rosedale",
+        "Willowdale",
+        "York Centre",
+        "York South-Weston"
+      ]
+    },
+    "source": "City of Toronto, 2018",
+    "explanation": "The ward the census tract is in.",
+    "location": "toronto"
+  },
+  {
+    "attr": "watershed",
+    "layer": "blockgroup",
+    "facet_type": "filter",
+    "data": {
+      "type": "enum",
+      "values": [
+        "Black Creek - Humber River Outlet",
+        "Don River",
+        "Etobicoke Creek",
+        "Rouge River",
+        "West Humber River",
+        "West Lake Ontario Shoreline"
+      ]
+    },
+    "location": "toronto"
+  },
+  {
+    "attr": "tree_canopy",
+    "layer": "area",
+    "facet_type": "layer",
+    "data": {
+      "type": "range",
+      "range": [0, 1],
+      "gradient": [0, 0, 0.5, 0.5]
+    },
+    "location": "toronto"
+  },
+  {
+    "attr": "potential_tree_canopy",
+    "layer": "area",
+    "facet_type": "layer",
+    "data": {
+      "type": "range",
+      "range": [0, 1],
+      "gradient": [0, 0.2, 0.9, 1]
+    },
+    "location": "toronto"
+  },
+  {
+    "attr": "impervious_surface",
+    "layer": "area",
+    "facet_type": "layer",
+    "data": {
+      "type": "range",
+      "range": [0, 1],
+      "gradient": [0, 0, 0.1, 1, 1]
+    },
+    "explanation": "The percent area of a census tract that is covered by water-resistant materials such as asphalt, concrete, brick, stone, and rooftops.",
+    "location": "toronto"
+  },
+  {
+    "attr": "school",
+    "layer": "area",
+    "facet_type": "filter",
+    "data": {
+      "type": "boolean"
+    },
+    "location": "toronto"
+  },
+  {
+    "attr": "library",
+    "layer": "area",
+    "facet_type": "filter",
+    "data": {
+      "type": "boolean"
+    },
+    "source": "City of Toronto, 2019",
+    "explanation": "Indicates whether the census tract contains a library or whether the right-of-way is adjacent to a library",
+    "location": "toronto"
+  },
+  {
+    "attr": "tree_equity_score",
+    "layer": "blockgroup",
+    "facet_type": "layer",
+    "data": {
+      "type": "range",
+      "range": [0, 100],
+      "gradient": [70, 70, 100, 100]
+    },
+    "location": "washington"
+  },
+  {
+    "attr": "tree_canopy",
+    "layer": "blockgroup",
+    "facet_type": "layer",
+    "data": {
+      "type": "range",
+      "range": [0, 1],
+      "gradient": [0, 0, 0.35, 0.5]
+    },
+    "location": "washington"
+  },
+  {
+    "attr": "tree_canopy_gap",
+    "layer": "blockgroup",
+    "facet_type": "layer",
+    "data": {
+      "type": "range",
+      "range": [0, 1],
+      "gradient": [0, 0, 0.3, 0.5]
+    },
+    "location": "washington"
+  },
+  {
+    "attr": "equity_index",
+    "layer": "blockgroup",
+    "facet_type": "layer",
+    "data": {
+      "type": "range",
+      "range": [0, 1],
+      "gradient": [0, 0.15, 0.5, 1]
+    },
+    "location": "washington"
+  },
+  {
+    "attr": "poverty_percent",
+    "layer": "blockgroup",
+    "facet_type": "layer",
+    "data": {
+      "type": "range",
+      "range": [0, 1],
+      "gradient": [0, 0, 0.6, 1]
+    },
+    "location": "washington"
+  },
+  {
+    "attr": "poc_percent",
+    "layer": "blockgroup",
+    "facet_type": "layer",
+    "data": {
+      "type": "range",
+      "range": [0, 1],
+      "gradient": [0, 0, 0.9, 1]
+    },
+    "location": "washington"
+  },
+  {
+    "attr": "dependent_ratio",
+    "layer": "blockgroup",
+    "facet_type": "layer",
+    "data": {
+      "type": "range",
+      "range": [0, 1],
+      "gradient": [0, 0.2, 0.6, 0.75]
+    },
+    "location": "washington"
+  },
+  {
+    "attr": "unemployment_rate",
+    "layer": "blockgroup",
+    "facet_type": "layer",
+    "data": {
+      "type": "range",
+      "range": [0, 1],
+      "gradient": [0, 0, 0.2, 0.5]
+    },
+    "location": "washington"
+  },
+  {
+    "attr": "linguistic_isolation",
+    "layer": "blockgroup",
+    "facet_type": "layer",
+    "data": {
+      "type": "range",
+      "range": [0, 1],
+      "gradient": [0, 0, 0.3, 0.5]
+    },
+    "location": "washington"
+  },
+  {
+    "attr": "health_normalized",
+    "layer": "blockgroup",
+    "facet_type": "layer",
+    "data": {
+      "type": "range",
+      "range": [0, 1],
+      "gradient": [0, 0, 0.8, 1]
+    },
+    "location": "washington"
+  },
+  {
+    "attr": "temperature",
+    "layer": "blockgroup",
+    "facet_type": "layer",
+    "data": {
+      "type": "range",
+      "range": [-30, 30],
+      "gradient": [-5, -5, 0, 10, 15, 25, 25]
+    },
+    "location": "washington"
+  },
+  {
+    "attr": "holc_grade",
+    "layer": "blockgroup",
+    "facet_type": "layer",
+    "data": {
+      "type": "enum",
+      "values": ["A", "B", "C", "D", "E"]
+    },
+    "location": "washington"
+  },
+  {
+    "attr": "ej_disadvantaged",
+    "layer": "blockgroup",
+    "facet_type": "filter",
+    "data": {
+      "type": "enum",
+      "values": ["Yes"]
+    },
+    "location": "washington"
+  },
+  {
+    "attr": "tree_canopy",
+    "layer": "area",
+    "facet_type": "layer",
+    "data": {
+      "type": "range",
+      "range": [0, 1],
+      "gradient": [0, 0, 0.5, 0.5]
+    },
+    "location": "washington"
+  },
+  {
+    "attr": "potential_tree_canopy",
+    "layer": "area",
+    "facet_type": "layer",
+    "data": {
+      "type": "range",
+      "range": [0, 1],
+      "gradient": [0, 0.2, 0.9, 1]
+    },
+    "location": "washington"
+  },
+  {
+    "attr": "impervious_surface",
+    "layer": "area",
+    "facet_type": "layer",
+    "data": {
+      "type": "range",
+      "range": [0, 1],
+      "gradient": [0, 0, 0.1, 1, 1]
+    },
+    "location": "washington"
+  },
+  {
+    "attr": "watershed",
+    "layer": "blockgroup",
+    "facet_type": "filter",
+    "data": {
+      "type": "enum",
+      "values": [
+        "Banks Lake",
+        "Colville",
+        "Deschutes",
+        "Dungeness-Elwha",
+        "Duwamish",
+        "Grays Harbor",
+        "Hangman",
+        "Hood Canal",
+        "Lake Chelan",
+        "Lake Washington",
+        "Lewis",
+        "Little Spokane",
+        "Lower Chehalis",
+        "Lower Columbia",
+        "Lower Columbia-Clatskanie",
+        "Lower Columbia-Sandy",
+        "Lower Cowlitz",
+        "Lower Crab",
+        "Lower Skagit",
+        "Lower Snake-Asotin",
+        "Lower Snake-Tucannon",
+        "Lower Spokane",
+        "Lower Yakima",
+        "Middle Columbia-Hood",
+        "Middle Columbia-Lake Wallula",
+        "Naches",
+        "Nisqually",
+        "Nooksack",
+        "Okanogan",
+        "Palouse",
+        "Puget Sound",
+        "Puyallup",
+        "Queets-Quinault",
+        "San Juan Islands",
+        "Skykomish",
+        "Snohomish",
+        "Snoqualmie",
+        "Stillaguamish",
+        "Strait of Georgia",
+        "Upper Chehalis",
+        "Upper Columbia-Entiat",
+        "Upper Columbia-Priest Rapids",
+        "Upper Spokane",
+        "Upper Yakima",
+        "Walla Walla",
+        "Wenatchee",
+        "Willapa Bay"
+      ]
+    },
+    "location": "washington"
+  },
+  {
+    "attr": "public_ownership_type",
+    "layer": "area",
+    "facet_type": "filter",
+    "data": {
+      "type": "enum",
+      "values": [
+        "Authority",
+        "City",
+        "County",
+        "District",
+        "Federal",
+        "Joint",
+        "Local",
+        "NGO",
+        "None",
+        "Nonprofit",
+        "Private",
+        "Regional",
+        "School",
+        "State",
+        "University",
+        "Unknown",
+        "Utility"
+      ]
+    },
+    "location": "washington"
+  },
+  {
+    "attr": "school",
+    "layer": "area",
+    "facet_type": "filter",
+    "data": { "type": "boolean" },
+    "location": "washington"
+  },
+  {
+    "attr": "tree_equity_score",
+    "layer": "blockgroup",
+    "facet_type": "layer",
+    "data": {
+      "type": "range",
+      "range": [0, 100],
+      "gradient": [70, 70, 100, 100]
+    },
+    "location": "houston"
+  },
+  {
+    "attr": "tree_canopy",
+    "layer": "blockgroup",
+    "facet_type": "layer",
+    "data": {
+      "type": "range",
+      "range": [0, 1],
+      "gradient": [0, 0, 0.35, 0.5]
+    },
+    "location": "houston"
+  },
+  {
+    "attr": "tree_canopy_gap",
+    "layer": "blockgroup",
+    "facet_type": "layer",
+    "data": {
+      "type": "range",
+      "range": [0, 1],
+      "gradient": [0, 0, 0.3, 0.5]
+    },
+    "location": "houston"
+  },
+  {
+    "attr": "equity_index",
+    "layer": "blockgroup",
+    "facet_type": "layer",
+    "data": {
+      "type": "range",
+      "range": [0, 1],
+      "gradient": [0, 0.15, 0.5, 1]
+    },
+    "location": "houston"
+  },
+  {
+    "attr": "poverty_percent",
+    "layer": "blockgroup",
+    "facet_type": "layer",
+    "data": {
+      "type": "range",
+      "range": [0, 1],
+      "gradient": [0, 0, 0.6, 1]
+    },
+    "location": "houston"
+  },
+  {
+    "attr": "poc_percent",
+    "layer": "blockgroup",
+    "facet_type": "layer",
+    "data": {
+      "type": "range",
+      "range": [0, 1],
+      "gradient": [0, 0, 0.9, 1]
+    },
+    "location": "houston"
+  },
+  {
+    "attr": "dependent_ratio",
+    "layer": "blockgroup",
+    "facet_type": "layer",
+    "data": {
+      "type": "range",
+      "range": [0, 1],
+      "gradient": [0, 0.2, 0.6, 0.75]
+    },
+    "location": "houston"
+  },
+  {
+    "attr": "unemployment_rate",
+    "layer": "blockgroup",
+    "facet_type": "layer",
+    "data": {
+      "type": "range",
+      "range": [0, 1],
+      "gradient": [0, 0, 0.2, 0.5]
+    },
+    "location": "houston"
+  },
+  {
+    "attr": "linguistic_isolation",
+    "layer": "blockgroup",
+    "facet_type": "layer",
+    "data": {
+      "type": "range",
+      "range": [0, 1],
+      "gradient": [0, 0, 0.3, 0.5]
+    },
+    "location": "houston"
+  },
+  {
+    "attr": "health_normalized",
+    "layer": "blockgroup",
+    "facet_type": "layer",
+    "data": {
+      "type": "range",
+      "range": [0, 1],
+      "gradient": [0, 0, 0.8, 1]
+    },
+    "location": "houston"
+  },
+  {
+    "attr": "temperature",
+    "layer": "blockgroup",
+    "facet_type": "layer",
+    "data": {
+      "type": "range",
+      "range": [-30, 30],
+      "gradient": [-5, -5, 0, 10, 15, 25, 25]
+    },
+    "location": "houston"
+  },
+  {
+    "attr": "holc_grade",
+    "layer": "blockgroup",
+    "facet_type": "layer",
+    "data": {
+      "type": "enum",
+      "values": ["A", "B", "C", "D", "E"]
+    },
+    "location": "houston"
+  },
+  {
+    "attr": "ej_disadvantaged",
+    "layer": "blockgroup",
+    "facet_type": "filter",
+    "data": {
+      "type": "enum",
+      "values": ["Yes"]
+    },
+    "location": "houston"
+  },
+  {
+    "attr": "school_district",
+    "layer": "blockgroup",
+    "facet_type": "filter",
+    "data": {
+      "type": "enum",
+      "values": [
+        "Alief ISD",
+        "Alvin ISD",
+        "Aldine ISD",
+        "Barbers Hill ISD",
+        "Clear Creek ISD",
+        "Channelview ISD",
+        "Crosby ISD",
+        "Cypress-Fairbanks ISD",
+        "Deer Park ISD",
+        "Dickinson ISD",
+        "Fort Bend ISD",
+        "Friendswood ISD",
+        "Galena Park ISD",
+        "Goose Creek Consolidated ISD",
+        "Humble ISD",
+        "Houston ISD",
+        "Huffman ISD",
+        "Katy ISD",
+        "Klein ISD",
+        "La Porte ISD",
+        "Lamar Cons ISD",
+        "Magnolia ISD",
+        "New Caney ISD",
+        "Pasadena ISD",
+        "Pearland ISD",
+        "Royal ISD",
+        "Sheldon ISD",
+        "Spring Branch ISD",
+        "Spring ISD",
+        "Splendora ISD",
+        "Stafford MSD",
+        "Tomball ISD",
+        "Waller ISD"
+      ]
+    },
+    "location": "houston"
+  },
+  {
+    "attr": "tree_canopy",
+    "layer": "area",
+    "facet_type": "layer",
+    "data": {
+      "type": "range",
+      "range": [0, 1],
+      "gradient": [0, 0, 0.5, 0.5]
+    },
+    "location": "houston"
+  },
+  {
+    "attr": "potential_tree_canopy",
+    "layer": "area",
+    "facet_type": "layer",
+    "data": {
+      "type": "range",
+      "range": [0, 1],
+      "gradient": [0, 0.2, 0.9, 1]
+    },
+    "location": "houston"
+  },
+  {
+    "attr": "impervious_surface",
+    "layer": "area",
+    "facet_type": "layer",
+    "data": {
+      "type": "range",
+      "range": [0, 1],
+      "gradient": [0, 0, 0.1, 1, 1]
+    },
+    "location": "houston"
+  },
+  {
+    "attr": "park",
+    "layer": "area",
+    "facet_type": "filter",
+    "data": { "type": "boolean" },
+    "location": "houston"
+  },
+  {
+    "attr": "flood",
+    "layer": "area",
+    "facet_type": "filter",
+    "data": { "type": "enum", "values": ["high", "moderate to low", "other"] },
+    "location": "houston"
+  },
+  {
+    "attr": "bus_stop",
+    "layer": "area",
+    "facet_type": "filter",
+    "data": { "type": "boolean" },
+    "location": "houston"
+  },
+  {
+    "attr": "tree_equity_score",
+    "layer": "blockgroup",
+    "facet_type": "layer",
+    "data": {
+      "type": "range",
+      "range": [0, 100],
+      "gradient": [70, 70, 100, 100]
+    },
+    "location": "boston"
+  },
+  {
+    "attr": "tree_canopy",
+    "layer": "blockgroup",
+    "facet_type": "layer",
+    "data": {
+      "type": "range",
+      "range": [0, 1],
+      "gradient": [0, 0, 0.35, 0.5]
+    },
+    "location": "boston"
+  },
+  {
+    "attr": "tree_canopy_gap",
+    "layer": "blockgroup",
+    "facet_type": "layer",
+    "data": {
+      "type": "range",
+      "range": [0, 1],
+      "gradient": [0, 0, 0.3, 0.5]
+    },
+    "location": "boston"
+  },
+  {
+    "attr": "equity_index",
+    "layer": "blockgroup",
+    "facet_type": "layer",
+    "data": {
+      "type": "range",
+      "range": [0, 1],
+      "gradient": [0, 0.15, 0.5, 1]
+    },
+    "location": "boston"
+  },
+  {
+    "attr": "poverty_percent",
+    "layer": "blockgroup",
+    "facet_type": "layer",
+    "data": {
+      "type": "range",
+      "range": [0, 1],
+      "gradient": [0, 0, 0.6, 1]
+    },
+    "location": "boston"
+  },
+  {
+    "attr": "poc_percent",
+    "layer": "blockgroup",
+    "facet_type": "layer",
+    "data": {
+      "type": "range",
+      "range": [0, 1],
+      "gradient": [0, 0, 0.9, 1]
+    },
+    "location": "boston"
+  },
+  {
+    "attr": "dependent_ratio",
+    "layer": "blockgroup",
+    "facet_type": "layer",
+    "data": {
+      "type": "range",
+      "range": [0, 1],
+      "gradient": [0, 0.2, 0.6, 0.75]
+    },
+    "location": "boston"
+  },
+  {
+    "attr": "unemployment_rate",
+    "layer": "blockgroup",
+    "facet_type": "layer",
+    "data": {
+      "type": "range",
+      "range": [0, 1],
+      "gradient": [0, 0, 0.2, 0.5]
+    },
+    "location": "boston"
+  },
+  {
+    "attr": "linguistic_isolation",
+    "layer": "blockgroup",
+    "facet_type": "layer",
+    "data": {
+      "type": "range",
+      "range": [0, 1],
+      "gradient": [0, 0, 0.3, 0.5]
+    },
+    "location": "boston"
+  },
+  {
+    "attr": "health_normalized",
+    "layer": "blockgroup",
+    "facet_type": "layer",
+    "data": {
+      "type": "range",
+      "range": [0, 1],
+      "gradient": [0, 0, 0.8, 1]
+    },
+    "location": "boston"
+  },
+  {
+    "attr": "temperature",
+    "layer": "blockgroup",
+    "facet_type": "layer",
+    "data": {
+      "type": "range",
+      "range": [-30, 30],
+      "gradient": [-5, -5, 0, 10, 15, 25, 25]
+    },
+    "location": "boston"
+  },
+  {
+    "attr": "holc_grade",
+    "layer": "blockgroup",
+    "facet_type": "layer",
+    "data": {
+      "type": "enum",
+      "values": ["A", "B", "C", "D", "E"]
+    },
+    "location": "boston"
+  },
+  {
+    "attr": "ej_disadvantaged",
+    "layer": "blockgroup",
+    "facet_type": "filter",
+    "data": {
+      "type": "enum",
+      "values": ["Yes"]
+    },
+    "location": "boston"
+  },
+  {
+    "attr": "tree_canopy",
+    "layer": "area",
+    "facet_type": "layer",
+    "data": {
+      "type": "range",
+      "range": [0, 1],
+      "gradient": [0, 0, 0.5, 0.5]
+    },
+    "location": "boston"
+  },
+  {
+    "attr": "potential_tree_canopy",
+    "layer": "area",
+    "facet_type": "layer",
+    "data": {
+      "type": "range",
+      "range": [0, 1],
+      "gradient": [0, 0.2, 0.9, 1]
+    },
+    "location": "boston"
+  },
+  {
+    "attr": "impervious_surface",
+    "layer": "area",
+    "facet_type": "layer",
+    "data": {
+      "type": "range",
+      "range": [0, 1],
+      "gradient": [0, 0, 0.1, 1, 1]
+    },
+    "location": "boston"
+  },
+  {
+    "attr": "evening_air_average_temperature",
+    "layer": "blockgroup",
+    "facet_type": "layer",
+    "data": {
+      "type": "range",
+      "range": [81.81625773715649, 87.63201499371078],
+      "gradient": [
+        81.81625773715649, 81.81625773715649, 83.48694285708184, 86.26757147900474,
+        87.63201499371078, 87.63201499371078
+      ]
+    },
+    "location": "boston"
+  },
+  {
+    "attr": "afternoon_air_average_temperature",
+    "layer": "blockgroup",
+    "facet_type": "layer",
+    "data": {
+      "type": "range",
+      "range": [88.9470103711204, 94.61930836684829],
+      "gradient": [
+        88.9470103711204, 88.9470103711204, 90.29916481127701, 92.54816628684593, 94.61930836684829,
+        94.61930836684829
+      ]
+    },
+    "location": "boston"
+  },
+  {
+    "attr": "name_ej_criteria",
+    "layer": "blockgroup",
+    "facet_type": "layer",
+    "data": {
+      "type": "enum",
+      "values": [
+        "Minority",
+        "No designation",
+        "Minority and income",
+        "Minority, income and English isolation",
+        "Minority and English isolation",
+        "Income"
+      ]
+    },
+    "location": "boston"
+  },
+  {
+    "attr": "neighborhood",
+    "layer": "area",
+    "facet_type": "filter",
+    "data": {
+      "type": "enum",
+      "values": [
+        "Dorchester",
+        "West Roxbury",
+        "Hyde Park",
+        "Roxbury",
+        "Jamaica Plain",
+        "Roslindale",
+        "East Boston",
+        "South Boston",
+        "Brighton",
+        "Mattapan",
+        "Charlestown",
+        "South End",
+        "Allston",
+        "Back Bay",
+        "Mission Hill",
+        "Beacon Hill",
+        "Fenway",
+        "North End",
+        "Downtown",
+        "South Boston Waterfront",
+        "Chinatown",
+        "West End",
+        "Bay Village",
+        "Longwood",
+        "Leather District",
+        "Harbor Islands"
+      ]
+    },
+    "location": "boston"
+  },
+  {
+    "attr": "public",
+    "layer": "area",
+    "facet_type": "filter",
+    "data": { "type": "boolean" },
+    "location": "boston"
+  },
+  {
+    "attr": "flood",
+    "layer": "area",
+    "facet_type": "filter",
+    "data": { "type": "enum", "values": ["other", "high", "moderate to low"] },
+    "location": "boston"
+  },
+  {
+    "attr": "number_ej_criteria",
+    "layer": "blockgroup",
+    "facet_type": "filter",
+    "data": { "type": "enum", "values": [0, 1, 2, 3] },
+    "location": "boston"
+  },
+  {
+    "attr": "open_space",
+    "layer": "area",
+    "facet_type": "filter",
+    "data": { "type": "boolean" },
+    "location": "boston"
+  },
+  {
+    "attr": "tree_equity_score",
+    "layer": "blockgroup",
+    "facet_type": "layer",
+    "data": {
+      "type": "range",
+      "range": [0, 100],
+      "gradient": [70, 70, 100, 100]
+    },
+    "location": "dc"
+  },
+  {
+    "attr": "tree_canopy",
+    "layer": "blockgroup",
+    "facet_type": "layer",
+    "data": {
+      "type": "range",
+      "range": [0, 1],
+      "gradient": [0, 0, 0.35, 0.5]
+    },
+    "location": "dc"
+  },
+  {
+    "attr": "tree_canopy_gap",
+    "layer": "blockgroup",
+    "facet_type": "layer",
+    "data": {
+      "type": "range",
+      "range": [0, 1],
+      "gradient": [0, 0, 0.3, 0.5]
+    },
+    "location": "dc"
+  },
+  {
+    "attr": "equity_index",
+    "layer": "blockgroup",
+    "facet_type": "layer",
+    "data": {
+      "type": "range",
+      "range": [0, 1],
+      "gradient": [0, 0.15, 0.5, 1]
+    },
+    "location": "dc"
+  },
+  {
+    "attr": "poverty_percent",
+    "layer": "blockgroup",
+    "facet_type": "layer",
+    "data": {
+      "type": "range",
+      "range": [0, 1],
+      "gradient": [0, 0, 0.6, 1]
+    },
+    "location": "dc"
+  },
+  {
+    "attr": "poc_percent",
+    "layer": "blockgroup",
+    "facet_type": "layer",
+    "data": {
+      "type": "range",
+      "range": [0, 1],
+      "gradient": [0, 0, 0.9, 1]
+    },
+    "location": "dc"
+  },
+  {
+    "attr": "dependent_ratio",
+    "layer": "blockgroup",
+    "facet_type": "layer",
+    "data": {
+      "type": "range",
+      "range": [0, 1],
+      "gradient": [0, 0.2, 0.6, 0.75]
+    },
+    "location": "dc"
+  },
+  {
+    "attr": "unemployment_rate",
+    "layer": "blockgroup",
+    "facet_type": "layer",
+    "data": {
+      "type": "range",
+      "range": [0, 1],
+      "gradient": [0, 0, 0.2, 0.5]
+    },
+    "location": "dc"
+  },
+  {
+    "attr": "linguistic_isolation",
+    "layer": "blockgroup",
+    "facet_type": "layer",
+    "data": {
+      "type": "range",
+      "range": [0, 1],
+      "gradient": [0, 0, 0.3, 0.5]
+    },
+    "location": "dc"
+  },
+  {
+    "attr": "health_normalized",
+    "layer": "blockgroup",
+    "facet_type": "layer",
+    "data": {
+      "type": "range",
+      "range": [0, 1],
+      "gradient": [0, 0, 0.8, 1]
+    },
+    "location": "dc"
+  },
+  {
+    "attr": "temperature",
+    "layer": "blockgroup",
+    "facet_type": "layer",
+    "data": {
+      "type": "range",
+      "range": [-30, 30],
+      "gradient": [-5, -5, 0, 10, 15, 25, 25]
+    },
+    "location": "dc"
+  },
+  {
+    "attr": "holc_grade",
+    "layer": "blockgroup",
+    "facet_type": "layer",
+    "data": {
+      "type": "enum",
+      "values": ["A", "B", "C", "D", "E"]
+    },
+    "location": "dc"
+  },
+  {
+    "attr": "ej_disadvantaged",
+    "layer": "blockgroup",
+    "facet_type": "filter",
+    "data": {
+      "type": "enum",
+      "values": ["Yes"]
+    },
+    "location": "dc"
+  },
+  {
+    "attr": "tree_canopy",
+    "layer": "area",
+    "facet_type": "layer",
+    "data": {
+      "type": "range",
+      "range": [0, 1],
+      "gradient": [0, 0, 0.5, 0.5]
+    },
+    "location": "dc"
+  },
+  {
+    "attr": "potential_tree_canopy",
+    "layer": "area",
+    "facet_type": "layer",
+    "data": {
+      "type": "range",
+      "range": [0, 1],
+      "gradient": [0, 0.2, 0.9, 1]
+    },
+    "location": "dc"
+  },
+  {
+    "attr": "impervious_surface",
+    "layer": "area",
+    "facet_type": "layer",
+    "data": {
+      "type": "range",
+      "range": [0, 1],
+      "gradient": [0, 0, 0.1, 1, 1]
+    },
+    "location": "dc"
+  },
+  {
+    "attr": "canopy_change_percent",
+    "layer": "blockgroup",
+    "facet_type": "filter",
+    "data": { "type": "range", "range": [0, 1] },
+    "location": "dc"
+  },
+  {
+    "attr": "canopy_change_percent",
+    "layer": "area",
+    "facet_type": "filter",
+    "data": { "type": "range", "range": [0, 1] },
+    "location": "dc"
+  },
+  {
+    "attr": "school",
+    "layer": "area",
+    "facet_type": "filter",
+    "data": { "type": "boolean" },
+    "location": "dc"
+  },
+  {
+    "attr": "park",
+    "layer": "area",
+    "facet_type": "filter",
+    "data": { "type": "boolean" },
+    "location": "dc"
+  },
+  {
+    "attr": "watershed",
+    "layer": "blockgroup",
+    "facet_type": "filter",
+    "data": {
+      "type": "enum",
+      "values": [
+        "Anacostia River",
+        "Rock Creek",
+        "Fourmile Run-Potomac River",
+        "Pimmit Run-Potomac River",
+        "Cameron Run",
+        "Seneca Creek",
+        "Accotink Creek",
+        "Western Branch",
+        "Potomac River MO Cnty",
+        "Difficult Run",
+        "Pohick Creek",
+        "Patuxent River upper",
+        "Potomac River U tidal",
+        "Cub Run",
+        "Cabin John Creek",
+        "Little Hunting Creek-Potomac River",
+        "Oxon Creek",
+        "Sugarland Run",
+        "Piscataway Creek",
+        "Lower Bull Run",
+        "Dogue Creek",
+        "Horsepen Run",
+        "Nichols Run-Potomac River",
+        "Rocky Gorge Dam",
+        "Occoquan Reservoir-Occoquan River",
+        "Scott Run-Nichols Run-Potomac River",
+        "Lower Monocacy River",
+        "Mattawoman Creek",
+        "Belmont Bay-Occoquan River",
+        "Middle Bull Run",
+        "Patuxent River middle",
+        "Brighton Dam",
+        "Beaverdam Run-Broad Run"
+      ]
+    },
+    "location": "dc"
+  },
+  {
+    "attr": "watershed",
+    "layer": "area",
+    "facet_type": "filter",
+    "data": {
+      "type": "enum",
+      "values": [
+        "Anacostia River",
+        "Rock Creek",
+        "Western Branch",
+        "Cameron Run",
+        "Seneca Creek",
+        "Accotink Creek",
+        "Potomac River MO Cnty",
+        "Pimmit Run-Potomac River",
+        "Fourmile Run-Potomac River",
+        "Pohick Creek",
+        "Difficult Run",
+        "Patuxent River upper",
+        "Cub Run",
+        "Potomac River U tidal",
+        "Piscataway Creek",
+        "Cabin John Creek",
+        "Little Hunting Creek-Potomac River",
+        "Lower Bull Run",
+        "Oxon Creek",
+        "Dogue Creek",
+        "Sugarland Run",
+        "Horsepen Run",
+        "Nichols Run-Potomac River",
+        "Rocky Gorge Dam",
+        "Scott Run-Nichols Run-Potomac River",
+        "Belmont Bay-Occoquan River",
+        "Mattawoman Creek",
+        "Lower Monocacy River",
+        "Patuxent River middle",
+        "Occoquan Reservoir-Occoquan River",
+        "Brighton Dam",
+        "Potomac River M tidal",
+        "Middle Bull Run"
+      ]
+    },
+    "location": "dc"
+  },
+  {
+    "attr": "flood",
+    "layer": "area",
+    "facet_type": "filter",
+    "data": { "type": "enum", "values": ["moderate to low", "high", "other"] },
+    "location": "dc"
+  },
+  {
+    "attr": "tree_equity_score",
+    "layer": "blockgroup",
+    "facet_type": "layer",
+    "data": {
+      "type": "range",
+      "range": [0, 100],
+      "gradient": [70, 70, 100, 100]
+    },
+    "location": "ruston"
+  },
+  {
+    "attr": "tree_canopy",
+    "layer": "blockgroup",
+    "facet_type": "layer",
+    "data": {
+      "type": "range",
+      "range": [0, 1],
+      "gradient": [0, 0, 0.35, 0.5]
+    },
+    "location": "ruston"
+  },
+  {
+    "attr": "tree_canopy_gap",
+    "layer": "blockgroup",
+    "facet_type": "layer",
+    "data": {
+      "type": "range",
+      "range": [0, 1],
+      "gradient": [0, 0, 0.3, 0.5]
+    },
+    "location": "ruston"
+  },
+  {
+    "attr": "equity_index",
+    "layer": "blockgroup",
+    "facet_type": "layer",
+    "data": {
+      "type": "range",
+      "range": [0, 1],
+      "gradient": [0, 0.15, 0.5, 1]
+    },
+    "location": "ruston"
+  },
+  {
+    "attr": "poverty_percent",
+    "layer": "blockgroup",
+    "facet_type": "layer",
+    "data": {
+      "type": "range",
+      "range": [0, 1],
+      "gradient": [0, 0, 0.6, 1]
+    },
+    "location": "ruston"
+  },
+  {
+    "attr": "poc_percent",
+    "layer": "blockgroup",
+    "facet_type": "layer",
+    "data": {
+      "type": "range",
+      "range": [0, 1],
+      "gradient": [0, 0, 0.9, 1]
+    },
+    "location": "ruston"
+  },
+  {
+    "attr": "dependent_ratio",
+    "layer": "blockgroup",
+    "facet_type": "layer",
+    "data": {
+      "type": "range",
+      "range": [0, 1],
+      "gradient": [0, 0.2, 0.6, 0.75]
+    },
+    "location": "ruston"
+  },
+  {
+    "attr": "unemployment_rate",
+    "layer": "blockgroup",
+    "facet_type": "layer",
+    "data": {
+      "type": "range",
+      "range": [0, 1],
+      "gradient": [0, 0, 0.2, 0.5]
+    },
+    "location": "ruston"
+  },
+  {
+    "attr": "linguistic_isolation",
+    "layer": "blockgroup",
+    "facet_type": "layer",
+    "data": {
+      "type": "range",
+      "range": [0, 1],
+      "gradient": [0, 0, 0.3, 0.5]
+    },
+    "location": "ruston"
+  },
+  {
+    "attr": "health_normalized",
+    "layer": "blockgroup",
+    "facet_type": "layer",
+    "data": {
+      "type": "range",
+      "range": [0, 1],
+      "gradient": [0, 0, 0.8, 1]
+    },
+    "location": "ruston"
+  },
+  {
+    "attr": "temperature",
+    "layer": "blockgroup",
+    "facet_type": "layer",
+    "data": {
+      "type": "range",
+      "range": [-30, 30],
+      "gradient": [-5, -5, 0, 10, 15, 25, 25]
+    },
+    "location": "ruston"
+  },
+  {
+    "attr": "holc_grade",
+    "layer": "blockgroup",
+    "facet_type": "layer",
+    "data": {
+      "type": "enum",
+      "values": ["A", "B", "C", "D", "E"]
+    },
+    "location": "ruston"
+  },
+  {
+    "attr": "ej_disadvantaged",
+    "layer": "blockgroup",
+    "facet_type": "filter",
+    "data": {
+      "type": "enum",
+      "values": ["Yes"]
+    },
+    "location": "ruston"
+  },
+  {
+    "attr": "tree_canopy",
+    "layer": "area",
+    "facet_type": "layer",
+    "data": {
+      "type": "range",
+      "range": [0, 1],
+      "gradient": [0, 0, 0.5, 0.5]
+    },
+    "location": "ruston"
+  },
+  {
+    "attr": "potential_tree_canopy",
+    "layer": "area",
+    "facet_type": "layer",
+    "data": {
+      "type": "range",
+      "range": [0, 1],
+      "gradient": [0, 0.2, 0.9, 1]
+    },
+    "location": "ruston"
+  },
+  {
+    "attr": "impervious_surface",
+    "layer": "area",
+    "facet_type": "layer",
+    "data": {
+      "type": "range",
+      "range": [0, 1],
+      "gradient": [0, 0, 0.1, 1, 1]
+    },
+    "location": "ruston"
+  },
+  {
+    "attr": "watershed",
+    "layer": "blockgroup",
+    "facet_type": "filter",
+    "data": {
+      "type": "enum",
+      "values": ["Upper Cypress Creek", "Cypress Bayou", "Choudrant Creek", "Redwine Creek"]
+    },
+    "location": "ruston"
+  },
+  {
+    "attr": "flood",
+    "layer": "area",
+    "facet_type": "filter",
+    "data": { "type": "enum", "values": ["moderate to low", "high"] },
+    "location": "ruston"
+  },
+  {
+    "attr": "current_commercial_land_use",
+    "layer": "area",
+    "facet_type": "filter",
+    "data": { "type": "boolean" },
+    "location": "ruston"
+  },
+  {
+    "attr": "future_commercial_land_use",
+    "layer": "area",
+    "facet_type": "filter",
+    "data": { "type": "boolean" },
+    "location": "ruston"
+  },
+  {
+    "attr": "tree_equity_score",
+    "layer": "blockgroup",
+    "facet_type": "layer",
+    "data": {
+      "type": "range",
+      "range": [0, 100],
+      "gradient": [70, 70, 100, 100]
+    },
+    "location": "richmond"
+  },
+  {
+    "attr": "tree_canopy",
+    "layer": "blockgroup",
+    "facet_type": "layer",
+    "data": {
+      "type": "range",
+      "range": [0, 1],
+      "gradient": [0, 0, 0.35, 0.5]
+    },
+    "location": "richmond"
+  },
+  {
+    "attr": "tree_canopy_gap",
+    "layer": "blockgroup",
+    "facet_type": "layer",
+    "data": {
+      "type": "range",
+      "range": [0, 1],
+      "gradient": [0, 0, 0.3, 0.5]
+    },
+    "location": "richmond"
+  },
+  {
+    "attr": "equity_index",
+    "layer": "blockgroup",
+    "facet_type": "layer",
+    "data": {
+      "type": "range",
+      "range": [0, 1],
+      "gradient": [0, 0.15, 0.5, 1]
+    },
+    "location": "richmond"
+  },
+  {
+    "attr": "poverty_percent",
+    "layer": "blockgroup",
+    "facet_type": "layer",
+    "data": {
+      "type": "range",
+      "range": [0, 1],
+      "gradient": [0, 0, 0.6, 1]
+    },
+    "location": "richmond"
+  },
+  {
+    "attr": "poc_percent",
+    "layer": "blockgroup",
+    "facet_type": "layer",
+    "data": {
+      "type": "range",
+      "range": [0, 1],
+      "gradient": [0, 0, 0.9, 1]
+    },
+    "location": "richmond"
+  },
+  {
+    "attr": "dependent_ratio",
+    "layer": "blockgroup",
+    "facet_type": "layer",
+    "data": {
+      "type": "range",
+      "range": [0, 1],
+      "gradient": [0, 0.2, 0.6, 0.75]
+    },
+    "location": "richmond"
+  },
+  {
+    "attr": "unemployment_rate",
+    "layer": "blockgroup",
+    "facet_type": "layer",
+    "data": {
+      "type": "range",
+      "range": [0, 1],
+      "gradient": [0, 0, 0.2, 0.5]
+    },
+    "location": "richmond"
+  },
+  {
+    "attr": "linguistic_isolation",
+    "layer": "blockgroup",
+    "facet_type": "layer",
+    "data": {
+      "type": "range",
+      "range": [0, 1],
+      "gradient": [0, 0, 0.3, 0.5]
+    },
+    "location": "richmond"
+  },
+  {
+    "attr": "health_normalized",
+    "layer": "blockgroup",
+    "facet_type": "layer",
+    "data": {
+      "type": "range",
+      "range": [0, 1],
+      "gradient": [0, 0, 0.8, 1]
+    },
+    "location": "richmond"
+  },
+  {
+    "attr": "temperature",
+    "layer": "blockgroup",
+    "facet_type": "layer",
+    "data": {
+      "type": "range",
+      "range": [-30, 30],
+      "gradient": [-5, -5, 0, 10, 15, 25, 25]
+    },
+    "location": "richmond"
+  },
+  {
+    "attr": "holc_grade",
+    "layer": "blockgroup",
+    "facet_type": "layer",
+    "data": {
+      "type": "enum",
+      "values": ["A", "B", "C", "D", "E"]
+    },
+    "location": "richmond"
+  },
+  {
+    "attr": "ej_disadvantaged",
+    "layer": "blockgroup",
+    "facet_type": "filter",
+    "data": {
+      "type": "enum",
+      "values": ["Yes"]
+    },
+    "location": "richmond"
+  },
+  {
+    "attr": "tree_canopy",
+    "layer": "area",
+    "facet_type": "layer",
+    "data": {
+      "type": "range",
+      "range": [0, 1],
+      "gradient": [0, 0, 0.5, 0.5]
+    },
+    "location": "richmond"
+  },
+  {
+    "attr": "potential_tree_canopy",
+    "layer": "area",
+    "facet_type": "layer",
+    "data": {
+      "type": "range",
+      "range": [0, 1],
+      "gradient": [0, 0.2, 0.9, 1]
+    },
+    "location": "richmond"
+  },
+  {
+    "attr": "impervious_surface",
+    "layer": "area",
+    "facet_type": "layer",
+    "data": {
+      "type": "range",
+      "range": [0, 1],
+      "gradient": [0, 0, 0.1, 1, 1]
+    },
+    "location": "richmond"
+  },
+  {
+    "attr": "evening_air_average_temperature",
+    "layer": "blockgroup",
+    "facet_type": "layer",
+    "data": {
+      "type": "range",
+      "range": [85.3027794720061, 89.99132315512809],
+      "gradient": [
+        85.3027794720061, 85.3027794720061, 86.44738223751082, 89.41860511376012, 89.99132315512809,
+        89.99132315512809
+      ]
+    },
+    "location": "richmond"
+  },
+  {
+    "attr": "afternoon_air_average_temperature",
+    "layer": "blockgroup",
+    "facet_type": "layer",
+    "data": {
+      "type": "range",
+      "range": [89.20911272169347, 92.5408910209688],
+      "gradient": [
+        89.20911272169347, 89.20911272169347, 90.0077731628645, 91.68446003248593, 92.5408910209688,
+        92.5408910209688
+      ]
+    },
+    "location": "richmond"
+  },
+  {
+    "attr": "parking",
+    "layer": "area",
+    "facet_type": "filter",
+    "data": { "type": "boolean" },
+    "location": "richmond"
+  },
+  {
+    "attr": "industrial",
+    "layer": "area",
+    "facet_type": "filter",
+    "data": { "type": "boolean" },
+    "location": "richmond"
+  },
+  {
+    "attr": "rented",
+    "layer": "area",
+    "facet_type": "filter",
+    "data": { "type": "boolean" },
+    "location": "richmond"
+  },
+  {
+    "attr": "flood",
+    "layer": "area",
+    "facet_type": "filter",
+    "data": { "type": "enum", "values": ["other", "high", "moderate to low"] },
+    "location": "richmond"
+  },
+  {
+    "attr": "school",
+    "layer": "area",
+    "facet_type": "filter",
+    "data": { "type": "boolean" },
+    "location": "richmond"
+  },
+  {
+    "attr": "park",
+    "layer": "area",
+    "facet_type": "filter",
+    "data": { "type": "boolean" },
+    "location": "richmond"
+  },
+  {
+    "attr": "public",
+    "layer": "area",
+    "facet_type": "filter",
+    "data": { "type": "boolean" },
+    "location": "richmond"
+  },
+  {
+    "attr": "sidewalk",
+    "layer": "area",
+    "facet_type": "filter",
+    "data": { "type": "boolean" },
+    "location": "richmond"
+  },
+  {
+    "attr": "worship",
+    "layer": "area",
+    "facet_type": "filter",
+    "data": { "type": "boolean" },
+    "location": "richmond"
+  },
+  {
+    "attr": "tree_equity_score",
+    "layer": "blockgroup",
+    "facet_type": "layer",
+    "data": {
+      "type": "range",
+      "range": [0, 100],
+      "gradient": [70, 70, 100, 100]
+    },
+    "location": "rhode_island"
+  },
+  {
+    "attr": "tree_canopy",
+    "layer": "blockgroup",
+    "facet_type": "layer",
+    "data": {
+      "type": "range",
+      "range": [0, 1],
+      "gradient": [0, 0, 0.35, 0.5]
+    },
+    "location": "rhode_island"
+  },
+  {
+    "attr": "tree_canopy_gap",
+    "layer": "blockgroup",
+    "facet_type": "layer",
+    "data": {
+      "type": "range",
+      "range": [0, 1],
+      "gradient": [0, 0, 0.3, 0.5]
+    },
+    "location": "rhode_island"
+  },
+  {
+    "attr": "equity_index",
+    "layer": "blockgroup",
+    "facet_type": "layer",
+    "data": {
+      "type": "range",
+      "range": [0, 1],
+      "gradient": [0, 0.15, 0.5, 1]
+    },
+    "location": "rhode_island"
+  },
+  {
+    "attr": "poverty_percent",
+    "layer": "blockgroup",
+    "facet_type": "layer",
+    "data": {
+      "type": "range",
+      "range": [0, 1],
+      "gradient": [0, 0, 0.6, 1]
+    },
+    "location": "rhode_island"
+  },
+  {
+    "attr": "poc_percent",
+    "layer": "blockgroup",
+    "facet_type": "layer",
+    "data": {
+      "type": "range",
+      "range": [0, 1],
+      "gradient": [0, 0, 0.9, 1]
+    },
+    "location": "rhode_island"
+  },
+  {
+    "attr": "dependent_ratio",
+    "layer": "blockgroup",
+    "facet_type": "layer",
+    "data": {
+      "type": "range",
+      "range": [0, 1],
+      "gradient": [0, 0.2, 0.6, 0.75]
+    },
+    "location": "rhode_island"
+  },
+  {
+    "attr": "unemployment_rate",
+    "layer": "blockgroup",
+    "facet_type": "layer",
+    "data": {
+      "type": "range",
+      "range": [0, 1],
+      "gradient": [0, 0, 0.2, 0.5]
+    },
+    "location": "rhode_island"
+  },
+  {
+    "attr": "linguistic_isolation",
+    "layer": "blockgroup",
+    "facet_type": "layer",
+    "data": {
+      "type": "range",
+      "range": [0, 1],
+      "gradient": [0, 0, 0.3, 0.5]
+    },
+    "location": "rhode_island"
+  },
+  {
+    "attr": "health_normalized",
+    "layer": "blockgroup",
+    "facet_type": "layer",
+    "data": {
+      "type": "range",
+      "range": [0, 1],
+      "gradient": [0, 0, 0.8, 1]
+    },
+    "location": "rhode_island"
+  },
+  {
+    "attr": "temperature",
+    "layer": "blockgroup",
+    "facet_type": "layer",
+    "data": {
+      "type": "range",
+      "range": [-30, 30],
+      "gradient": [-5, -5, 0, 10, 15, 25, 25]
+    },
+    "location": "rhode_island"
+  },
+  {
+    "attr": "holc_grade",
+    "layer": "blockgroup",
+    "facet_type": "layer",
+    "data": {
+      "type": "enum",
+      "values": ["A", "B", "C", "D", "E"]
+    },
+    "location": "rhode_island"
+  },
+  {
+    "attr": "ej_disadvantaged",
+    "layer": "blockgroup",
+    "facet_type": "filter",
+    "data": {
+      "type": "enum",
+      "values": ["Yes"]
+    },
+    "location": "rhode_island"
+  },
+  {
+    "attr": "tree_canopy",
+    "layer": "area",
+    "facet_type": "layer",
+    "data": {
+      "type": "range",
+      "range": [0, 1],
+      "gradient": [0, 0, 0.5, 0.5]
+    },
+    "location": "rhode_island"
+  },
+  {
+    "attr": "potential_tree_canopy",
+    "layer": "area",
+    "facet_type": "layer",
+    "data": {
+      "type": "range",
+      "range": [0, 1],
+      "gradient": [0, 0.2, 0.9, 1]
+    },
+    "location": "rhode_island"
+  },
+  {
+    "attr": "impervious_surface",
+    "layer": "area",
+    "facet_type": "layer",
+    "data": {
+      "type": "range",
+      "range": [0, 1],
+      "gradient": [0, 0, 0.1, 1, 1]
+    },
+    "location": "rhode_island"
+  },
+  {
+    "attr": "health_risk",
+    "layer": "blockgroup",
+    "facet_type": "layer",
+    "data": { "type": "enum", "values": ["Low", "Moderate", "High", "none"] },
+    "location": "rhode_island"
+  },
+  {
+    "attr": "afternoon_air_average_temperature",
+    "layer": "blockgroup",
+    "facet_type": "layer",
+    "data": {
+      "type": "range",
+      "range": [80.9961729281, 91.6013961013],
+      "gradient": [
+        80.9961729281, 80.9961729281, 84.69399631533, 89.34280075059, 91.6013961013, 91.6013961013
+      ]
+    },
+    "location": "rhode_island"
+  },
+  {
+    "attr": "evening_air_average_temperature",
+    "layer": "blockgroup",
+    "facet_type": "layer",
+    "data": {
+      "type": "range",
+      "range": [74.4375158239, 85.6989364981],
+      "gradient": [
+        74.4375158239, 74.4375158239, 77.61797279869, 83.80232127468, 85.6989364981, 85.6989364981
+      ]
+    },
+    "location": "rhode_island"
+  },
+  {
+    "attr": "hez",
+    "layer": "blockgroup",
+    "facet_type": "filter",
+    "data": { "type": "boolean" },
+    "location": "rhode_island"
+  },
+  {
+    "attr": "school",
+    "layer": "area",
+    "facet_type": "filter",
+    "data": { "type": "boolean" },
+    "location": "rhode_island"
+  },
+  {
+    "attr": "watershed",
+    "layer": "blockgroup",
+    "facet_type": "filter",
+    "data": {
+      "type": "enum",
+      "values": [
+        "Woonasquatucket River",
+        "Seekonk River-Providence River",
+        "Pawtuxet River",
+        "Peters River-Blackstone River",
+        "Moshassuck River",
+        "Pocassett River",
+        "Greenwich Bay",
+        "Lower East Passage",
+        "South Branch Pawtuxet River",
+        "Emerson Brook-Blackstone River",
+        "Ten Mile River",
+        "Hunt River",
+        "Upper East Passage",
+        "Lower Pawcatuck River",
+        "North Branch Pawtuxet River",
+        "Clear River",
+        "Lower West Passage",
+        "Upper Narragansett Bay",
+        "Pettaquamscutt River-Frontal Atlantic Ocean",
+        "Barrington River-Warren River",
+        "Headwaters South Branch Pawtuxet River",
+        "Ninigret Pond-Frontal Block Island Sound",
+        "Saugatucket River",
+        "Point Judith Pond-Frontal Block Island Sound",
+        "Aquidneck Island-Frontal Atlantic Ocean",
+        "Sakonnet River",
+        "Branch River",
+        "Chipuxet River-Pawcatuck River",
+        "Moswansicut Pond-Huntinghouse Brook",
+        "Mount Hope Bay",
+        "Scituate Reservoir",
+        "Usquepaug River",
+        "Abbott Run",
+        "Palmer River",
+        "Mill River",
+        "Usquepaug River-Pawcatuck River",
+        "Ashaway River",
+        "Tomaquag Brook-Pawcatuck River",
+        "Big River"
+      ]
+    },
+    "location": "rhode_island"
+  },
+  {
+    "attr": "flood",
+    "layer": "area",
+    "facet_type": "filter",
+    "data": { "type": "enum", "values": ["other", "high", "moderate to low"] },
+    "location": "rhode_island"
+  },
+  {
+    "attr": "public",
+    "layer": "area",
+    "facet_type": "filter",
+    "data": { "type": "boolean" },
+    "location": "rhode_island"
+  }
+]

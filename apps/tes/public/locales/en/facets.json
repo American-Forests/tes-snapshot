@@ -1,0 +1,513 @@
+{
+  "tree_equity_score": {
+    "name": "Tree Equity Score",
+    "source": "American Forests",
+    "description": "Tree Equity Score is a metric that helps cities assess how well they are delivering equitable tree canopy cover to all residents. It is derived from tree canopy cover, climate, demographic and socioeconomic data. Scores range from 0-100. The lower the score, the greater priority for tree planting. A score of 100 means the neighborhood has met tree planting goals."
+  },
+  "tree_canopy": {
+    "name": "Tree canopy cover",
+    "source": "Google Environmental Insights Explorer",
+    "description": "The existing percent tree canopy cover, that is, the footprint of trees when viewed from above--the bird's eye view of tree crowns (leaves, branches and stems)."
+  },
+  "tree_canopy_gap": {
+    "name": "Tree canopy gap",
+    "source": "American Forests",
+    "description": "The percent area of a block group that must be planted to reach the neighborhood tree canopy goal. Calculated as the difference between the percentage of tree canopy cover and tree canopy goal."
+  },
+  "equity_index": {
+    "name": "Priority index",
+    "source": "American Community Survey 2017-2021; Center for Disease Control CDC PLACES; USGS Earth Explorer - Landsat 8 Collection 2 Level 2 Surface Temperature",
+    "description": "The priority index is made up of equally-weighted climate, health and socioeconomic characteristics that are integrated into Tree Equity Score. A higher priority index indicates greater potential for residents to be disproportionality affected by extreme heat, pollution and other environmental hazards which could be reduced with the benefits of trees. Range: 0 to 1, where 1 is the highest priority."
+  },
+  "trees_per_person": {
+    "name": "Trees per person"
+  },
+  "incorporated_place_mean_tree_equity_score": {
+    "name": "Composite Score"
+  },
+  "total_shade12": {
+    "name": "Noon"
+  },
+  "total_shade15": {
+    "name": "3 p.m."
+  },
+  "total_shade18": {
+    "name": "6 p.m."
+  },
+  "merged_shade_facet": {
+    "name": "Shade",
+    "source": {
+      "national": "UCLA Luskin Center for Innovation 2023",
+      "maricopa": "UCLA Luskin Center for Innovation 2021",
+      "detroit": "UCLA Luskin Center for Innovation 2022",
+      "austin": "UCLA Luskin Center for Innovation 2022"
+    },
+    "description": {
+      "national": "Total percentage shade cover for each block group combines modeled building shade and modeled vegetation (tree) and other shade, where overlapping shadows are not duplicated. One-meter resolution shade was modeled at noon (minimum shade), 3 p.m. (hottest time of day), and 6 p.m. (maximum shade) using high-resolution USGS LIDAR point cloud data and Microsoft Building Footprints on June 21, the longest day of the year. Source data dates vary by location (LIDAR: 2008-2022; Buildings: 2014-2024). Available for the 101 largest urban areas.",
+      "maricopa": "Total percentage shade cover for each block group combines modeled building shade and modeled vegetation (tree) and other shade, where overlapping shadows are not duplicated. One-meter resolution shade was modeled at noon (minimum shade), 3 p.m. (hottest time of day), and 6 p.m. (maximum shade) using high-resolution USGS LIDAR point cloud data and Microsoft Building Footprints on June 21, the longest day of the year.",
+      "detroit": "Total percentage shade cover for each block group combines modeled building shade and modeled vegetation (tree) and other shade, where overlapping shadows are not duplicated. One-meter resolution shade was modeled at noon (minimum shade), 3 p.m. (hottest time of day), and 6 p.m. (maximum shade) using high-resolution USGS LIDAR point cloud data and Microsoft Building Footprints on June 21, the longest day of the year.",
+      "austin": "Total percentage shade cover for each block group combines modeled building shade and modeled vegetation (tree) and other shade, where overlapping shadows are not duplicated. One-meter resolution shade was modeled at noon (minimum shade), 3 p.m. (hottest time of day), and 6 p.m. (maximum shade) using high-resolution USGS LIDAR point cloud data and Microsoft Building Footprints on June 21, the longest day of the year. "
+    }
+  },
+  "poverty_percent": {
+    "name": "People in poverty",
+    "source": "American Community Survey 2017-2021",
+    "description": "Percentage of people living on incomes below 200% of the federally-designated poverty line."
+  },
+  "poc_percent": {
+    "name": "People of color",
+    "source": "American Community Survey 2017-2021",
+    "description": "Percentage of people who are Black or African American, American Indian or Alaska Native, Asian, Native Hawaiian or Other Pacific Islander, and includes all people classified as Hispanic or Latino by the Census Bureau."
+  },
+  "dependent_ratio": {
+    "name": "Children and seniors",
+    "source": "American Community Survey 2017-2021",
+    "description": "Percent seniors (age 65+) and children (0-17)."
+  },
+  "unemployment_rate": {
+    "name": "Unemployment",
+    "source": "American Community Survey 2017-2021",
+    "description": "Percentage of the labor force that do not have a job, are available, and looking for one."
+  },
+  "linguistic_isolation": {
+    "name": "Linguistic isolation",
+    "source": "American Community Survey 2017-2021",
+    "description": "Percentage of households where no person age 14+ speaks only English, or no person age 14+ who speaks a language other than English speaks English \"very well.\""
+  },
+  "health_normalized": {
+    "name": "Health burden index",
+    "source": "Center for Disease Control CDC PLACES",
+    "description": "Self-reported prevalence of poor mental health, poor physical health, asthma, and heart disease in an equally weighted index. The index ranges from 0 to 1. A higher index indicates poorer health factors."
+  },
+  "temperature": {
+    "name": "Heat disparity",
+    "source": "USGS Earth Explorer - Landsat 8 Collection 2 Level 2 Surface Temperature",
+    "description": "Surface temperature is a good estimate of where excess heat is generated in urban areas. To measure urban heat severity, a dataset of the highest extremities of 2022 summer surface heat was generated at 30m resolution for all U.S. urban areas. Heat disparity compares the average block group heat extremity with the urban area average to measure variance in heat severity across an urban area. Positive values indicate hotter than average block groups, and negative values indicate cooler than average block groups. If not enough data were available, the block group was set to the urban area average, resulting in a value of zero."
+  },
+  "holc_grade": {
+    "name": "Redlining",
+    "source": "Mapping Inequality",
+    "description": "Neighborhood grades from the federal government's Home Owner's Loan Corporation (HOLC) developed in the 1930s that determined who should receive loans. HOLC grades ranged from \"A,\" the highest grade treated as low risk for mortgage lenders, to \"D\" the lowest grade deemed \"hazardous.\" Redlining data are provided as available."
+  },
+  "ej_disadvantaged": {
+    "name": "EPA IRA Disadvantaged Community",
+    "source": "EPA Inflation Reduction Act Disadvantaged Communities Map 2023",
+    "description": "Indicates whether a block group is flagged as an EPA IRA Disadvantaged Community, to assist grantees and potential applicants to identify whether a community is disadvantaged for the purposes of implementing programs under the Inflation Reduction Act (IRA). Block groups flagged as disadvantaged (Yes) include: (1) any census tract that is included as disadvantaged in the Climate and Economic Justice Screening Tool (CEJST), (2) any census block group at or above the 90th percentile for any of EJScreen's Supplemental Indexes when compared to the nation or state, and/or (3) a geographic area within the Tribal lands category in EJScreen, specifically Alaska Native Allotments, Alaska Native Villages, American Indian Reservations, American Indian Off-reservation Trust Lands, Oklahoma Tribal Statistical Areas."
+  },
+  "potential_tree_canopy": {
+    "name": "Potential tree canopy",
+    "description": "The percent of bare soil, vegetation, and other paved surfaces that we define as areas that have the potential for tree canopy.",
+    "source": "American Forests"
+  },
+  "potential_vegetation": {
+    "name": "Potential vegetation",
+    "source": "American Forests",
+    "description": "The maximum possible vegetation cover that could be achieved in a block group, including both trees and other vegetation."
+  },
+  "potential_paved": {
+    "name": "Potential paved",
+    "source": "American Forests",
+    "description": "The maximum possible paved surface area in a block group."
+  },
+  "impervious_surface": {
+    "name": "Impervious surface",
+    "description": "The percent area of a block group that is covered by water-resistant materials such as asphalt, concrete, brick, stone, and rooftops.",
+    "source": "American Forests"
+  },
+  "unsuitable_surface": {
+    "name": "Unsuitable surface",
+    "source": "American Forests",
+    "description": "The percentage of land that is unsuitable for tree planting due to existing infrastructure or other constraints."
+  },
+  "afternoon_air_average_temperature": {
+    "name": "Afternoon air temperature",
+    "source": "USGS Earth Explorer - Landsat 8 Collection 2 Level 2 Surface Temperature",
+    "description": "Air temperature derived from an an AI model developed by CAPA Strategies using training data collected by researchers riding their bikes in the afternoon for one day in the summer of 2020."
+  },
+  "evening_air_average_temperature": {
+    "name": "Evening air temperature",
+    "source": "USGS Earth Explorer - Landsat 8 Collection 2 Level 2 Surface Temperature",
+    "description": "Air temperature derived from an AI model developed by CAPA Strategies using training data collected by volunteers driving or bicycling in the afternoon for one day in the summer of 2021."
+  },
+  "neighborhood": {
+    "name": "Neighborhood",
+    "source": {
+      "indianapolis": "Indy Neighborhoods (2022), OpenIndy",
+      "toronto": "City of Toronto, 2022",
+      "boston": "MassGIS Data: Boston Neighborhoods"
+    },
+    "description": {
+      "indianapolis": "Indicates which neighborhood this block group mostly falls within.",
+      "toronto": "Indicates which of Toronto's 158 City-designated social planning neighbourhoods the census tracts is in, by neighbourhood name.",
+      "boston": "Indicates which neighborhood this parcel or right-of-way mostly falls within. These are unofficial neighborhood boundaries for the City of Boston."
+    }
+  },
+  "name_ej_criteria": {
+    "name": "2020 Mass EJ Populations",
+    "source": "MassGIS Data: 2020 Environmental Justice Populations",
+    "description": "The Massachusetts Executive Office of Energy and Environmental Affairs defines an environmental justice population as a block group that meets one or more of the three criteria."
+  },
+  "number_ej_criteria": {
+    "name": "Number of Mass EJ Criteria",
+    "source": "MassGIS Data: 2020 Environmental Justice Populations",
+    "description": "Indicates number of environmental justice population criteria met. Criteria defined by Massachusetts Executive Office of Energy and Environmental Affairs."
+  },
+  "subwatershed": {
+    "name": "Subwatershed",
+    "source": "Hydrologic Unit Code 12 (2023), IndianaMap",
+    "description": "The HUC12 Watershed the block group is mostly in."
+  },
+  "tree_canopy_gain": {
+    "name": "Tree canopy gain (sqm)",
+    "source": "UVM Spatial Analysis Lab, Land Cover Change 2013-2022",
+    "description": "Indicates the percent of canopy gain or loss within the block group"
+  },
+  "tree_canopy_loss": {
+    "name": "Tree canopy loss (sqm)",
+    "source": "UVM Spatial Analysis Lab, Land Cover Change 2013-2022",
+    "description": "Indicates the percent of canopy gain or loss within the area"
+  },
+  "health_risk": {
+    "name": "Climate Related Health Risk",
+    "source": "Center for Disease Control CDC PLACES",
+    "description": "High, moderate and low numbers of hospitalizations and emergency room visits for conditions that are exacerbated by a changing climate. The conditions combined in this measure include diabetes, mental health, asthma and other respiratory issues, heart and kidney diseases."
+  },
+  "hez": {
+    "name": "Health Equity Zone",
+    "source": "Rhode Island Department of Health",
+    "description": "Geographic areas where existing opportunities emerge and investments are made to address differences in health outcomes."
+  },
+  "parks_access": {
+    "name": "Parks access",
+    "source": "SAVI Marion County Environment Profile (2019), The Polis Center",
+    "description": "Indicates the percent of parcels within 1/4 Mi. of Park or Greenway"
+  },
+  "air_pollution": {
+    "name": "Air pollution",
+    "source": {
+      "indianapolis": "The Polis Center (2021)",
+      "detroit": "Toxic Releases to Air (2021) - EJ Screen, US Environmental Protection Agency"
+    },
+    "description": {
+      "indianapolis": "A relative index of annual mean PM2.5 based on the weighted value of PM2.5 for each tract, tagged to block groups.",
+      "detroit": "A relative index of RSEI modeled toxicity-weighted concentrations in air of Toxics Release Inventory listed chemicals."
+    }
+  },
+  "qualified_census_tract": {
+    "name": "Qualified census tract",
+    "source": {
+      "maricopa": "Qualified Census Tracts and Difficult Development Areas (2024), U.S. Department of Housing and Urban Development`s Office of Policy Development and Research (PD&R)"
+    },
+    "description": {
+      "maricopa": "Indicates whether the blockgroup is in a Qualified Census Tract (QCT)."
+    }
+  },
+  "light_rail": {
+    "name": "Light rail",
+    "source": {
+      "maricopa": "Valley Metro Light Rail Stations (2022), Valley Metro GeoCenter"
+    },
+    "description": {
+      "maricopa": "Indicates whether a light rail or streetcar station is located within the blockgroup."
+    }
+  },
+  "mean_radiant_temperature_15": {
+    "name": "3 p.m.",
+    "source": "USGS Earth Explorer - Landsat 8 Collection 2 Level 2 Surface Temperature",
+    "description": "Mean radiant temperature at 3 p.m."
+  },
+  "mean_radiant_temperature_19": {
+    "name": "7 p.m.",
+    "source": "USGS Earth Explorer - Landsat 8 Collection 2 Level 2 Surface Temperature",
+    "description": "Mean radiant temperature at 7 p.m."
+  },
+  "council_district": {
+    "name": "Council district",
+    "source": "Council Districts, City of Detroit Open Data Portal",
+    "description": "Indicates which council district the block group mostly falls within."
+  },
+  "asthma_percent": {
+    "name": "Asthma",
+    "source": "PLACES: Local Data for Better Health, Census Tract Data 2023 release, Centers for Disease Control and Prevention",
+    "description": "Indicates the percent of adults with asthma in the block group."
+  },
+  "population_density": {
+    "name": "Population density",
+    "source": "American Community Survey 2017-2021, US Census Bureau",
+    "description": "Indicates the population per square kilometer of the block group."
+  },
+  "canopy_change_percent": {
+    "name": "Canopy change",
+    "source": {
+      "indianapolis": "UVM Spatial Analysis Lab, Land Cover Change 2013-2022",
+      "franklin": "UVM Spatial Analysis Lab, Land Cover Change 2011-2021",
+      "dc": "Chesapeake Bay Program One-meter Resolution Land Use/Land Cover Data"
+    },
+    "description": {
+      "indianapolis": "Indicates the percent of canopy gain or loss within the block group",
+      "franklin": "Indicates the percent of canopy gain or loss within the block group",
+      "dc": "The percent change of tree canopy between 2013/2014 and 2017/2018 in the block group."
+    }
+  },
+  "neighborhood_id": {
+    "name": "Neighbourhood ID",
+    "source": "City of Toronto, 2022",
+    "description": "Indicates which of Toronto's 158 City-designated social planning neighbourhoods the census tracts is in, by neighbourhood ID."
+  },
+  "neighborhood_score": {
+    "name": "Neighbourhood score",
+    "source": "American Forests, 2024",
+    "description": "Each of Toronto's 158 City-designated social planning neighbourhoods consists of several census tracts, and is assigned a composite score from 0-100. This neighbourhood score provides a simplified assessment of overall tree distribution fairness and is aggregated from all census tract Tree Equity Scores within the neighbourhood boundary. The composite score will increase faster if census tracts with lower Tree Equity Scores are raised."
+  },
+  "neighborhood_score_category": {
+    "name": "Neighbourhood score",
+    "source": "American Forests, 2024",
+    "description": "Each of Toronto's 158 City-designated social planning neighbourhoods consists of several census tracts, and is assigned a composite score from 0-100. This neighbourhood score provides a simplified assessment of overall tree distribution fairness and is aggregated from all census tract Tree Equity Scores within the neighbourhood boundary. The composite score will increase faster if census tracts with lower Tree Equity Scores are raised."
+  },
+  "neighborhood_designation": {
+    "name": "Neighbourhood designation",
+    "source": "City of Toronto, 2022",
+    "description": "Designation of the neighbourhood as a Neighbourhood Improvement Area (NIA), Emerging Neighbourhood, or neither."
+  },
+  "ward": {
+    "name": "Ward",
+    "source": "City of Toronto, 2018",
+    "description": "The ward the census tract is in."
+  },
+  "library": {
+    "name": "Library",
+    "source": "City of Toronto, 2019",
+    "description": "Indicates whether the census tract contains a library or whether the right-of-way is adjacent to a library"
+  },
+  "tree_planting_investment_index": {
+    "name": "Tree planting investment index",
+    "source": "Community Tree Priority Map, 2020, City of Austin, Community Tree Preservation Division",
+    "description": "Indicates the index score for tree planting investments from The City of Austin Community Tree Priority Map. Higher scores indicate more investment."
+  },
+  "road_emissions": {
+    "name": "Road emissions",
+    "source": "Capital Area Metropolitan Planning Organization (CAMPO)",
+    "description": "Indicates the projected 2035 combined road emissions of volatile organic compounds, nitrogen oxides, carbon dioxide, and carbon monoxide in pounds per mile for the block group."
+  },
+  "municipality_name": {
+    "name": "Municipality",
+    "source": "US Census Bureau",
+    "description": "Indicates the municipality the block group is part of."
+  },
+  "low_food_access": {
+    "name": "Low food access",
+    "source": "USDA Food Access Research Atlas, 2019",
+    "description": "Indicates if a block group is identified to have low access to food: at least 500 people or 33 percent of the population lives farther than 1 mile (urban) or 10 miles (rural) from the nearest supermarket."
+  },
+  "community_garden": {
+    "name": "Community garden",
+    "source": "City of Austin, Parks and Recreation Department",
+    "description": "Indicates the presence of a community garden on a block group."
+  },
+  "affordable_housing": {
+    "name": "Affordable housing",
+    "source": "Comprehensive Affordable Housing Directory (2023), City of Austin",
+    "description": "Indicates the presence of an income-restricted affordable housing unit on a block group."
+  },
+  "ttf_tree_equity_planting": {
+    "name": "TTF Tree Planting Priority",
+    "source": "Dallas Tree Equity Planting Map - Texas Trees Foundation, 2021",
+    "description": "Indicates the priority planting designation of the block group based on the Texas Trees Foundation Priority Planting Map. Note that the source uses 2010 US Census block group boundaries and may not always align with the TESA 2020 Census boundaries."
+  },
+  "ej_screen": {
+    "name": "EPA EJScreen",
+    "source": "EJScreen, United States Environmental Protection Agency, 2023",
+    "description": "Indicates the number of indexes at or above the 80th percentile at the state level for the census tract the blockgroup is in."
+  },
+  "school_district": {
+    "name": "School district",
+    "source": "Texas Legislative Council, Capitol Data Portal, 2024",
+    "description": "The school district the block group is in"
+  },
+  "land_use": {
+    "name": "Land use",
+    "source": {
+      "indianapolis": "Current Land Use (2022), OpenIndy",
+      "detroit": "Parcels, City of Detroit Open Data Portal",
+      "franklin": "2021 Vintage MORPC Land Use Data. For feedback/questions: dataandmaps@morpc.org"
+    },
+    "description": {
+      "indianapolis": "Land use designation that the parcel is mostly within",
+      "detroit": "Zoning/land use designation that the parcel is mostly within.",
+      "franklin": "Land use designation that the parcel is mostly within. Note: not all land use designations have been included. For more information, https://morpc.org/2023/wp-content/uploads/2023/01/A_LandUse.pdf"
+    }
+  },
+  "social_vulnerability_index": {
+    "name": "Social vulnerability index",
+    "source": {
+      "austin": "Climate Vulnerability in Austin: A multi-risk assessment, 2020, Austin Area Sustainability Indicators project and the Texas Metropolitan Observatory of Planet Texas 2050",
+      "dallas": "CDC/ATSDR SVI 2020, ATSDR-Center for Disease Control"
+    },
+    "description": {
+      "austin": "Indicates the Social Vulnerability Index for the block group. Higher scores indicate higher social vulnerability.",
+      "dallas": "Indicates the overall summary ranking of the social vulnerability index of the census tract the parcel is in. Higher values indicate higher vulnerability."
+    }
+  },
+  "worship": {
+    "name": "Place of Worship",
+    "source": "City of Richmond Office of Sustainability, Climate Equity Index, Religious Centers",
+    "description": "Indicates whether a parcel contains a religious center."
+  },
+  "watershed": {
+    "name": "Watershed",
+    "source": {
+      "toronto": "Ontario Ministry of Natural Resources and Forestry, 2023",
+      "indianapolis": "Hydrologic Unit Code 12 (2023), IndianaMap",
+      "washington": "National Watershed Boundary Dataset (WBD): Hydrologic Unit Code 8-Digit Basins of Washington State, Washington Spatial Data",
+      "dc": "DC: Open Data DC, MD: MD iMAP Data Catalog, VA: Virginia Open Data Portal",
+      "ruston": "USGS National Hydrography Dataset",
+      "rhode_island": "Rhode Island Geographic Information System"
+    },
+    "description": {
+      "toronto": "The watershed the census tract is in.",
+      "indianapolis": "The HUC12 Watershed the block group is mostly in.",
+      "washington": "Indicates what watershed the block group is in.",
+      "dc": "Indicates the subwatershed the block group is in.",
+      "ruston": "The HU12 Watershed the block group is mostly in.",
+      "rhode_island": "Indicates the watershed the block group is in."
+    }
+  },
+  "parking": {
+    "name": "Parking Lot",
+    "source": "City of Richmond, Transportation Surfaces",
+    "description": "Indicates the presence of a parking lot on the parcel."
+  },
+  "sidewalk": {
+    "name": "Sidewalk",
+    "source": "City of Richmond, Transportation Surfaces",
+    "description": "Indicates whether a right of way contains a sidewalk."
+  },
+  "school": {
+    "name": "School",
+    "source": {
+      "detroit": "Education Entity Master (EEM), Center for Educational Performance and Information (CEPI), State of Michigan",
+      "washington": "Washington State Public Schools 2024, Washington Spatial Data",
+      "maricopa": "Arizona Schools (2023), Arizona Department of Education, Arizona Department of Environmental Quality and Maricopa Association of Governments",
+      "dc": "DC: Open Data DC, MD: MD iMAP Data Catalog, VA: Virginia Geographic Information Network",
+      "dallas": "Campus Locations (2023), Dallas ISD GIS Data Hub",
+      "toronto": "City of Toronto, 2024",
+      "richmond": "City of Richmond, RPS Schools",
+      "rhode_island": "Rhode Island Geographic Information Sytem"
+    },
+    "description": {
+      "detroit": "Indicates the presence of an active school on a parcel.",
+      "washington": "Indicates the presence of a school on the parcel.",
+      "maricopa": "Indicates the presence of a school on the parcel.",
+      "dc": "Indicates the presence of a school on the parcel.",
+      "dallas": "Indicates the presence of a public school on a parcel.",
+      "toronto": "Indicates whether the census tract contains a school or whether the right-of-way is adjacent to a school",
+      "richmond": "Indicates whether a parcel has a school located on it.",
+      "rhode_island": "Indicates the presence of a school on the parcel."
+    }
+  },
+  "public": {
+    "name": "Public Ownership",
+    "source": {
+      "rhode_island": "Corelogic",
+      "richmond": "Regrid",
+      "boston": "Regrid"
+    },
+    "description": "Indicates whether a parcel is public or private."
+  },
+  "park": {
+    "name": "Park",
+    "source": {
+      "detroit": "Parks, 2021, Southeast Michigan Council of Governments",
+      "dallas": "Dallas Parks - Polygon, City of Dallas",
+      "dc": "DC: Open Data DC & National Park Service Open Data, MD: Montgomery Planning & PG Planning Open Data Portal, VA: Northern Virginia Regional Commission & National Park Service Open Data",
+      "houston": "COHGIS Open Data Portal, 2024",
+      "richmond": "City of Richmond, Parks"
+    },
+    "description": "Indicates the presence of a park on the parcel."
+  },
+  "industrial": {
+    "name": "Industrial",
+    "source": "Regrid",
+    "description": "Identifies parcels with industrial zoning."
+  },
+  "flood": {
+    "name": "Flood",
+    "source": {
+      "rhode_island": "Rhode Island Geographic Information System",
+      "austin": "FEMA National Flood Hazard Layer",
+      "houston": "FEMA National Flood Hazard Layer",
+      "boston": "FEMA National Flood Hazard Layer",
+      "dc": "FEMA National Flood Hazard Layer",
+      "ruston": "FEMA National Flood Hazard Layer",
+      "richmond": "City of Richmond, FEMA Digital Flood Insurance Rate Maps"
+    },
+    "description": "Indicates the level of flood risk (moderate to low, high, other) that intersects the parcel or right of way."
+  },
+  "open_space": {
+    "name": "Open Space",
+    "source": "MassGIS Data: Protected and Recreational OpenSpace",
+    "description": "Indicates parcels that may contain areas of conservation and recreation interest."
+  },
+  "rented": {
+    "name": "Rented",
+    "source": "Regrid",
+    "description": "Identifies parcels that may be rented (proxied by zoning and ownership data)."
+  },
+  "area_sqkm": {
+    "name": "Area (acres)"
+  },
+  "cooling_center": {
+    "name": "Cooling center",
+    "source": "Heat Relief Network (2023), Maricopa Association of Governments",
+    "description": "Indicates whether an Emergency Cooling Center is located on a parcel and which type."
+  },
+  "bus_stop": {
+    "name": "Bus stop",
+    "source": {
+      "detroit": "DDOT Bus Stops, City of Detroit Open Data Portal",
+      "maricopa": "BusStops (2023), Valley Metro GeoCenter",
+      "houston": "Capital Metro, 2022"
+    },
+    "description": {
+      "detroit": "Indicates the presence of a bus stop within 50 yards of a parcel.",
+      "maricopa": "Indicates whether a bus stop is located within the parcel.",
+      "houston": "Indicates the presence of a bus stop on the parcel or right-of-way"
+    }
+  },
+  "brownfield": {
+    "name": "Brownfield",
+    "source": "Brownfields, Michigan Department of Environment, Great Lakes, and Energy",
+    "description": "Indicates the presence of a brownfield on a parcel."
+  },
+  "neighborhood_type": {
+    "name": "Neighborhood type",
+    "source": "Cultural Neighborhood Typologies, City of Dallas",
+    "description": "Indicates the cultural typology of the neighborhood the parcel is in."
+  },
+  "future_land_use": {
+    "name": "Future land use",
+    "source": "2021 MORPC Future Land Use Data, for feedback/questions: dataandmaps@morpc.org",
+    "description": "Future land use designation that the parcel is mostly within. Note: not all land use designations have been included. For more information, https://morpc.org/2023/wp-content/uploads/2023/01/A_LandUse.pdf"
+  },
+  "public_ownership_type": {
+    "name": "Public ownership type",
+    "source": {
+      "franklin": "Regrid 2023",
+      "washington": "Trust for Public Land, Complete U.S. ParkServe® Dataset, 2025"
+    },
+    "description": {
+      "franklin": "Indicates type of public ownership based off Regrid data.",
+      "washington": "Indicates the presence of a park on the parcel and the type of park owner."
+    }
+  },
+  "current_commercial_land_use": {
+    "name": "Ruston Commercial Land Use",
+    "source": "Lincoln Parish GIS District",
+    "description": "Indicates whether a parcel is likely designated for current commercial land use for Ruston."
+  },
+  "future_commercial_land_use": {
+    "name": "Ruston Future Commercial Land Use",
+    "source": "City of Ruston",
+    "description": "Indicates whether a parcel is likely designated for future commercial land use for Ruston."
+  }
+}

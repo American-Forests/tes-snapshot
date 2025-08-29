@@ -1,0 +1,2 @@
+-- AlterEnum
+ALTER TYPE "City" ADD VALUE 'INDIANAPOLIS';

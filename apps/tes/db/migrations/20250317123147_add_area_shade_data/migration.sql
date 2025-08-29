@@ -1,0 +1,10 @@
+-- AlterTable
+ALTER TABLE "Area" ADD COLUMN     "building_shade12" DOUBLE PRECISION,
+ADD COLUMN     "building_shade15" DOUBLE PRECISION,
+ADD COLUMN     "building_shade18" DOUBLE PRECISION,
+ADD COLUMN     "total_shade12" DOUBLE PRECISION,
+ADD COLUMN     "total_shade15" DOUBLE PRECISION,
+ADD COLUMN     "total_shade18" DOUBLE PRECISION,
+ADD COLUMN     "trees_shade12" DOUBLE PRECISION,
+ADD COLUMN     "trees_shade15" DOUBLE PRECISION,
+ADD COLUMN     "trees_shade18" DOUBLE PRECISION;

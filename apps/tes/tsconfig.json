@@ -1,0 +1,23 @@
+{
+  // We extend it from here!
+  "extends": "tsconfig/nextjs.json",
+  "compilerOptions": {
+    "baseUrl": "./",
+    "plugins": [
+      {
+        "name": "next"
+      }
+    ],
+    "strictNullChecks": true
+  },
+  // You can specify your own include/exclude
+  "include": [
+    "**/*.ts",
+    "**/*.tsx",
+    "blitz-env.d.ts",
+    ".next/types/**/*.ts"
+  ],
+  "exclude": [
+    "node_modules"
+  ]
+}

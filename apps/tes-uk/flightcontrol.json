@@ -1,0 +1,60 @@
+{
+  "$schema": "https://app.flightcontrol.dev/schema.json",
+  "environments": [
+    {
+      "id": "tes-uk-prod",
+      "name": "tes-uk-prod",
+      "region": "eu-west-2",
+      "source": {
+        "branch": "staging"
+      },
+      "services": [
+        {
+          "id": "tes-uk-app",
+          "name": "tes-uk-app",
+          "type": "web",
+          "target": { "type": "fargate" },
+          "buildType": "docker",
+          "ci": {
+            "type": "ec2"
+          },
+          "dockerfilePath": "apps/tes-uk/Dockerfile",
+          "dockerContext": ".",
+          "domain": "uk.treeequityscore.org",
+          "cpu": 1,
+          "memory": 2,
+          "port": 3000,
+          "minInstances": 1,
+          "maxInstances": 1,
+          "envVariables": {
+            "DATABASE_URL": {
+              "fromService": {
+                "id": "tes-uk-db",
+                "value": "dbConnectionString"
+              }
+            },
+            "NEXT_PUBLIC_MAPBOXGL_ACCESS_TOKEN": {
+              "fromSecretsManager": "SECRET"
+            },
+            "NEXT_PUBLIC_TILESERVER_URL": "https://x2u4hdxqfh.execute-api.eu-west-2.amazonaws.com/default/maps",
+            "SESSION_SECRET_KEY": {
+              "fromSecretsManager": "SECRET"
+            }
+          },
+          "watchPaths": ["apps/tes-uk/**", "packages/**"]
+        },
+        {
+          "id": "tes-uk-db",
+          "name": "tes-uk-db",
+          "type": "rds",
+          "engine": "postgres",
+          "engineVersion": "15",
+          "instanceSize": "db.t4g.medium",
+          "storage": 20,
+          "private": false,
+          "deletionProtection": true
+        }
+      ]
+    }
+  ]
+}

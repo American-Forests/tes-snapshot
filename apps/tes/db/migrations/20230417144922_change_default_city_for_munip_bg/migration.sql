@@ -1,0 +1,5 @@
+-- AlterTable
+ALTER TABLE "Blockgroup" ALTER COLUMN "city" SET DEFAULT E'NATIONAL';
+
+-- AlterTable
+ALTER TABLE "Municipality" ALTER COLUMN "city" SET DEFAULT E'NATIONAL';

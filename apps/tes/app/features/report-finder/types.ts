@@ -1,0 +1,6 @@
+
+export type ReportType =
+  | "COUNTY_REPORT_TYPE"
+  | "STATE_REPORT_TYPE"
+  | "LOCALITY_REPORT_TYPE"
+  | "DISTRICT_REPORT_TYPE"

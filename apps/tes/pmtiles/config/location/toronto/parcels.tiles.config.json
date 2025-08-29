@@ -1,0 +1,23 @@
+{
+    "id": "toronto_parcel",
+    "minZoom": 15,
+    "maxZoom": 15,
+    "columnSubset": [
+        "id",
+        "type",
+        "tree_canopy",
+        "potential_tree_canopy",
+        "blockgroupId",
+        "potential_vegetation",
+        "potential_paved",
+        "unsuitable_surface",
+        "impervious_surface",
+        "address",
+        "area_sqkm",
+        "school",
+        "library",
+        "park",
+        "social_vulnerability_index",
+        "neighborhood_type"
+    ]
+}

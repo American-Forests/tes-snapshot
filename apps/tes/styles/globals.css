@@ -1,0 +1,161 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+  .bottom-triangle {
+    clip-path: polygon(0 0, 100% 0, 50% 30%, 0 0);
+  }
+}
+
+* {
+  outline: none !important;
+}
+
+:root {
+  --reach-dialog: 1;
+}
+
+[data-reach-dialog-overlay] {
+  @apply bg-gray-600;
+  @apply bg-opacity-50;
+  @apply fixed;
+  @apply inset-0;
+  overflow: auto;
+  z-index: 999;
+}
+
+[data-reach-dialog-content] {
+  @apply max-w-lg;
+  @apply rounded-md;
+  @apply bg-white;
+  @apply p-5;
+  @apply mx-auto;
+  @apply mt-10;
+  outline: none;
+}
+
+input[type="range"] {
+  -webkit-appearance: none; /* Hides the slider so that custom slider can be made */
+  width: 100%; /* Specific width is required for Firefox. */
+  height: 6px;
+  top: -6px;
+  border-radius: 6px;
+  background-color: #ddd;
+}
+
+input[type="range"]::-webkit-slider-track {
+  -webkit-appearance: none;
+}
+
+input[type="range"]:focus {
+  outline: none; /* Removes the blue border. You should probably do some kind of focus styling for accessibility reasons though. */
+}
+
+input[type="range"]::-ms-track {
+  width: 100%;
+  cursor: pointer;
+
+  /* Hides the slider so custom styles can be added */
+  height: 6px;
+  top: -6px;
+  border-radius: 6px;
+  background-color: #ddd;
+  border-color: transparent;
+  color: transparent;
+}
+
+/* Special styling for WebKit/Blink */
+input[type="range"]::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  border: 1px solid #ededed;
+  height: 16px;
+  width: 16px;
+  border-radius: 16px;
+  background: #6cc296;
+  cursor: pointer;
+  margin-top: 0px; /* You need to specify a margin in Chrome, but in Firefox and IE it is automatic */
+}
+
+input[type="range"]:disabled {
+  pointer-events: none;
+}
+
+input[type="range"]:disabled::-webkit-slider-thumb {
+  background: transparent;
+  border: none;
+}
+
+input[type="range"]:disabled::-ms-thumb {
+  background: transparent;
+  border: none;
+}
+
+input[type="range"]:disabled::-moz-range-thumb {
+  background: transparent;
+  border: none;
+}
+
+/* All the same stuff for Firefox */
+input[type="range"]::-moz-range-thumb {
+  border: 1px solid #ededed;
+  height: 16px;
+  width: 16px;
+  border-radius: 16px;
+  background: #6cc296;
+}
+
+/* All the same stuff for IE */
+input[type="range"]::-ms-thumb {
+  border: 1px solid #ededed;
+  height: 16px;
+  width: 16px;
+  border-radius: 16px;
+  background: #6cc296;
+}
+
+.parallax {
+  background-attachment: fixed;
+}
+
+@media only screen and (max-device-width: 1024px) {
+  .parallax {
+    background-attachment: scroll;
+  }
+}
+
+iframe {
+  aspect-ratio: 16 / 9;
+  height: 100%;
+  width: 100%;
+}
+
+.tooltip {
+  position: relative;
+}
+
+.tooltip::after {
+  content: "\2003" attr(data-tooltip);
+  text-indent: -1em;
+  display: inline-block;
+  position: absolute;
+  top: 110%;
+  left: 0%;
+  background: #fff;
+  /* background-color: rgba(255, 0, 0, 0.1); */
+  padding: 5px 3px;
+  border-radius: 5px;
+  opacity: 0;
+  transition: 0.05s;
+  overflow: hidden;
+  width: 110px;
+  pointer-events: none;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  z-index: 10;
+}
+
+.tooltip:hover::after {
+  opacity: 1;
+}

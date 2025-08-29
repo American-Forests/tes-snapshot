@@ -1,0 +1,3 @@
+-- AlterTable
+ALTER TABLE "iTree" ADD COLUMN     "carbon" DOUBLE PRECISION,
+ALTER COLUMN "co2" DROP NOT NULL;

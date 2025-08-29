@@ -1,0 +1,503 @@
+{
+  "data_glossary": {
+    "title": "Glosario",
+    "tree_equity_score": {
+      "title": "Índice de Equitatividad Arbórea",
+      "description": "Índice de Equitatividad Arbórea: El Índice de Equitatividad Arbórea es una puntuación nacional a nivel sector censal que evalúa el acceso desigual a los árboles. Utiliza una escala entre 0 y 100. Cuanto más baja es la puntuación, mayor es la necesidad de la plantación de árboles. Una puntuación de 100 indica que el vecindario ya cumple con el objetivo de dosel arbóreo, según el bioma natural y edificaciones propias del área. _Para la definición de un sector censal, consulte Sitios._"
+    },
+    "composite_scores": {
+      "title": "Puntuaciones compuestas (a nivel local)",
+      "description": "Todas las localidades (ciudad, pueblo, municipio o distrito), cuyos límites los determina el Censo, reciben una puntuación compuesta, entre 0 y 100. El objetivo es evaluar de manera simplificada el equilibrio en la distribución arbórea. La puntuación de las localidades resulta de la suma de todos los Índices de Equitatividad Arbórea de los sectores censales, cuyos límites los define el Censo. La puntuación compuesta incrementará con mayor rapidez cuando los sectores censales con puntajes más bajos mejoran sus Índices de Equitatividad Arbórea."
+    },
+    "tree_canopy_measures": {
+      "title": "Medidas de dosel arbóreo",
+      "description": "",
+      "neighborhood_tree_canopy_goal": {
+        "title": "Objetivo de dosel arbóreo del vecindario",
+        "description": "Porcentaje mínimo de dosel arbóreo que necesita un sector (vecindario) para obtener los beneficios, según la densidad de edificaciones y biomas naturales. Las metas representan el mínimo de cobertura satisfactoria de todos los vecindarios, según sus ecologías urbanas locales, que puede ser distinta a las establecidas por los ayuntamientos.\n\n_Fuente: Los objetivos se establecieron en colaboración con el Servicio Forestal de USDA._"
+      },
+      "tree_canopy_cover": {
+        "title": "Cobertura de dosel arbóreo (%)",
+        "description": "Representa la presencia actual del dosel arbóreo vista desde arriba, es decir, la cobertura aérea de copas de árboles (hojas, ramas y tallos).\n\n_Fuente: Google Environmental Insights Explorer, excepto en sectores censales con datos locales del Índice de Equidad Arbórea (TESA), en los que se emplean fuentes de alta resolución específicas (fuentes proporcionadas en TESA)._"
+      },
+      "tree_canopy_gap": {
+        "title": "Intersticio de dosel arbóreo (%)",
+        "description": "Porcentaje de un área cultivable del sector censal necesaria para alcanzar la meta de cobertura. Esta medida de necesidad se calcula al restar el porcentaje de dosel existente en el vecindario del objetivo de dosel arbóreo."
+      },
+      "tree_canopy_cover_tesas": {
+        "title": "Cobertura de dosel arbóreo (%)",
+        "description": "Representa la presencia actual del dosel arbóreo vista desde arriba, es decir, la cobertura aérea de copas de árboles (hojas, ramas y tallos).\n\n_Fuente: Google Environmental Insights Explorer, excepto en sectores censales con datos locales del Índice de Equidad Arbórea, en los que se emplean fuentes de alta resolución específicas:_\n\n**Austin, TX** 1ft Resolution Land Cover 2022, University of Vermont Spatial Analysis Lab\n\n**Boston MA** 1m Resolution Land Cover 2019, University of Vermont Spatial Analysis Lab para Analyze Boston\n\n**Columbus & Franklin County, OH** 1ft Resolution Land Cover 2021, University of Vermont Spatial Analysis Lab\n\n**Dallas, TX** 1ft Resolution Tree Canopy Assessment 2019, Texas Tree Foundation\n\n**DC Region** Greater DC (MD/VA) 1m Resolution Land Use/Land Cover 2017/2018, Chesapeake Bay Foundation; Washington DC UTC Class 1m Resolution Land Cover 2020, PlanIt Geo\n\n**Detroit, MI** 1ft Resolution Land Cover 2022, University of Vermont Spatial Analysis Lab\n\n**Indianapolis & Marion County, IN** 1ft Resolution Land Cover 2022, University of Vermont Spatial Analysis Lab\n\n**Lincoln Parish, LA** 1ft Resolution Land Cover 2021\n\n**Maricopa County, AZ** 1ft Resolution Land Cover 2021, University of Vermont Spatial Analysis Lab\n\n**Rhode Island**  7-class 0.5m Landcover 2018, University of Vermont Spatial Analysis Lab\n\n**Richmond, VA** 3ft Resolution Land Cover 2018\n\n**Toronto, ON** 1m Resolution Forest and Land Cover 2018, City of Toronto Parks, Forestry & Recreation\n\n**Washington** Google Environmental Insights Explorer 2025"
+      }
+    },
+    "places": {
+      "title": "Sitios",
+      "census_block_group": {
+        "title": "Sector censal",
+        "description": "Un sector censal es un área geográfica que marca el Censo de Estados Unidos, conocida como «vecindario», y que agrupa entre 600 y 3000 personas, aunque la población real puede variar. Esta división permite organizar y separar por parámetros de ubicación y características sociodemográficas para facilitar la recolección y análisis de datos demográficos."
+      },
+      "locality": {
+        "title": "Localidad",
+        "description": "Una ciudad, pueblo, poblado o comunidad no incorporada. \nLas localidades corresponden a una entidad incorporada, según el Censo de EE. UU., o a una zona con fines estadísticos de valor equivalente, siempre que se ubique dentro de los límites censales. Los sitios incorporados, como lo son las ciudades, pueblos y poblados, tienen límites definidos oficialmente y operan como unidades gubernamentales activas. Los sitios designados por el censo son comunidades que no están incorporadas y que carecen de límites definidos oficialmente, o bien, no tienen una estructura gubernamental operativa y activa. \n\nLas localidades que se incluyen en el Índice de Equitatividad Arbórea se establecen por la U.S. Census Bureau, con la excepción de las que pertenecen a Connecticut, Maine, Míchigan, New Hampshire, New Jersey, New York, Rhode Island, y Vermont, en donde los límites estatales de las municipalidades se sustituyen de la siguiente manera:\n\n**Connecticut**: Connecticut and Vicinity Town Boundary Set (1998), [Sito web de CT DEEP GIS Open Data](https://ct-deep-gis-open-data-website-ctdeep.hub.arcgis.com/maps/82672ae5f3764021b9a4804f524f928b/about)\n\n**Massachusetts**: Municipalities, [MassGIS Data](https://www.mass.gov/info-details/massgis-data-municipalities)\n\n**Maine**: Municipalities in Adjacent States (2021), [MassGIS Data](https://www.mass.gov/info-details/massgis-data-municipalities-in-adjacent-states)\n\n**Michigan**: Minor Civil Divisions (Cities & Townships), [Michigan GIS Open Data](https://gis-michigan.opendata.arcgis.com/datasets/72bced2da68446e68a8a27abf25d6ff8_6/explore)\n\n**New Hampshire**: Municipalities in Adjacent States (1990), [MassGIS Data](https://www.mass.gov/info-details/massgis-data-municipalities-in-adjacent-states)\n\n**New Jersey**: Municipal Boundaries of NJ (2022), [NJOGIS](https://njogis-newjersey.opendata.arcgis.com/datasets/municipal-boundaries-of-nj/explore)\n\n**New York**: Cities and Towns (1998), [New York State GIS](https://gis.ny.gov/civil-boundaries)\n\n**Rhode Island**: Municipalities (1997), [RIGIS](https://www.rigis.org/datasets/edc::municipalities-1997/about)\n\n**Vermont**: Municipalities in Adjacent States (1998), [MassGIS Data](https://www.mass.gov/info-details/massgis-data-municipalities-in-adjacent-states)\n\n**Todos los demás estados**: Censal 2020, [U.S. Census Bureau](https://www.census.gov/)edificios"
+      },
+      "county": {
+        "title": "Condado",
+        "description": "En Estados Unidos, un condado es una división geográfica estatal que opera como unidad gubernamental y administrativa, subordinada de estado."
+      },
+      "urban_area": {
+        "title": "Zona urbana",
+        "description": "El Índice de Equitatividad Arbórea cubre todas las zonas urbanas de Estados Unidos, incluso Hawái y Alaska. La información de Puerto Rico y las Islas Vírgenes de Estados Unidos se publicará en 2023. Las zonas urbanas son núcleos de población con alta densidad, donde viven 5000 habitantes o existen más de 2000 unidades residenciales, según los datos de la Oficina del Censo de EE. UU. Estos núcleos de población urbana pueden incluir sectores censales de una o más localidades, como pueblos, ciudades, poblados u otras comunidades no incorporadas. Cada localidad dentro de un núcleo urbano puede tener menos de 5000 personas o menos de 2000 unidades residenciales. \n\nEn algunos casos, se excluyeron ciertas áreas urbanas debido a la falta de datos suficientes."
+      }
+    },
+    "demographic_measures": {
+      "title": "Medidas demográficas",
+      "children": {
+        "title": "Menores de edad",
+        "description": "Porcentaje de menores de edad, de 0 a 17 años.\n\n_Fuente: American Community Survey 2017-2021_"
+      },
+      "dependency_ratio": {
+        "title": "Relación de dependencia",
+        "description": "Adultos mayores (más de 65 años) y niños y adolescentes (entre 0 y 17 años) en relación con los adultos en edad laboral (entre 18 y 64 años).\n\n_Fuente: American Community Survey 2017-2021_"
+      },
+      "linguistic_isolation": {
+        "title": "Aislamiento lingüístico",
+        "description": "Porcentaje de hogares donde ningún individuo mayor de 14 años habla únicamente inglés; o bien, donde ningún individuo mayor de 14 años hable inglés con fluidez.\n\n_Fuente:  American Community Survey 2017-2021_"
+      },
+      "people_of_color": {
+        "title": "Personas racializadas",
+        "description": "Porcentaje de personas racializadas que no son blancos.\n\n_Fuente: American Community Survey 2017-2021_"
+      },
+      "people_in_poverty": {
+        "title": "Personas de bajos recursos",
+        "description": "Porcentaje de personas que viven debajo del 200 % del umbral federal de pobreza, según lo determina el gobierno federal.\n\n_Fuente: American Community Survey 2017-2021_"
+      },
+      "seniors": {
+        "title": "Adultos mayores",
+        "description": "Porcentaje de adultos mayores de más de 65 años.\n\n_Fuente: American Community Survey 2017-2021_"
+      },
+      "unemployment_rate": {
+        "title": "Tasa de desempleo",
+        "description": "Porcentaje de personas en edad laboral sin empleo, disponibles para trabajar y que se encuentran en busca de trabajo.\n\n_Fuente: American Community Survey 2017-2021_"
+      }
+    },
+    "climate_public_health": {
+      "title": "Clima y salud pública",
+      "heat_extremity": {
+        "title": "Calor intenso",
+        "description": "La temperatura de la superficie es un buen indicador de las zonas urbanas con calor excesivo. La severidad del calor extremo es un indicador de la intensidad térmica urbana, según los valores más altos de temperatura de la superficie en el verano de 2022, por sector censal.\n\n_Fuente: USGS Earth Explorer - Landsat 8 Collection 2 Level 2 Surface Temperature_"
+      },
+      "health_burden_index": {
+        "title": "Índice de carga sanitaria",
+        "description": "Incidencia de autoinformes de afecciones de salud mental o física, asma y cardiopatías en un índice de igual ponderación. Los índices más altos reflejan una mayor cantidad de informes relacionados con salud deficiente. No está disponible para Puerto Rico o las Islas Vírgenes de Estados Unidos.\n\n_Fuente: Center for Disease Control CDC PLACES 2022_"
+      },
+      "heat_disparity": {
+        "title": "Disparidad térmica",
+        "description": "Se mide mediante una comparación entre el calor intenso que sufre un sector y una zona urbana promedio. De esta manera, se determina la variedad e intensidad del calor a lo largo de una zona específica."
+      }
+    },
+    "tree_canopy_benefits": {
+      "title": "Beneficios del dosel arbóreo",
+      "ecosystem_services": {
+        "title": "Servicios ecosistémicos",
+        "description": "Se refiere a las contribuciones de los árboles al medio ambiente, economía, bienestar, salud y seguridad. Los beneficios clave se dirigen a la salud pública, el agua, la calidad del aire, el clima y el bienestar comunitario. Los árboles urbanos son infraestructuras esenciales para hacer de las ciudades lugares más inclusivos, resistentes y sostenibles."
+      },
+      "annual_ecosystem_service_value": {
+        "title": "Valor anual de los servicios ecosistémicos",
+        "description": "Beneficio económico (valor monetario) que los árboles generan por año mediante los servicios que ofrecen al ecosistema, como el carbono fijado, purificación del aire y control de la escorrentía. \n\n_Fuente: iTree Landscape_"
+      },
+      "carbon_sequestration": {
+        "title": "Carbono fijado",
+        "description": "Captura y almacenamiento de dióxido de carbono atmosférico expresado en toneladas."
+      },
+      "nitrogen_dioxide": {
+        "title": "Dióxido de nitrógeno",
+        "description": "Toneladas de dióxido de nitrógeno que los árboles absorben anualmente. El dióxido de nitrógeno es un contaminante atmosférico, generado principalmente por la combustión de hidrocarburos. Respirar aire con alta concentración de este gas provoca irritación en las vías respiratorias. Incluso las exposiciones breves a este contaminante empeoran las enfermedades respiratorias como el asma y causan síntomas (como tos, sibilancia o disnea), hospitalizaciones y visitas a servicios de urgencia. Una exposición prolongada a altas concentraciones de dióxido de nitrógeno aumenta la probabilidad de padecer asma e incrementa la vulnerabilidad ante infecciones respiratorias. En general, los niños, adultos mayores e individuos con asma tienen un mayor riesgo ante los efectos dañinos del dióxido de nitrógeno."
+      },
+      "sulfur_dioxide": {
+        "title": "Dióxido de azufre",
+        "description": "Toneladas de dióxido de azufre que los árboles absorben anualmente. El dióxido de azufre es un gas tóxico que se emite mediante la quema de combustibles como el carbón, petróleo y gasóleo y como un residuo de algunas actividades mineras. Las exposiciones breves dañan el aparato respiratorio y causan disnea. La exposición continua incrementa los síntomas respiratorios y afecta la función de los pulmones. Si la exposición se prolonga, los padecimientos respiratorios se intensifican y disminuye la actividad pulmonar. Las personas que padecen de asma, en especial los niños, son propensos a sufrir los efectos del dióxido de azufre."
+      },
+      "pm25": {
+        "title": "PM2.5",
+        "description": "Toneladas anuales de material particulado, cuyo diámetro es inferior a 2.5 micrones, que absorben los árboles. Las PM2.5 son una categoría más pequeña de partículas microscópicas atmosféricas ultrafinas que van directo a los pulmones y entran al torrente sanguíneo, lo que ocasiona graves problemas de salud."
+      },
+      "pm10": {
+        "title": "PM10",
+        "description": "Toneladas anuales de partículas entre 2.5 y 10 micrones que absorben estos árboles. Las partículas finas o PM10 son una categoría de mayor tamaño de partículas microscópicas atmosféricas que irritan los ojos, nariz y garganta y que, al inhalarse, se depositan en las vías respiratorias superiores y pulmones y pueden desencadenar daños importantes a la salud. El polvo proveniente de las carreteras, granjas, cauces secos de río, sitios de construcción y minas contiene PM10."
+      },
+      "ozone": {
+        "title": "Ozono",
+        "description": "Toneladas anuales de ozono que capturan los árboles. El ozono es un gas de efecto invernadero y contaminante atmosférico de bajos niveles, cuyas emisiones se deben a la combustión de hidrocarburos. Este contaminante presenta una amenaza a la salud pública, en especial, en días calurosos y soleados cuando el trioxígeno alcanza niveles insalubres. Incluso en concentraciones relativamente bajas produce riesgos a la salud. Según el nivel de exposición, puede conducir a afecciones como tos, irritación de garganta, dificultad o dolor al respirar profundo, inflamación de las vías respiratorias, vulnerabilidad a infecciones pulmonares, agravamiento de afecciones pulmonares, como el asma, enfisema, bronquitis crónica y una mayor frecuencia de crisis asmáticas."
+      },
+      "stormwater_runoff_prevented": {
+        "title": "Prevención de escorrentía",
+        "description": "Metros cúbicos anuales de agua pluvial y contaminantes relacionados que absorben los árboles sin gestión alguna."
+      },
+      "rain_interception": {
+        "title": "Captura de la precipitación",
+        "description": "Metros cúbicos anuales de precipitación contenida por los árboles y devuelta a la atmósfera mediante la evapotranspiración."
+      },
+      "jobs_supported": {
+        "title": "Sustento de empleos",
+        "description": "Cálculo de la cantidad de empleos de tiempo completo, parcial y de temporada generados, directa o indirectamente, por las inversiones en los árboles. Estos trabajos no tienen un periodo específico de duración. Para calcular el número promedio de empleos beneficiados al año, se divide el número total de empleos entre los años durante los cuales se mantiene vigente la inversión.\n\n_Fuente: American Forests respaldó la investigación que utilizó el Regional Input-Output Modeling System II (RIMS) de U.S. Bureau of Economic Analysis_"
+      }
+    },
+    "other": {
+      "title": "Otro",
+      "redlining": {
+        "title": "Prácticas discriminatorias (redlining)",
+        "description": "Prácticas discriminatorias (redlining): Clasificaciones de la década de 1930, establecidas por la Corporación Federal de Préstamos para Propietarios de Viviendas (HOLC), con el fin de evaluar el riesgo crediticio de distintas áreas urbanas. Las categorías iban desde «A» (bajo riesgo) hasta «D» (alto riesgo). El explorador nacional presenta la información cuando los datos están disponibles.\n\n_Fuente: Mapping Inequality_"
+      },
+      "epa": {
+        "title": "Comunidad con desventajas económicas de la EPA e IRA",
+        "description": "Indica si un sector censal se ha clasificado como comunidad con desventajas económicas, según la Agencia de Protección Ambiental (EPA) y la Ley de Reducción de la Tasa de Inflación (IRA). Entre los sectores censales marcados con «Sí» se incluyen: (1) las áreas censales que se han clasificado como «comunidades con desventajas económicas» por la Herramienta de Exploración de Justicia Climática y Económica (CEJST); (2) los sectores censales que superan el percentil 90 en uno o más de los índices suplementarios de EJScreen, en comparación con la nación o estado; o (3) las áreas geográficas pertenecientes a la categoría de tierras tribales en EJScreen, en especial territorios o pueblos de los nativos de Alaska, reservas indígenas estadounidenses, tierras indígenas fiduciarias fuera de reservas y áreas estadísticas tribales de Oklahoma.\n\n_Fuente: Mapa de Inflation Reduction Act Disadvantaged Communities de 2023 de la EPA_"
+      },
+      "shade": {
+        "title": "Sombra",
+        "description": "Porcentaje total de cobertura de sombra para cada sector censal combina sombra modelada y vegetación modelada (árbol) y otras sombras, donde las sombras superpuestas no se duplican. Se modeló la sombra con una resolución de un metro al mediodía (sombra mínima), a las 15:00 (hora más calurosa del día) y a las 18:00 (sombra máxima) utilizando los datos en la nube de puntos LIDAR de alta resolución y las huellas de Microsoft Building el 21 de junio, el día más largo del año. Las fechas de datos de origen varían según la ubicación (LIDAR: 2008-2022; Edificios: 2014-2024). Disponible para las 101 áreas urbanas más grandes.\n\n_Fuente: ULCA Luskin Center for Innovation 2023_"
+      }
+    },
+    "tesa": {
+      "title": "Lector del Índice de Equitatividad Arbórea (TESA)",
+      "austin": {
+        "title": "TESA Austin, TX",
+        "description": "**Vivienda asequible**: Señala la existencia de una unidad habitacional asequible con restricción de ingresos dentro del grupo censal o parcela. _Data Source: Comprehensive Affordable Housing Directory (2023), City of Austin_\n\n**Huerto comunitario**: Señala la existencia de un huerto comunitario dentro del grupo censal o parcela._ Fuente: City of Austin, Parks and Recreation Department_\n\n**Inundaciones**: Indica el nivel de riesgo de inundación (de moderado a bajo, alto u otro) que pasa por la parcela o derecho de vía. _Fuente: FEMA National Flood Hazard Layer_\n\n**Acceso limitado a alimentos**: Señala si un grupo censal tiene acceso limitado a alimentos: al menos 500 personas o el 33 % de la población vive a más de una milla, o 1.6 km, (en áreas urbanas) o más de 10 millas, o 16 km, (en áreas rurales) del supermercado más cercano. _Fuente: USDA Food Access Research Atlas, 2019_\n\n**Emisiones viales**: Indica las emisiones proyectadas para el año 2035, combinadas por grupo censal, de compuestos orgánicos volátiles, óxidos de nitrógeno, dióxido de carbono y monóxido de carbono, expresadas en libras por milla. _Fuente: Capital Area Metropolitan Planning Organization (CAMPO)_\n\n**Sombra**: Porcentaje total de cobertura de sombra para cada sector censal combina sombra modelada y vegetación modelada (árbol) y otras sombras, donde las sombras superpuestas no se duplican. Se modeló la sombra con una resolución de un metro al mediodía (sombra mínima), a las 15:00 (hora más calurosa del día) y a las 18:00 (sombra máxima) utilizando los datos en la nube de puntos LIDAR de alta resolución y las huellas de Microsoft Building el 21 de junio, el día más largo del año. Las fechas de datos de origen varían según la ubicación (LIDAR: 2008-2022; Edificios: 2014-2024). Disponible para las 101 áreas urbanas más grandes. _Fuente: ULCA Luskin Center for Innovation 2023_\n\n**Índice de vulnerabilidad social**: Índice de vulnerabilidad social para el sector censal. Los puntajes más altos indican mayor vulnerabilidad. _Fuente: Climate Vulnerability in Austin: A multi-risk assessment, 2020, proyecto de Austin Area Sustainability Indicators y el Texas Metropolitan Observatory of Planet Texas 2050_\n\n**Índice de inversión en la plantación de árboles**: Muestra el puntaje del índice de inversión en plantación de árboles, según el Mapa de Prioridades Comunitarias de Árboles de la Ciudad de Austin. Los puntajes más altos indican mayor inversión. _Fuente: Community Tree Priority Map, 2020, City of Austin, Community Tree Preservation Division_"
+      },
+      "boston": {
+        "title": "TESA Boston",
+        "description": "**Poblaciones de Mass EJ 2020**: La Oficina Ejecutiva de Energía y Asuntos Ambientales de Massachusetts define como población de justicia ambiental a los sectores censales que cumplen con uno o más de tres criterios. _Fuente: MassGIS Data: 2020 Environmental Justice Populations_\n\n**Temperatura atmosférica por la tarde**: Temperatura del aire que se calcula mediante un modelo de IA desarrollado por CAPA Strategies, usando datos recolectados por voluntarios que se desplazaron en auto o bicicleta una tarde del verano de 2021.\n\n**Temperatura atmosférica por la tarde-noche**: Temperatura del aire que se calcula mediante un modelo de IA desarrollado por CAPA Strategies, usando datos recolectados por voluntarios que se desplazaron en auto o bicicleta una tarde-noche del verano de 2021. \n\n**Inundaciones**: Indica si la parcela es propiedad pública o privada. _Fuente: Regrid_\n\n**Vecindario**: Indica el vecindario donde se encuentra la mayor parte de la parcela o derecho de vía. Estos límites vecinales no son oficiales para el Ayuntamiento de Boston. _Fuente: MassGIS Data: 2020 Environmental Justice Populations_\n\n**Número de criterios de Mass EJ**: Indica la cantidad de criterios de población de justicia ambiental que se cumplen. Los establece la Oficina Ejecutiva de Energía y Asuntos Ambientales de Massachusetts. _Fuente: MassGIS Data: Protected and Recreational OpenSpace_\n\n**Espacio abierto((: Indica las parcelas que pueden incluir áreas de conservación o con valor recreativo. _Fuente: MassGIS Data: Protected and Recreational OpenSpace_\n\n**Propiedades públicas**: Indica si la parcela es propiedad pública o privada. _Fuente: Regrid_"
+      },
+      "columbus": {
+        "title": "TESA Columbus y el Condado de Franklin, Ohio",
+        "description": "**Cambio en el dosel arbóreo**: Muestra el porcentaje de aumento o pérdida de cobertura arbórea dentro del sector censal o área correspondiente. _Fuente: UVM Spatial Analysis Lab, Land Cover Change 2011-2021_\n\n**Uso previsto de suelo**: Categoría de uso previsto del suelo en donde se encuentra la mayor parte de la parcela. Aviso: No se incluyen todas las categorías de uso de suelo. Para más información, [hacer clic aquí](https://morpc.org/2023/wp-description/uploads/2023/01/A_LandUse.pdf). _Fuente: 2021 Vintage MORPC Land Use Data. Enviar preguntas o comentarios [aquí](dataandmaps@morpc.org)._\n\n**Uso de suelo**: Categoría de uso de suelo en la que se encuentra la mayor parte de la parcela. Aviso: No se incluyen todas las categorías de uso. Para más información,[hacer clic aquí](https://morpc.org/2023/wp-description/uploads/2023/01/A_LandUse.pdf). _Fuente: 2021 Vintage MORPC Land Use Data. Enviar preguntas o comentarios [aquí](dataandmaps@morpc.org)._\n\n**Tipo de propiedad pública**: Indica el tipo de propiedad pública. _Fuente: Regrid 2023_"
+      },
+      "dallas": {
+        "title": "TESA Dallas, TX",
+        "description": "**EJScreen de EPA**: Indica la cantidad de índices que cumplen o superan el percentil 80, a nivel estatal, del área censal en donde se encuentra el sector censal, parcela o derecho de vía. _Fuente: EJScreen, United States Environmental Protection Agency, 2023_\n**Tipo de vecindario**: Indica la tipología cultural del vecindario donde se encuentra la parcela. _Fuente: Cultural Neighborhood Typologies, City of Dallas_\n\n**Parque**: Indica la presencia de un parque en una parcela. _Fuente: Dallas Parks - Polygon, City of Dallas_\n\n**Escuela**: Señala la presencia de una escuela pública dentro de una parcela. _Fuente: Campus Locations (2023), Dallas ISD GIS Data Hub_\n\n**Índice de vulnerabilidad social**: Indica la clasificación general del índice de vulnerabilidad social para el área censal donde se encuentra la parcela. Los valores más altos reflejan mayor vulnerabilidad. _Fuente: CDC/ATSDR SVI 2020, ATSDR-Center for Disease Control_\n\n**Prioridad de plantación TTF**: Indica el nivel de prioridad de plantación del sector censal, según el Mapa de Plantación Prioritaria de la Fundación Texas Trees. Aviso: Los límites de los sectores que establece el Censo de EE. UU. de 2010 pudieran ser distintos a los del Censo que utiliza TESA 2020. _Fuente: Dallas Tree Equity Planting Map - Texas Trees Foundation, 2021_"
+      },
+      "dc": {
+        "title": "TESA Región de Washington, D.C.",
+        "description": "**Cambio en el dosel arbóreo**: Porcentaje de cambio en la cobertura arbórea entre 2013/2014 y 2017/2018 en el sector censal, parcela o derecho de vía. _Fuente: Chesapeake Bay Program One-meter Resolution Land Use/Land Cover Data_\n\n**Inundaciones**: Indica el nivel de riesgo de inundación (de moderado a bajo, alto u otro) en la parcela. _Fuente: National Flood Hazard Layer de FEMA_ \n\n**Parque**: Indica la presencia de un parque en la parcela. _Fuente: DC: Open Data DC y National Park Service Open Data, Maryland: Montgomery Planning Open Data Portal y PG Planning Open Data Portal, Virginia: Northern Virginia Regional Commission y National Park Service Open Data_\n\n**Escuela**: Indica la presencia de una escuela en la parcela. _Fuente: DC: Open Data DC, MD: MD iMAP Data Catalog, VA: Virginia Geographic Information Network_\n\n**Subcuenca hidrográfica**: Indica la subcuenca hidrográfica en donde se encuentra el sector censal. _Fuente: DC: Open Data DC, MD: MD iMAP Data Catalog, VA: Virginia Open Data Portal_"
+      },
+      "detroit": {
+        "title": "TESA Detroit",
+        "description": "**Contaminación atmosférica**: Índice relativo de concentraciones atmosféricas modeladas mediante RSEI, con ponderación por toxicidad, de sustancias incluidas en el Inventario de Emisiones Tóxicas. _Fuente: Toxic Releases to Air (2021) - EJ Screen, EPA_\n\n**Asma**: Indica el porcentaje de adultos con asma en el sector censal. _Fuente: PLACES: Local Data for Better Health, Datos por área censal publicados en 2023, CDC_ \n\n**Zona industrial abandonada**: Indica la presencia de un espacio abandonado en la parcela. _Fuente: Brownfields, Michigan Department of Environment, Great Lakes, and Energy_\n\n**Parada de autobús (colectivo)**: Indica la presencia de una parada de autobús (colectivo) a menos de 50 yardas o 45 metros de la parcela. _Fuente: DDOT Bus Stops, City of Detroit Open Data Portal_\n\n**Ayuntamiento**: Indica el ayuntamiento al que pertenece la mayoría del sector censal. _Fuente: Council Districts, City of Detroit Open Data Portal_\n\n**Uso de suelo**: Categoría de zonificación/uso de suelo donde se encuentra la mayor parte de la parcela. _Fuente: Parcels, City of Detroit Open Data Portal_\n\n**Parque**: Señala la presencia de un parque en la parcela. _Fuente: Parks, 2021, Southeast Michigan Council of Governments_\n\n**Densidad de la población**: Indica la población del sector censal por kilómetro cuadrado. _Fuente: American Community Survey 2017-2021, US Census Bureau_\n\n**Escuela**: Indica la presencia de una escuela en operación en una parcela. _Fuente: Education Entity Master (EEM), Center for Educational Performance and Information (CEPI), State of Michigan_\n\n**Sombra**: Porcentaje total de cobertura de sombra para cada sector censal combina sombra modelada y vegetación modelada (árbol) y otras sombras, donde las sombras superpuestas no se duplican. Se modeló la sombra con una resolución de un metro al mediodía (sombra mínima), a las 15:00 (hora más calurosa del día) y a las 18:00 (sombra máxima) utilizando los datos en la nube de puntos LIDAR de alta resolución y las huellas de Microsoft Building el 21 de junio, el día más largo del año. Las fechas de datos de origen varían según la ubicación (LIDAR: 2008-2022; Edificios: 2014-2024). Disponible para las 101 áreas urbanas más grandes. _Fuente: ULCA Luskin Center for Innovation 2023_"
+      },
+      "indianapolis": {
+        "title": "TESA Condados de Indianápolis y Marion, Indiana",
+        "description": "**Contaminación atmosférica**: Un índice relativo de concentración media anual de material particulado, PM2.5, ponderado por área censal y vinculado a sectores censales. _Fuente: The Polis Center (2021)_\n\n**Cambio en el dosel arbóreo**: Muestra el porcentaje de aumento o pérdida de cobertura arbórea dentro del sector censal, parcela o derecho de vía. _Fuente: UVM Spatial Analysis Lab, Land Cover Change 2013-2022_\n\n**Uso de suelo**: Categoría de uso del suelo en la que se encuentra la mayor parte de la parcela. _Fuente: Current Land Use (2022), OpenIndy_y \n\n**Vecindario**: Vecindario donde se encuentra la mayor parte del sector censal. _Fuente: Indy Neighborhoods (2022), OpenIndy\n\n**Acceso a parques**: Porcentaje de parcelas que se encuentran a menos de. 25 m de distancia de un parque o terreno vírgen. _Fuente: SAVI Marion County Environment Profile (2019), The Polis Center_\n\n**Cuenca hidrográfica**: La cuenca hidrográfica (HUC12) donde se encuentra la mayor parte del sector censal. _Fuente: Hydrologic Unit Code 12 (2023), IndianaMap_"
+      },
+      "lincoln": {
+        "title": "TESA Lincoln Parish, LA",
+        "description": "**Inundaciones**: Indica el nivel de riesgo de inundación (de moderado a bajo, alto u otro) que pasa por la parcela o derecho de vía. _Fuente: FEMA National Flood Hazard Layer_\n\n**Uso comercial de suelo en Ruston**: Indica si una parcela tiene una designación de uso comercial de suelo en vigor en Ruston. _Fuente: Lincoln Parish GIS District_\n\n**Uso comercial de suelo previsto en Ruston**: Indica si es posible que una parcela tenga una designación de uso comercial de suelo prevista en Ruston. _Fuente: City of Ruston_\n\n**Cuenca hidrográfica**: La cuenca hidrográfica (HUC12) donde se encuentra la mayor parte del sector censal. _Fuente: USGS National Hydrography Dataset_"
+      },
+      "maricopa": {
+        "title": "TESA Condado de Maricopa",
+        "description": "**Parada de autobús (colectivo)**: Indica la presencia de paradas de autobús (colectivo) en la parcela. _Fuente: BusStops (2023), Valley Metro GeoCenter_\n\n**Refugio climático (del calor)**: Señala si existe un centro de enfriamiento de emergencia en la parcela y el tipo. _Fuente: Heat Relief Network (2023), Maricopa Association of Governments_\n\n**Tranvía**: Señala si una estación de tren ligero o tranvía se encuentra dentro del sector censal o parcela. _Fuente: Valley Metro Light Rail Stations (2022), Valley Metro GeoCenter_\n\n**Tramo Censal Calificado**: Señala si el grupo censal, la parcela o el derecho de vía pertenecen a un Tramo Censal Calificado (QCT). _Fuente: Qualified Census Tracts and Difficult Development Areas (2024), U.S. Department of Housing and Urban Development`s Office of Policy Development and Research (PD&R)_\n\n**Escuela**: Indica la presencia de una escuela en la parcela. _Fuente: Arizona Schools (2023), Arizona Department of Education, Arizona Department of Environmental Quality y Maricopa Association of Governments_\n\n**Sombra**: Porcentaje total de cobertura de sombra para cada sector censal combina sombra modelada y vegetación modelada (árbol) y otras sombras, donde las sombras superpuestas no se duplican. Se modeló la sombra con una resolución de un metro al mediodía (sombra mínima), a las 15:00 (hora más calurosa del día) y a las 18:00 (sombra máxima) utilizando los datos en la nube de puntos LIDAR de alta resolución y las huellas de Microsoft Building el 21 de junio, el día más largo del año. Las fechas de datos de origen varían según la ubicación (LIDAR: 2008-2022; Edificios: 2014-2024). Disponible para las 101 áreas urbanas más grandes. _Fuente: ULCA Luskin Center for Innovation 2023_"
+      },
+      "rhode_island": {
+        "title": "TESA Rhode Island",
+        "description": "**Temperatura atmosférica por la tarde**: Temperatura del aire que se calcula mediante un modelo de IA desarrollado por CAPA Strategies, usando datos recolectados por investigadores que se desplazaron en bicicleta una tarde del verano de 2020. \n\n**Riesgo sanitario relacionado con el clim*a*: Niveles altos, moderados o bajos de hospitalizaciones y visitas a salas de emergencia por afecciones que empeoran debido al cambio climático. Entre estas, se incluye la diabetes, salud mental, asma, y demás afecciones respiratorias, cardíacas y renales. \n\n**Temperatura atmosférica por la tarde-noche**: Temperatura del aire que se calcula mediante un modelo de IA desarrollado por CAPA Strategies, usando datos recolectados por investigadores que se desplazaron en bicicleta una tarde-noche del verano de 2020. \n\n**Inundaciones**: Indica el nivel de riesgo de inundación (de moderado a bajo, alto u otro) que pasa por la parcela o derecho de vía. _Fuente: Rhode Island Geographic Information System_\n\n**Zona de equidad sanitaria**: Zonas geográficas que demuestran oportunidades actuales e inversiones existentes para abordar las disparidades en resultados sanitarios. _Fuente: Rhode Island Department of Health_\n\n**Propiedades públicas**: Indica si la parcela es propiedad pública. _Fuente: Corelogic_\n\n**Escuela**: Indica la presencia de una escuela en la parcela. _Fuente: Rhode Island Geographic Information System_\n\n**Cuenca hidrográfica**: Indica el sector censal donde se encuentra la cuenca hidrográfica. _Fuente: Rhode Island Geographic Information System_"
+      },
+      "richmond": {
+        "title": "TESA Richmond",
+        "description": "**Temperatura atmosférica por la tarde**: Temperatura del aire que se calcula mediante un modelo de IA desarrollado por CAPA Strategies, usando datos recolectados por voluntarios que se desplazaron en auto o bicicleta durante una tarde del verano de 2021. \n\n**Temperatura atmosférica por la tarde-noche**: Temperatura del aire que se calcula mediante un modelo de IA desarrollado por CAPA Strategies, usando datos recolectados por voluntarios que se desplazaron en auto o bicicleta durante una tarde del verano de 2021. \n\n**Inundaciones**: Indica el grado de riesgo de inundaciones (moderado a leve, elevado, otro) en la parcela. _Fuente: City of Richmond, FEMA Digital Flood Insurance Rate Map_\n\n**Zona industrial**: Indica parcelas que tienen zonas industriales. _Fuente: Regrid_\n\n**Parque**: Indica la presencia de un parque en la parcela. _Fuente: City of Richmond, Transportation Surfaces_\n\n**Estacionamiento**: Indica la presencia de un estacionamiento en la parcela. Fuente: Ayuntamiento de Richmond, Superficies de transporte \n\n**Lugares de culto**: Indica si una parcela tiene un centro religioso. _Fuente: City of Richmond Office of Sustainability, Climate Equity Index, Religious Centers_\n\n**Propiedad pública**: Indica si la parcela es propiedad pública o privada. _Fuente: Regrid_\n\n**Alquiler**: Identifica parcelas que podrían estar en régimen de alquiler (a partir de datos de zonificación y propiedad). _Fuente: Regrid_\n\n**Escuela**: Indica si la parcela tiene una escuela. _Fuente: City of Richmond, RPS Schools_\n\n**Acera o banqueta**: Indica si el derecho de vía tiene una acera. _Fuente: City of Richmond, Transportation Surfaces_"
+      },
+      "toronto": {
+        "title": "TESA Toronto",
+        "description": "**Biblioteca**\n\n**Vecindario**\n\n**Designación de Vecindario**\n\n**ID de Vecindario**\n\n**Puntuación de Vecindario**\n\n**Escuela*\n\n**Zona**\n\n**Cuenca**"
+      },
+      "washington": {
+        "title": "TESA Washington",
+        "description": "**Cobertura** (sin incluir el dosel de árboles). _Fuente: Ecopia Vector Land Cover w/ Canopy Overlap (2021-2022)_\n\n**Tipo de propiedad de parques**: Indica la presencia de un parque en la parcela y el tipo de propietario del parque. _Fuente: Trust for Public Land, Complete U.S. ParkServe®️ Dataset, 2025_\n\n**Escuela**: Indica la presencia de una escuela en el parcela. _Fuente: Escuelas públicas del estado de Washington 2024, Washington Spatial Data_\n\n**Cuenca**: Indica en qué se encuentra el sector censal de cuenca. _Fuente: National Watershed Boundary Dataset (WBD): Hydrologic Unit Code 8-Digit Basins of Washington State, Washington Spatial Data_"
+      }
+    }
+  },
+  "faqs": {
+    "title": "preguntas frecuentes",
+    "national": {
+      "title": "Índice Nacional de Equitatividad Arbórea",
+      "changed_score": {
+        "title": "My score changed with the new release of Tree Equity Score. Why?",
+        "description": "The new release of Tree Equity Score may bring changes to your score, stemming from key updates to tree canopy, Census and heat data as well as methodological refinements based on feedback from users. At American Forests, our top priority is to guarantee that Tree Equity Score stays current and rooted in science, and to ensure it serves as a valuable and trusted resource to support the Tree Equity movement.\n\nData updates: \n- New tree cover from Google \n- New Landsat-derived heat disparity data \n- New 2020 Census boundaries \n- The latest American Community Survey data (including the addition of linguistic isolation to the Priority Index). \n\nWe take stakeholder feedback very seriously and methodological refinements have been implemented to ensure Tree Equity Score best meets users needs.\n\n- Refined tree canopy goals are better tailored to local urban ecologies. A higher goal can potentially lower a Tree Equity Score, and a lower goal can potentially raise a Tree Equity Score. \n- With the first release of Tree Equity Score, scores were designed for comparison within individual cities only. Now, a small methodological change makes scores meaningfully comparable across city lines. Be mindful that a score of 80, however, is by design not the same everywhere. Tree Equity Scores incorporate canopy targets that are calibrated to what's possible in the built environment. This ensures goals are fair, attainable and feasible wherever you live. As a result, comparison of a score of 80 with a high canopy target in a suburban area to a score of 80 with a more feasible canopy target in a dense urban area might require a review of more information than just the Tree Equity Score.\n- Heavily built-up areas with very low or zero population (e.g., industrial areas or commercial strips) have been assigned corrected tree canopy targets based on building density, rather than population density. By design, Tree Equity Score puts more weight on areas with residents."
+      },
+      "changed_blockgroup": {
+        "title": "My block group changed with the new release of Tree Equity Score. Why?",
+        "description": "The recently released Census 2020 introduced updated block group boundaries, which have now been integrated into the Tree Equity Score. These changes have led to instances where block groups were either combined or subdivided. As a result, Tree Equity Scores were recalculated for each of these new block groups."
+      },
+      "tes_importance": {
+        "title": "¿Por qué es importante la equitatividad arbórea?",
+        "description": "Los árboles no solo embellecen el paisaje ni son simples refugios para relajarse. Al igual que las escuelas, calles y sistemas de drenaje, forman parte esencial de la infraestructura de un lugar. Su presencia resulta vital para la salud pública, el bienestar general y la capacidad de adaptación de la comunidad ante el cambio climático.\n\n- Los árboles de Estados Unidos absorben unas 17.4 millones de toneladas de contaminantes atmosféricos, lo que previene 670 000 casos de asma y otras afecciones respiratorias agudas al año.\n- Anualmente, se estima que los árboles que hay en las ciudades del país previenen unas 1200 muertes y numerosos trastornos desencadenados por las altas temperaturas. Esto se debe a que la presencia de árboles enfría la superficie y la atmósfera. La capacidad de reducir temperaturas extremadamente altas es trascendental, sobre todo porque se prevé que las muertes por calor se multipliquen por diez en la región este del país hacia 2025.\n- Los árboles en Estados Unidos reducen el uso de aires acondicionados y calefacción en un 7.2 %.\n- Los árboles son una fuente de ingresos, pues generan empleos en actividades como el mantenimiento arbóreo y producción de artículos de madera reciclada. Por cada millón de dólares que se invierte en la restauración forestal, se crean cerca de 39 empleos en zonas rurales de Estados Unidos.\n\nLa distribución desigual de árboles agrava la injusticia social. Los mapas de cobertura arbórea son inversamente proporcionales a los que ilustran los vecindarios más marginados o con una mayor población racializada, especialmente en entornos urbanos. A menudo, los árboles son escasos en las áreas de bajos ingresos y en algunos vecindarios racializados, a consecuencia de décadas de políticas gubernamentales y de planificación que favorecieron a ciertas zonas en detrimento de otras, perpetuando así la desigualdad sistémica."
+      },
+      "tes_origins": {
+        "title": "¿Por qué se creó el Índice de Equitatividad Arbórea?",
+        "description": "El racismo sistémico, las barreras institucionales y las políticas ineficaces son factores que perpetúan la desigualdad ambiental en zonas urbanas de todo el país, incluyendo el acceso inequitativo a los beneficios que ofrecen los árboles. Estas disparidades afectan mayormente a comunidades racializadas, vecindarios con desventajas económicas y grupos marginados, lo que los expone con mayor intensidad a fenómenos como olas de calor extremo, contaminación atmosférica y un suministro de agua en deterioro.\n\nCon la implementación de esta herramienta se busca atender dichas disparidades. El objetivo consiste en promover la equitatividad arbórea en las zonas urbanas de Estados Unidos. Es decir, llenar de árboles los espacios vacíos para ofrecer a todas las localidades esta infraestructura esencial que mejora la salud, el bienestar y la capacidad de adaptación climática de las comunidades. Los silvicultores urbanos, líderes comunitarios, defensores de la justicia ambiental, organizaciones civiles y de conservación, entre otros, pueden utilizar el Índice de Equitatividad Arbórea para impulsar las inversiones en los vecindarios con mayor necesidad de árboles, empleo y protección contra el cambio climático.\n\nLo que distingue a esta iniciativa es su enfoque en la equitatividad. Establece un modelo que orienta futuras inversiones hacia la infraestructura forestal en zonas urbanas y prioriza los vecindarios con mayor necesidad. El Índice de Equitatividad Arbórea le brinda a todas las comunidades urbanas las herramientas suficientes para expandir sus áreas verdes y hacerlas accesibles a quienes más lo necesitan."
+      },
+      "tes_values": {
+        "title": "¿Qué puntuación del Índice de Equitatividad Arbórea se considera apta?",
+        "description": "El Índice de Equitatividad Arbórea mide la eficacia de los doseles forestales urbanos en las zonas más vulnerables. Este enfoque, que prioriza la equitatividad en la distribución de árboles, busca dirigir las inversiones hacia comunidades racializadas, personas de bajos ingresos e individuos con mayor vulnerabilidad a los efectos de las olas de calor, contaminación y otros riesgos ambientales.\n\nTodos los vecindarios estadounidenses se evalúan en una escala del 1 al 100. Una puntuación de 100 indica una cobertura arbórea suficiente, mientras que una puntuación inferior indica carencia de esta. Cuanto más baja sea la puntuación, mayor será la urgencia de inversión. Las regiones con puntuaciones más bajas deben ser las primeras en recibir apoyo, según lo permitan los parámetros del presupuesto local y los objetivos del proyecto.\n\nSe recomienda consultar la escala de puntuaciones para interpretar la necesidad: máxima (0-69); alta (70-79); moderada (80-89); baja (90-99); mínima (100). El usuario interpretará el nivel de necesidad de su comunidad, según el resultado del Índice de Equitatividad Arbórea y del contexto y datos de su localidad."
+      },
+      "data_availability": {
+        "title": "¿Por qué no hay información sobre mi comunidad, vecindario o dirección?",
+        "description": "El Índice de Equitatividad Arbórea mide la necesidad de doseles arbóreos en las zonas urbanas en Estados Unidos, conforme a los límites del censo, incluyendo a Hawái y Alaska. Las evaluaciones de Puerto Rico y las Islas Vírgenes de Estados Unidos se publicarán en otoño de 2023. Si una región no forma parte del estudio, es posible que esté excluida del censo. Para solicitar su inclusión en la evaluación, basta ponerse en contacto con nosotros."
+      },
+      "data_procedence": {
+        "title": "¿De dónde proviene la información sobre los doseles arbóreos?",
+        "description": "Google proporciona los datos sobre los doseles arbóreos que se obtienen mediante su Explorador de Datos Medioambientales. Esta herramienta emplea imágenes de alta resolución para identificar las zonas con cobertura arbórea dentro de cada área censal."
+      },
+      "canopy_goal": {
+        "title": "¿Qué tan importante es fijar una meta con respecto a los doseles arbóreos?",
+        "description": "El Índice de Equitatividad Arbórea tiene una meta de cobertura forestal de referencia para un vecindario, partiendo de las ecologías urbanas locales. Esta meta indica el porcentaje mínimo dosel necesario para satisfacer los beneficios propios de un sector determinado, con base en la densidad de edificios y biomas naturales, como bosques, matorrales mediterráneos, pastizales, desiertos. A la vez, ofrece un punto de referencia que permite comparar vecindarios y detectar las zonas que necesitan inversión arbórea adicional. La cobertura actual de los doseles se analiza para medir el progreso del objetivo establecido.\n\nEstas metas representan la cobertura arbórea mínima necesaria en todos los vecindarios, acorde a su ecología urbana, sin considerar las impuestas por los ayuntamientos. Algunos vecindarios pueden superar la meta inicial. Los sectores con cobertura arbórea que satisfacen o superan el objetivo de la obertura, reciben una puntuación de 100 en el Índice de Equitatividad Arbórea."
+      },
+      "data_updates": {
+        "title": "¿Con qué frecuencia se actualiza la información?",
+        "description": "Las puntuaciones del Índice de Equitatividad Arbórea se actualizan a medida que se realizan nuevos censos y se publica la información relevante. Los datos que no cuentan con fechas fijas de publicación se proporcionarán según lo permitan los recursos disponibles."
+      },
+      "plantable_area": {
+        "title": "¿Cómo se determinan las zonas cultivables?",
+        "description": "El Índice de Equitatividad Arbórea utiliza el valor de intersticio del dosel arbóreo para definir donde se pueden plantar árboles:\n\n_Intersticio = meta – cobertura arbórea actual_\n\nEl intersticio representa el espacio disponible para nuevas plantaciones. Las zonas cultivables se integran a la evaluación de dos maneras. Primero, al calcular la cobertura arbórea actual como porcentaje del área total del vecindario (excluyendo el agua). Segundo, al definir la meta de doseles arbóreos en el vecindario para definir los espacios donde es factible plantar. Estas metas se ajustan según el tipo de bioma y se adaptan a las zonas viables en los ecosistemas de bosques, matorrales mediterráneos, pastizales y desiertos, con asesoría del Servicio Forestal de los Estados Unidos del Departamento de Agricultura de Estados Unidos (USDA). Además, se modifican con base en la densidad de edificios, cuya extensión pudiera limitar los espacios cultivables disponibles.\n"
+      },
+      "gentrification": {
+        "title": "Si la puntuación de mi vecindario aumenta, ¿eso causará elitización residencial o desplazamiento en la comunidad?",
+        "description": "Es erróneo creer que la plantación de árboles lleva a la elitización residencial (la llegada de residentes y comercios adinerados) y al desplazamiento (los habitantes habituales abandonan la zona debido al aumento de precios de renta y propiedad). Si bien algunos estudios muestran una correlación entre la arborización y la elitización residencial, no se ha identificado un vínculo causal; por lo tanto, no hay hallazgos que sustenten dicha noción ([he aquí](https://www.jmp.com/en_us/statistics-knowledge-portal/what-is-correlation/correlation-vs-causation.html) por qué correlación no significa causalidad). Un estudio de [Sharifi y AA. VV.](https://www.sciencedirect.com/science/article/abs/pii/S0264837721003008), publicado en 2021, concluyó que no existe evidencia causal entre ambos fenómenos. De hecho, determinó lo contrario: la elitización residencial precede a la plantación, no al revés. Es decir, el cultivo de árboles suele comenzar una vez que se presenta la elitización.\n\nConclusión: La elitización residencial no surge debido a la presencia de árboles sino a otras causas. Este fenómeno, junto con el del desplazamiento, obedece a décadas de desigualdad sistémica propia de las políticas administrativas y agentes de planificación comunitarios; entre estos, las normas restrictivas de zonificación que impiden el desarrollo de residencias multifamiliares asequibles, acceso desigual a créditos hipotecarios y cláusulas excluyentes.\n\nEl cultivo de árboles en vecindarios desatendidos responde a los derechos humanos básicos de salud, seguridad y bienestar. Se han estudiado los beneficios de la plantación de árboles en zonas urbanas y sus efectos en la mitigación del calor intenso, contaminación atmosférica y peligros ambientales. Ciertamente, sería irresponsable ignorar las disparidades en la cobertura arbórea, sobre todo ante las altas e intensas temperaturas y el nivel de contaminación atmosférica actuales.\n\nEl Índice de Equitatividad Arbórea permite dirigir inversiones exhaustivas y estratégicas hacia vecindarios desatendidos al evidenciar la necesidad de plantar árboles y respaldar las políticas que previenen o reducen la elitización residencial. Entre las medidas que se recomiendan, se encuentran la creación de viviendas con subsidio público, reformas inclusivas de zonificación, fideicomisos comunitarios de tierras y programas de devolución fiscal en bienes raíces. Para más información sobre las estrategias de revitalización y sus beneficios en la comunidad, favor de consultar la [National Community Reinvestment Coalition](https://ncrc.org/gentrification/)."
+      },
+      "tress_species": {
+        "title": "Busco recomendaciones específicas sobre qué especies de árboles plantar.",
+        "description": "¡Excelente! Favor de consultar [la página de recursos](https://www.treeequityscore.org/resources/) para más información y orientación sobre el cultivo de árboles en entornos urbanos."
+      },
+      "national_local": {
+        "title": "What is the difference between TESA and Tree Equity Score National Explorer?",
+        "description": "Tree Equity Score National Explorer houses the nationwide Tree Equity Scores for all urban neighborhoods in the United States, including Hawaii, Alaska, and Puerto Rico.\n\nTree Equity Score Analyzers (TESA) are local tools for cities or regions. TESAs provide tools to help users plan trees on a property-by-property basis and see how their efforts can shift neighborhood Tree Equity Scores. TESAs provide information for every parcel and right-of-way in a city or region and provide customizable multi-site scenario planning, tree size selection, impact reporting and tracking tools."
+      },
+      "get_tesa": {
+        "title": "How do I get a Tree Equity Score Analyzer (TESA) for my city or region?",
+        "description": "Tree Equity Score Analyzer (TESA) goes a step further than the National Explorer by exploring local conditions and supporting project level-decision making; therefore, it requires more engagement and additional resources. Learn more about [TESA](https://treeequityscore.org/analyzer/).\n\nFor more information about how you can help us bring TESA to your community, please [Contact Us](https://treeequityscore.org/contact/)."
+      }
+    },
+    "local": {
+      "title": "Local Tree Equity Score Analyzers (TESA)",
+      "tesa_usage": {
+        "title": "How can I use Tree Equity Score Analyzer (TESA)?",
+        "description": "Tree Equity Score Analyzers are used by urban foresters, community-based organizations, community advocates, government officials, public health officials, land-use planners, nonprofit groups and many others. The tool provides deep-dive decision support to help make the case for investment in areas with the greatest need and plan targeted plantings, conservation efforts and engagement.\n\nUse the tool to plan and prioritize site-level projects that move the needle on neighborhood scores. Neighborhood and parcel-level information can also support users in targeting door-to-door engagement, scenario planning, writing compelling grant proposals, budgeting and strategic planning."
+      },
+      "tailored_tesa": {
+        "title": "How is the Tree Equity Score Analyzer (TESA) tailored to my city or region?",
+        "description": "Each TESA application is created in collaboration with local stakeholders who participate over a more than four month process help ensure the tool is tailored to their city or region. There are many points during the process where you can get involved, whether joining the Stakeholder Council, attending meetings and training sessions, participating in 1-on-1 interviews or submitting feedback."
+      },
+      "planting_limits": {
+        "title": "How do you know how much area you can plant?",
+        "description": "In TESA, the area you can plant on each parcel or right-of-way segment is called “potential tree canopy” and is defined as areas with low vegetation, bare soil and paved surfaces that are not roads. Buildings, roads and water are excluded. Potential tree canopy assumes one continuous plantable area total for a parcel as an estimation of the maximum area that could be fully planted. This method errs on the side of optimistic (often high) potential tree canopy estimations and site assessment is necessary for refining planting plans."
+      },
+      "layers": {
+        "title": "How do you choose the data in the layers and filters?",
+        "description": "All TESAs contain the same set of primary data, including demographic, socioeconomic and environmental measures. TESAs also contain supplemental data selected in consultation with a TESA Stakeholder Council and community members."
+      },
+      "data_updates": {
+        "title": "How often are TESAs updated with new data?",
+        "description": "American Forests makes annual updates to our Tree Equity Score applications; however, some data sources have longer update cycles and are updated when new data becomes available."
+      }
+    }
+  },
+  "data_download": {
+    "data": {
+      "title": "Descargar Información",
+      "description": "Descarga de los datos geoespaciales brutos más recientes en los que se basa el Índice de Equitatividad Arbórea. Están disponibles en formato geoespacial y hoja de cálculo. Seleccionar un estado en la lista a continuación para consultar las opciones de descarga.",
+      "note": "* Todas las descargas se actualizaron el 6 de diciembre de 2024. Puede citar estos datos como \"Tree Equity Score. 2023. American Forests. Último acceso [fecha]\"."
+    },
+    "change_log": {
+      "title": "Registro de cambios",
+      "description": "Última actualización 02/06/2025"
+    }
+  },
+  "methods": {
+    "tree_equity_score": {
+      "title": "Índice de Equitatividad Arbórea",
+      "description": "El Índice de Equitatividad Arbórea mide la efectividad de la distribución de los beneficios que proveen los árboles en las comunidades de bajos ingresos, racializadas y otras poblaciones expuestas, de manera desproporcionada, al calor intenso y demás peligros ambientales.",
+      "points": "- Este proyecto destaca las disparidades en el acceso a los árboles a nivel nacional.\n - La puntuación se calcula a nivel vecindario (sector censal).\n - Se usa una escala de 0 a 100. Cuanto más baja es la puntuación, mayor prioridad tiene la plantación de árboles. Una puntuación de 100 indica que el vecindario ya cumple con los objetivos de plantación.\n - El Índice de Equitatividad Arbórea estudia todos los sectores urbanos del Censo de Estados Unidos, incluso Hawái y Alaska. La información de Puerto Rico y las Islas Vírgenes de Estados Unidos se publicará en 2025."
+    },
+    "priority_index": {
+      "title": "Índice de prioridad",
+      "description": "El índice de prioridad permite priorizar el cultivo de árboles para alcanzar la equitatividad arbórea y se basa en siete variables que se dividen en factores climáticos, sanitarios y socioeconómicos y se integran al Índice de Equitatividad Arbórea. Una cifra mayor indica que la población podría estar expuesta, de manera desproporcionada, al calor intenso, contaminación y demás peligros ambientales, que bien se pudieran mitigar mediante la presencia de árboles.",
+      "variables": {
+        "age": {
+          "title": "EDAD",
+          "subtitle": "Relación de dependencia",
+          "description": "Adultos mayores (más de 65 años) y niños y adolescentes (entre 0 y 17 años) en relación con los adultos en edad laboral (entre 18 y 64 años). \n\n_Fuente: American Community Survey 2017-2021_"
+        },
+        "employment": {
+          "title": "EMPLEO",
+          "subtitle": "Tasa de desempleo",
+          "description": "Porcentaje de personas en edad laboral sin empleo, disponibles para trabajar y que se encuentran en busca de trabajo. \n\n_Fuente: American Community Survey 2017-2021_"
+        },
+        "health": {
+          "title": "SALUD",
+          "subtitle": "Índice de la carga sanitaria",
+          "description": "Promedio de prevalencia autoinformada de afecciones de salud mental, física, asma y enfermedades cardíacas en un índice de igual ponderación. Los índices más altos reflejan una mayor cantidad de informes relacionados con salud deficiente. No está disponible para Puerto Rico o las Islas Vírgenes de Estados Unidos.\n\n_Fuente: Center for Disease Control CDC PLACES 2022_"
+        },
+        "heat_severity": {
+          "title": "INTENSIDAD DE CALOR",
+          "subtitle": "Disparidad térmica",
+          "description": "La temperatura de la superficie es un buen indicador de las zonas urbanas con calor excesivo. Se estima el promedio de las temperaturas de la superficie al aislar los píxeles con valores elevados de las imágenes que Landsat 8 Surface Temperature capturó en el verano de 2022 y de veranos anteriores en ciertas ubicaciones, de ser necesario. Se compilaron los valores máximos de los píxeles que representan los extremos de calor más altos de la superficie en el verano en todas las zonas urbanas de Estados Unidos y, posteriormente, se calcularon los promedios por sector censal para generar un conjunto de datos informativo acerca del calor intenso. La disparidad térmica se mide mediante una comparación entre el calor intenso que sufre un sector y una zona urbana promedio. De esta manera, se determina la variedad e intensidad del calor a lo largo de una zona específica.\n\n _Fuente: USGS Earth Explorer - Landsat 8 Collection 2 Level 2 Surface Temperature_"
+        },
+        "income": {
+          "title": "NIVEL DE INGRESOS",
+          "subtitle": "Personas de bajos ingresos",
+          "description": "Porcentaje de personas que viven debajo del 200 % del umbral federal de pobreza, según lo determina el gobierno federal.\n\n_Fuente: American Community Survey 2017-2021_"
+        },
+        "language": {
+          "title": "IDIOMA",
+          "subtitle": "Aislamiento lingüístico",
+          "description": "Porcentaje de hogares donde ningún individuo mayor de 14 años habla únicamente inglés; o bien, donde ningún individuo mayor de 14 años hable inglés con fluidez.\n\n_Fuente: American Community Survey 2017-2021_"
+        },
+        "race": {
+          "title": "RAZA",
+          "subtitle": "Personas racializadas",
+          "description": "Porcentaje de personas racializadas negras o afroamericanas, indígenas estadounidenses u originarias de Alaska, Hawái u otras islas del Pacífico; incluye a las personas que la Oficina del Censo clasifica como hispanas.\n\n_Fuente: American Community Survey 2017-2021_"
+        }
+      }
+    },
+    "tree_canopy_benefits": {
+      "title": "Beneficios del dosel arbóreo",
+      "description": "Alcanzar la equidad arbórea en las ciudades brinda beneficios a la salud pública, el agua, la calidad del aire, el clima y el bienestar comunitario. Se utiliza i-Tree Landscape e investigaciones financiadas por American Forests para medir los beneficios de los doseles forestales. Se utiliza i-Tree Landscape e investigaciones financiadas por American Forests para medir los beneficios de los doseles forestales.",
+      "steps": {
+        "step1": {
+          "description": "Los beneficios se calculan a partir del número de árboles que conforman la cobertura arbórea. Para determinar la cantidad de árboles necesaria para la expansión del dosel arbóreo, se utiliza un factor de conversión: un árbol de tamaño mediano, con una copa de 600 ft2 o 55.74 m2, por árbol urbano mediano, de entre 25 y 30 ft (7.6 m y 9 m) de diámetro."
+        },
+        "step2": {
+          "description": "Para las medidas de carbono, agua y aire se multiplica la cobertura adicional propuesta por un factor específico correspondiente a cada uno de los condados, proporcionado por i-Tree. Consulta [el resumen y metodología de los programas de i-Tree](https://www.fs.usda.gov/research/treesearch/63636) para obtener información adicional sobre los métodos que se utilizaron para determinar dichos factores de conversión."
+        },
+        "step3": {
+          "description": "Las conversiones de la captura de carbono se ofrecen en la calculadora de equivalencias de gases de efecto invernadero de la Agencia de Protección Ambiental de EE. UU. Las conversiones de contaminación de PM2.5 se consultaron en i-Tree Landscape."
+        }
+      }
+    },
+    "jobs_supported": {
+      "title": "Sustento de empleos",
+      "description": "La equitatividad arbórea sostiene y genera empleos. American Forests respaldó la investigación que utilizó el Sistema Regional de Modelado de Entrada y Salida II (RIMS) de U.S. Bureau of Economic Analysis. para estimar la cantidad de empleos generados, directa o indirectamente, por las inversiones en la silvicultura urbana. Estos cálculos corresponden a las siguientes estimaciones y cómputos:",
+      "points": "- Cada millón de dólares que se invierte en bosques urbanos sustenta 25.7 empleos.\n - Plantar un árbol urbano tiene un costo promedio de 283 dólares.\n - En lo que respecta a los empleos, se consideraron los puestos de tiempo completo, medio tiempo y temporales; no se consideran los que equivalen a, pero no son, de tiempo completo.\n - Estos trabajos no tienen un periodo específico de duración. Para calcular el número promedio de empleos beneficiados al año, se divide el número total de empleos entre los años durante los cuales se mantiene vigente la inversión."
+    },
+    "detailed_methods": {
+      "title": "Metodología a detalle",
+      "steps": {
+        "step1": {
+          "title": "Calcular la meta de cobertura arbórea en el vecindario",
+          "description": "Las metas de cobertura arbórea por sector censal indican el porcentaje necesario de copa arbórea para alcanzar el mínimo de cobertura suficiente. Estas metas parten de referentes del bioma y se ajustan según la densidad de edificios, ya que las construcciones limitan los espacios disponibles para sembrar.",
+          "substeps": {
+            "1a": {
+              "title": "El cálculo se elaboró con asesoría del Servicio Forestal del Departamento de Agricultura de Estados Unidos y con retroalimentación del colectivo interesado:",
+              "points": "- Bosques: 40 %\n - Pastizales: 20 %\n - Matorrales mediterráneos: 20 %\n - Desiertos: 15 %"
+            },
+            "1b": {
+              "title": "La densidad de edificios (%) se estimó con la herramienta Microsoft Building, que detecta la presencia de construcciones en una zona. Para unos 150 sectores censales sin datos disponibles, se recurrió al modelo de OpenStreetMap."
+            },
+            "1c": {
+              "title": "Los puntos de referencia se ajustaron según la pendiente que muestra la relación entre densidad de edificios y cobertura arbórea en cada bioma. El ajuste se aplica en incrementos de 0.25, según el comportamiento observado: El factor de corrección se aplicó en incrementos de 0.25, de la siguiente manera:",
+              "points": "- En los biomas de bosques y matorrales mediterráneos, donde la pendiente fue más pronunciada, se aplicaron hasta tres puntos de corrección.\n - En el bioma de pastizales, con una pendiente más moderada, se aplicaron dos puntos de corrección. A las zonas con menos del 20 % de densidad de edificios se les asignó solo un punto.\n - En el bioma de desierto, la pendiente fue casi completamente plana y no mostró una relación clara entre densidad y cobertura, por lo que no se aplicaron correcciones."
+            },
+            "1d": {
+              "title": "La fórmula para calcular la meta (META) de los vecindarios es la siguiente:",
+              "formula": "META = objetivo basal × factor de corrección por densidad de edificios"
+            },
+            "1e": {
+              "title": "Los objetivos finales, (META) se expresan como (%) de cobertura arbórea:",
+              "note": "*Las metas se expresan como porcentaje de dosel arbóreo: El factor de corrección figura entre corchetes"
+            }
+          }
+        },
+        "step2": {
+          "title": "Evaluar la cobertura del dosel arbóreo existente",
+          "substeps": {
+            "2a": {
+              "title": "La cobertura arbórea, ÁREA<sub>árboles</sub>, se obtiene del dosel arbóreo de alta resolución del Explorador de Datos Medioambientales de Google. Esta herramienta se reemplaza por datos locales de alta resolución en ciudades que cuentan con el Lector del Índice de Equitatividad Arbórea. El porcentaje de dosel arbóreo se calcula de la siguiente manera:",
+              "points": "ÁREA<sub>territorio</sub> corresponde al área terrestre del sector censal, sin incluir cuerpos de agua.",
+              "formula": "% DE COBERTURA DE DOSEL ARBÓREO = AREA<sub>árboles</sub> / AREA<sub>territorio</sub> * 100"
+            }
+          }
+        },
+        "step3": {
+          "title": "Cálculo del intersticio de cobertura arbórea",
+          "description": "Calcula el porcentaje de un área cultivable del sector censal necesaria para alcanzar la meta de cobertura.",
+          "substeps": {
+            "3a": {
+              "title": "El intersticio en la cobertura arbórea, INTERSTICIO (GAP), se calcula al restar el porcentaje de dosel existente en el vecindario, EC, del objetivo de dosel arbóreo, META (GOAL) (%), según la densidad:",
+              "formula": "INTERSTICIO = META – EC"
+            }
+          }
+        },
+        "step4": {
+          "title": "Cálculo del calor extremo y disparidad térmica",
+          "description": "La temperatura de la superficie es un buen indicador de las zonas urbanas con calor excesivo.",
+          "substeps": {
+            "4a": {
+              "title": "Se realizó una compilación de todas las imágenes del verano de 2022 que Landsat 8 Collection 2 Level 2 Surface Temperature capturó de las áreas en donde existían zonas urbanas (se incluyeron, de ser necesario, veranos anteriores y ubicaciones con menos información)."
+            },
+            "4b": {
+              "title": "Se fusionaron los puntos que coincidieron con exactitud geográfica, con base en el [Worldwide Reference System](https://www.usgs.gov/faqs/what-worldwide-reference-system-wrs) y se seleccionó el valor máximo de temperatura para cada píxel. Estos se aislaron para identificar los extremos más elevados de calor superficial en todas las zonas urbanas de Estados Unidos."
+            },
+            "4c": {
+              "title": "Se calcularon los promedios por sector censal y por zona urbana utilizando un conjunto de datos expositivos de calor extremo, sin incluir los cuerpos de agua. Si un sector censal no dispone de información suficiente, se le adjudica el promedio de la zona urbana a la que pertenece."
+            },
+            "4d": {
+              "title": "Para cada sector censal, la diferencia con respecto al promedio del área urbana mide lo que significa cada sector censal por encima y por debajo del área urbana. Esto genera una medida de disparidad térmica, TEMP<sub>dif</sub>, donde:",
+              "point1": "TEMP<sub>sc,pro</sub> es el promedio de los valores máximos de la temperatura de la superficie en verano, dentro del sector censal",
+              "point2": "TEMP<sub>zu,pro</sub> es el promedio de los valores máximos de la temperatura de la superficie en verano, dentro de la zona urbana",
+              "formula": "TEMP<sub>diff</sub> = TEMP<sub>sc,pro</sub> - TEMP<sub>zu,pro</sub>",
+              "note": "Los valores positivos indican que el sector censal es más caliente que el promedio; un valor negativo, indica que es más frío. Si se le asignó el valor promedio de la zona urbana a un sector censal por falta de información, la disparidad térmica es igual a cero."
+            }
+          }
+        },
+        "step5": {
+          "title": "Calcular el índice de prioridad",
+          "description": "El índice de prioridad permite priorizar el objetivo de cultivo para lograr equitatividad arbórea con base en variables climáticas, sanitarias y socioeconómicas.",
+          "substeps": {
+            "5a": {
+              "title": "El índice comprende siete indicadores de igual ponderación:",
+              "points": "- Edad: Relación de dependencia entre adultos mayores (más de 65 años) y niños y adolescentes (0 a 17 años) y los adultos de edad laboral.\n - Empleo: Tasa de desempleo.\n - Carga sanitaria: Prevalencia de afecciones de salud mental, física, respiratoria y cardíacas.\n - Ingresos: Porcentaje personas que viven debajo del 200 % del umbral federal de pobreza\n - Aislamiento lingüístico: Porcentaje de hogares donde ningún individuo mayor de 14 años habla únicamente inglés; o bien, donde ningún individuo mayor de 14 años hable inglés con fluidez.\n - Raza: Porcentaje de personas racializadas negras o afroamericanas, indígenas estadounidenses u originarias de Alaska, Hawái u otras islas del Pacífico; incluye a las personas que la Oficina del Censo clasifica como hispanas.\n - Intensidad de calor: Medida de la intensidad del calor en espacios urbanos, con base en las figuras más altas de temperaturas de la superficie en el verano de 2022, por sector censal."
+            },
+            "5b": {
+              "title": "Los índices (N) se normalizan de la siguiente manera, donde cada indicador, N<sub>i</sub>:",
+              "point1": "x<sub>i</sub> es el valor del vecindario de ese indicador, i:",
+              "point2": "x<sub>i,máx</sub> es el valor máximo del mismo indicador de cada zona urbana*, i, y",
+              "point3": "x<sub>i,mín</sub> es el valor mínimo del mismo indicador de cada zona urbana*, i.",
+              "formula": "N<sub>i</sub> = (x<sub>i</sub> - x<sub>i,mín</sub> ) / (x<sub>i,máx</sub> - x<sub>i,mín</sub>)",
+              "note": "*Las zonas urbanas con un valor menor a 10 000 se agruparon por estado y se consideraron como una sola. Las zonas urbanas que cruzan límites estatales se dividieron y clasificaron por separado."
+            },
+            "5c": {
+              "title": "Los índices se combinan para establecer una cifra de prioridad simple, entre 0.1 y 1, donde 1 indica mayor prioridad. El índice de prioridad, E, se calculó de la siguiente manera, donde N<sub>i</sub> corresponde al valor de cada indicador:",
+              "formula": "E = 0.1 + (1 - 0.1) * (N<sub>1</sub> + N<sub>2</sub> + N<sub>3</sub> + N<sub>4</sub> + N<sub>5</sub> + N<sub>6</sub> + N<sub>7</sub>) / 7"
+            }
+          }
+        },
+        "step6": {
+          "title": "Cálculo del Índice de Equitatividad Arbórea",
+          "description": "Las puntuaciones oscilan entre 0 y 100. Una puntuación baja indica una mayor prioridad de siembra y protección de árboles. Una puntuación de 100 indica que el sector censal cumple o supera su meta de cobertura.",
+          "substeps": {
+            "6a": {
+              "title": "El intersticio del dosel arbóreo se normaliza a una puntuación entre 0 y 100 correspondiente a cada zona urbana, donde:",
+              "point1": "INTERSTICIO<sub>máx</sub> representa el valor máximo de INTERSTICIO del mismo indicador en cada zona urbana*",
+              "point2": "Si el INTERSTICIO es negativo, es decir, la cobertura existente supera la meta del vecindario, se asigna un valor de 0 antes de normalizarse para calcular el INTERSTICIO<sub>puntuación</sub>.",
+              "point3": "Si la puntuación INTERSTICIO<sub>máx</sub> equivale a 0, la puntuación INTERSTICIO<sub>puntuación</sub> también se fija a 0.",
+              "formula": "INTERSTICIO<sub>puntuación</sub> = INTERSTICIO / INTERSTICIO<sub>máx</sub>",
+              "note": "*Las zonas urbanas con un valor menor a 10 000 se agruparon por estado y se consideraron como una sola. Las zonas urbanas que cruzan límites estatales se dividieron y clasificaron por separado."
+            },
+            "6b": {
+              "title": "El Índice de Equitatividad Arbórea, IEA, se calcula al multiplicar el Intersticio_puntuación por el índice de prioridad, E:",
+              "formula": "IEA = 100 (1 - INTERSTICIO<sub>puntuación</sub> * E)"
+            }
+          }
+        },
+        "step7": {
+          "title": "Cálculo de las puntuaciones compuestas (para las localidades)",
+          "description": "Las puntuaciones compuestas ofrecen una visión general de la equitatividad arbórea en una localidad (ciudad, municipio, población y demás). La puntuación de una ciudad depende de (1) el promedio del índice de los sectores con puntuaciones inferiores a 100 y (2) el índice de prioridad de los sectores con puntuaciones perfectas. Cuanto más alta sea la prioridad de un vecindario con una puntuación de 100, mayor será la puntuación compuesta; esto indica que se ha alcanzado la equitatividad arbórea en las zonas de mayor necesidad. Es posible aumentar la puntuación compuesta de una localidad si se priorizan las zonas con puntuaciones bajas y alta necesidad.",
+          "substeps": {
+            "7a": {
+              "title": "Cálculo de las puntuaciones compuestas:",
+              "point1": "IEA<sub>&lt;100</sub> representa un Índice de Equitatividad Arbórea menor de 100",
+              "point2": "E<sub>100</sub> es el índice de prioridad de una puntuación de 100.",
+              "formula": "Puntuación Compuesta = (Suma(IEA<sub>&lt;100</sub>) + (Suma(E<sub>100</sub>) * 100)) / (# de IEA<sub>&lt;100</sub> + Suma(E<sub>100</sub>))"
+            }
+          }
+        }
+      }
+    }
+  }
+}

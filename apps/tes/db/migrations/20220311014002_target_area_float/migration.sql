@@ -1,0 +1,3 @@
+-- AlterTable
+ALTER TABLE "BlockgroupOnScenario" ALTER COLUMN "targetArea" SET DEFAULT 0,
+ALTER COLUMN "targetArea" SET DATA TYPE DOUBLE PRECISION;

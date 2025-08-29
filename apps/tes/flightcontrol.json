@@ -1,0 +1,159 @@
+{
+  "$schema": "https://app.flightcontrol.dev/schema.json",
+  "environments": [
+    {
+      "id": "tes-us-prod",
+      "name": "tes-us-prod",
+      "region": "us-east-1",
+      "source": {
+        "branch": "production"
+      },
+      "services": [
+        {
+          "id": "tes-us-prod-app",
+          "name": "tes-us-prod-app",
+          "type": "web",
+          "target": { "type": "fargate" },
+          "buildType": "nixpacks",
+          "ci": {
+            "type": "ec2"
+          },
+          "basePath": ".",
+          "startCommand": "cd apps/tes && yarn start",
+          "buildCommand": "cd apps/tes && yarn build && yarn blitz prisma migrate deploy",
+          "cpu": 1,
+          "memory": 2,
+          "domain": "www.treeequityscore.org",
+          "port": 8080,
+          "healthCheckPath": "/health",
+          "minInstances": 2,
+          "maxInstances": 5,
+          "autoscaling": {
+            "cpuThreshold": 60,
+            "memoryThreshold": 60,
+            "cooldownTimerSecs": 300,
+            "requestsPerTarget": 1000
+          },
+          "envVariables": {
+            "APP_ORIGIN": "https://www.treeequityscore.org/",
+            "DATABASE_URL": {
+              "fromService": {
+                "id": "tes-us-prod-db",
+                "value": "dbConnectionString"
+              }
+            },
+            "NEXT_PUBLIC_MAPBOXGL_ACCESS_TOKEN": {
+              "fromSecretsManager": "SECRET"
+            },
+            "NEXT_PUBLIC_TILESERVER_URL": "https://drcfeu34yefjd.cloudfront.net",
+            "NEXT_PUBLIC_SHADE_FEATURE_FLAG_ACTIVE": "true",
+            "NEXT_PUBLIC_LANGUAGE_FEATURE_FLAG_ACTIVE": "true",
+            "NEXT_PUBLIC_TILESERVER_ENV": "prod",
+            "SENDGRID_API_KEY": {
+              "fromSecretsManager": "SECRET"
+            },
+            "SESSION_SECRET_KEY": {
+              "fromSecretsManager": "SECRET"
+            },
+            "NEXT_PUBLIC_GOOGLE_ANALYTICS": {
+              "fromSecretsManager": "SECRET"
+            },
+            "NEXT_PUBLIC_HONEYCOMB_API_KEY": {
+              "fromSecretsManager": "SECRET"
+            },
+            "NEXT_PUBLIC_HONEYCOMB_SERVICE_NAME": "treeequityscore_prod"
+          },
+          "watchPaths": ["apps/tes/**", "packages/**"]
+        },
+        {
+          "id": "tes-us-prod-db",
+          "name": "tes-us-prod-db",
+          "type": "rds",
+          "engine": "postgres",
+          "engineVersion": "15",
+          "instanceSize": "db.t4g.large",
+          "storage": 30,
+          "private": false,
+          "deletionProtection": true,
+          "applyChangesImmediately": true,
+          "backupRetentionPeriodInDays": 7
+        }
+      ]
+    },
+    {
+      "id": "tes-us-staging",
+      "name": "tes-us-staging",
+      "region": "us-east-1",
+      "source": {
+        "branch": "staging"
+      },
+      "services": [
+        {
+          "id": "tes-us-app",
+          "name": "tes-us-app",
+          "type": "web",
+          "target": { "type": "fargate" },
+          "buildType": "nixpacks",
+          "ci": {
+            "type": "ec2"
+          },
+          "basePath": ".",
+          "startCommand": "cd apps/tes && yarn start",
+          "buildCommand": "cd apps/tes && yarn build && yarn blitz prisma migrate deploy",
+          "cpu": 1,
+          "memory": 2,
+          "port": 8080,
+          "healthCheckPath": "/health",
+          "minInstances": 2,
+          "maxInstances": 5,
+          "autoscaling": {
+            "cpuThreshold": 60,
+            "memoryThreshold": 60,
+            "cooldownTimerSecs": 300,
+            "requestsPerTarget": 1000
+          },
+          "envVariables": {
+            "APP_ORIGIN": "https://www.treeequityscore.org/",
+            "DATABASE_URL": {
+              "fromService": {
+                "id": "tes-us-db",
+                "value": "dbConnectionString"
+              }
+            },
+            "NEXT_PUBLIC_MAPBOXGL_ACCESS_TOKEN": {
+              "fromSecretsManager": "SECRET"
+            },
+            "NEXT_PUBLIC_TILESERVER_URL": "https://drcfeu34yefjd.cloudfront.net",
+            "NEXT_PUBLIC_TILESERVER_ENV": "staging",
+            "NEXT_PUBLIC_SHADE_FEATURE_FLAG_ACTIVE": "true",
+            "NEXT_PUBLIC_LANGUAGE_FEATURE_FLAG_ACTIVE": "true",
+            "SENDGRID_API_KEY": {
+              "fromSecretsManager": "SECRET"
+            },
+            "SESSION_SECRET_KEY": {
+              "fromSecretsManager": "SECRET"
+            },
+            "NEXT_PUBLIC_HONEYCOMB_API_KEY": {
+              "fromSecretsManager": "SECRET"
+            },
+            "NEXT_PUBLIC_HONEYCOMB_SERVICE_NAME": "treeequityscore_prod"
+          },
+          "watchPaths": ["apps/tes/**", "packages/**"]
+        },
+        {
+          "id": "tes-us-db",
+          "name": "tes-us-db",
+          "type": "rds",
+          "engine": "postgres",
+          "engineVersion": "15",
+          "instanceSize": "db.t4g.large",
+          "storage": 30,
+          "private": false,
+          "deletionProtection": true,
+          "applyChangesImmediately": true,
+          "backupRetentionPeriodInDays": 3
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "compilerOptions": {
+    "baseUrl": "./",
+    "plugins": [
+      {
+        "name": "next"
+      }
+    ],
+    "strictNullChecks": true
+  },
+  "extends": "tsconfig/nextjs.json",
+  "exclude": [
+    "node_modules",
+    "**/*.e2e.ts",
+    "cypress"
+  ],
+  "include": [
+    "blitz-env.d.ts",
+    "**/*.ts",
+    "**/*.tsx",
+    ".next/types/**/*.ts"
+  ]
+}
